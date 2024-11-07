@@ -1,17 +1,28 @@
-#webcam {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  z-index: -1; /* S'assurer que la vidéo est en arrière-plan */
+* {
+  margin: 0;
 }
 
-#liveView .highlighter,
-#liveView .key-point,
-#liveView p {
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+#imageTest {
+  display: block;
+}
+
+.bounding__box {
   position: absolute;
-  color: white;
-  font-weight: bold;
+  border: 2px solid red;
+  box-sizing: border-box;
+}
+
+.square {
+  background-color: blue;
+  position: absolute;
+  width: 161px;
+  height: 161px;
+  left: 236px;
+  top: 105px;
+  opacity: 0.5;
 }
