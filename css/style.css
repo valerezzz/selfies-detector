@@ -1,0 +1,17 @@
+#webcam {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1; /* S'assurer que la vidéo est en arrière-plan */
+}
+
+#liveView .highlighter,
+#liveView .key-point,
+#liveView p {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+}
