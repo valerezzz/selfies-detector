@@ -10,10 +10,12 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app">
-      <div class="square" id="square"></div>
-      <img src="public/images/kamala.webp" id="imageTest" alt="" />
-      <video id="webcam" autoplay playsinline></video>
+    <div class="container">
+      <div class="intro_acces" id="intro">
+        <button id="startCameraButton">Activer la caméra</button>
+      </div>
+      <video class="input_video"></video>
+      <canvas class="output_canvas"></canvas>
     </div>
     <script type="module" src="/main.js"></script>
   </body>

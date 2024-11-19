@@ -1,18 +1,23 @@
-* {
-  margin: 0;
-}
-
 .container {
-  position: relative;
-  display: inline-block;
+  width: 100vw;
+  height: 100vh;
 }
 
-#imageTest {
-  display: block;
+.input_video {
+  display: none;
 }
 
-.square {
-  position: absolute;
+.intro_acces {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: red;
-  opacity: 0.5;
+  height: 100%;
+}
+
+.intro_acces button {
+  width: 50%;
+  height: 10%;
+  font-size: 1rem;
+  color: black;
 }

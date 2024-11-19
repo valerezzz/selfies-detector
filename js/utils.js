@@ -1,118 +1,92 @@
 import { FaceMesh } from "@mediapipe/face_mesh";
+import { Camera } from "@mediapipe/camera_utils";
 
 export default class Utils {
   constructor() {
-    this.faceMesh = null;
-    this.imageTest = document.getElementById("imageTest");
-    this.square = document.getElementById("square");
-    this.init();
+    this.canvasElement = document.getElementsByClassName("output_canvas")[0];
+    this.canvasCtx = this.canvasElement.getContext("2d");
+
+    this.videoElement = document.getElementsByClassName("input_video")[0];
+
+    this.startButton = document.getElementById("startCameraButton");
+    this.intro = document.getElementById("intro");
+
+    this.startButton.addEventListener("click", async () => {
+      this.intro.style.display = "none";
+
+      this.init();
+    });
   }
 
   async init() {
-    console.log("Utils class is initialized");
-    await this.initializeFaceMesh();
-    console.log("Face Mesh is initialized");
-
-    // Appel de la détection pour l'image
-    this.detectFaceLandmarks(this.imageTest);
-  }
-
-  async initializeFaceMesh() {
-    try {
-      this.faceMesh = new FaceMesh({
-        locateFile: (file) => {
-          // Essaye de charger depuis le CDN
-          return `https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/${file}`;
-        },
-      });
-    } catch (error) {
-      console.warn("CDN failed, switching to local files", error);
-      // Recharger avec la version locale si le CDN échoue
-      this.faceMesh = new FaceMesh({
-        locateFile: (file) => {
-          return `/local_mediapipe/${file}`;
-        },
-      });
-    }
-
-    this.faceMesh.setOptions({
+    const faceMesh = new FaceMesh({
+      locateFile: (file) => {
+        return `https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/${file}`;
+      },
+    });
+    faceMesh.setOptions({
       maxNumFaces: 1,
       refineLandmarks: true,
       minDetectionConfidence: 0.5,
       minTrackingConfidence: 0.5,
     });
 
-    // Définir le callback pour récupérer les résultats
-    this.faceMesh.onResults((results) => {
-      if (results.multiFaceLandmarks) {
-        this.calculateFaceOrientation(results.multiFaceLandmarks[0]);
-        this.calculateHeadPositionAndSize(results.multiFaceLandmarks[0]);
-      }
+    faceMesh.onResults((results) => this.onResults(results));
+
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    // Redimensionner le canvas pour qu'il occupe toute la taille de l'écran
+    this.canvasElement.width = width;
+    this.canvasElement.height = height;
+
+    const camera = new Camera(this.videoElement, {
+      onFrame: async () => {
+        await faceMesh.send({ image: this.videoElement });
+      },
+      facingMode: "user",
+      width: this.canvasElement.width * 3,
+      height: this.canvasElement.height,
     });
+    camera.start();
   }
 
-  async detectFaceLandmarks(image) {
-    await this.faceMesh.send({ image });
-  }
+  async onResults(results) {
+    console.log(results);
 
-  calculateFaceOrientation(landmarks) {
-    const leftEye = landmarks[33];
-    const rightEye = landmarks[263];
-    const deltaX = rightEye.x - leftEye.x;
-    const deltaY = rightEye.y - leftEye.y;
-    const roll = Math.atan2(deltaY, deltaX) * (180 / Math.PI);
+    const canvasCtx = this.canvasCtx;
+    const canvasElement = this.canvasElement;
 
-    console.log(`Face orientation (roll): ${roll}°`);
-    this.square.style.transform = `rotate(${roll}deg)`;
-  }
-
-  calculateHeadPositionAndSize(landmarks) {
-    // Points de référence pour la boîte englobante
-    const leftTemple = landmarks[234];
-    const rightTemple = landmarks[454];
-    const chin = landmarks[152];
-    const forehead = landmarks[10]; // Environ le haut du visage
-
-    // Calcul de la position centrale de la tête
-    const centerX = (leftTemple.x + rightTemple.x) / 2;
-    const centerY = (forehead.y + chin.y) / 2;
-
-    // Calcul de la taille estimée de la tête (distance entre menton et front)
-    const headHeight = Math.sqrt(
-      Math.pow(chin.x - forehead.x, 2) + Math.pow(chin.y - forehead.y, 2)
+    canvasCtx.save();
+    canvasCtx.clearRect(0, 0, canvasElement.width, canvasElement.height);
+    canvasCtx.drawImage(
+      results.image,
+      0,
+      0,
+      canvasElement.width,
+      canvasElement.height
     );
 
-    const headWidth = Math.sqrt(
-      Math.pow(rightTemple.x - leftTemple.x, 2) +
-        Math.pow(rightTemple.y - leftTemple.y, 2)
-    );
+    if (results.multiFaceLandmarks) {
+      console.log("FACES IS DETECT");
+      console.log("Landmarks détectés :", results.multiFaceLandmarks);
 
-    // Conversion des coordonnées et tailles relatives (0-1) vers les pixels de l'image
-    const imageWidth = this.imageTest.width;
-    const imageHeight = this.imageTest.height;
-
-    const centerXPixels = centerX * imageWidth;
-    const centerYPixels = centerY * imageHeight;
-    const headWidthPixels = headWidth * imageWidth;
-    const headHeightPixels = headHeight * imageHeight;
-
-    console.log(
-      `Head position (center): (${centerXPixels.toFixed(
-        2
-      )}, ${centerYPixels.toFixed(2)})`
-    );
-    console.log(
-      `Head size: Width = ${headWidthPixels.toFixed(
-        2
-      )} px, Height = ${headHeightPixels.toFixed(2)} px`
-    );
-
-    //Définir la taille de la boîte englobante
-    this.square.style.width = `${headWidthPixels}px`;
-    this.square.style.height = `${headHeightPixels}px`;
-
-    // Définir la position de la boîte englobante
-    this.square.style.left = `${centerXPixels - headWidthPixels / 2}px`;
-    this.square.style.top = `${centerYPixels - headHeightPixels / 2}px`;
+      for (const landmarks of results.multiFaceLandmarks) {
+        // Ajout de points pour vérifier les landmarks
+        for (const point of landmarks) {
+          this.canvasCtx.beginPath();
+          this.canvasCtx.arc(
+            point.x * this.canvasElement.width,
+            point.y * this.canvasElement.height,
+            2,
+            0,
+            2 * Math.PI
+          );
+          this.canvasCtx.fillStyle = "blue";
+          this.canvasCtx.fill();
+        }
+      }
+    }
+    canvasCtx.restore();
   }
 }
