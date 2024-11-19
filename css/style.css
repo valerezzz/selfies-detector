@@ -11,18 +11,8 @@
   display: block;
 }
 
-.bounding__box {
-  position: absolute;
-  border: 2px solid red;
-  box-sizing: border-box;
-}
-
 .square {
-  background-color: blue;
   position: absolute;
-  width: 161px;
-  height: 161px;
-  left: 236px;
-  top: 105px;
+  background-color: red;
   opacity: 0.5;
 }
