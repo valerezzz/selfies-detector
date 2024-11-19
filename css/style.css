@@ -1,6 +1,9 @@
 .container {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .input_video {
@@ -13,6 +16,10 @@
   align-items: center;
   background-color: red;
   height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .intro_acces button {
