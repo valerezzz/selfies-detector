@@ -81,7 +81,7 @@ export default class Utils {
         const px = (point) => ({
           x: point.x * width,
           y: point.y * height,
-          z: point.z * width, // Approximation de la profondeur
+          z: point.z * width,
         });
 
         const nosePos = px(nose);
@@ -92,36 +92,37 @@ export default class Utils {
         const frontPos = px(front);
 
         //CALCUL DE LA ROTATION
-        // Vecteur entre les yeux (gauche -> droite)
+
+        // Vecteur entre les yeux (gauche -> droite) ROLL
         const eyeVector = {
           x: rightEyePos.x - leftEyePos.x,
           y: rightEyePos.y - leftEyePos.y,
           z: rightEyePos.z - leftEyePos.z,
         };
 
-        // Vecteur nez -> menton
+        // Vecteur nez -> menton PITCH
         const noseToChinVector = {
           x: chinPos.x - nosePos.x,
           y: chinPos.y - nosePos.y,
           z: chinPos.z - nosePos.z,
         };
 
-        // Vecteur nez -> front
+        // Vecteur nez -> front YAW
         const noseToFrontVector = {
           x: frontPos.x - nosePos.x,
           y: frontPos.y - nosePos.y,
           z: frontPos.z - nosePos.z,
         };
 
-        // Calcul des angles
-        const pitch = Math.atan2(noseToChinVector.y, -noseToChinVector.z);
-        const pitchdeg = (pitch * 180) / Math.PI;
+        // CALCUL DES ANGLES
+        let pitch = Math.atan2(noseToChinVector.y, -noseToChinVector.z);
+        let pitchdeg = Math.round((pitch * 180) / Math.PI);
 
-        const yaw = Math.atan2(noseToFrontVector.x, -noseToFrontVector.z);
-        const yawdeg = (yaw * 180) / Math.PI;
+        let yaw = Math.atan2(noseToFrontVector.x, -noseToFrontVector.z);
+        let yawdeg = Math.round((yaw * 180) / Math.PI);
 
-        const roll = Math.atan2(eyeVector.y, eyeVector.x); // Inclinaison latérale
-        const rolldeg = (roll * 180) / Math.PI;
+        let roll = Math.atan2(eyeVector.y, eyeVector.x); // Inclinaison latérale
+        let rolldeg = Math.round((roll * 180) / Math.PI);
 
         // CALCUL DE LA BOUNDING BOX POS ET DIMENSIONS
         let minX = Infinity,
@@ -146,15 +147,15 @@ export default class Utils {
 
         // Variables contenant les dimensions
 
-        // console.log(chalk.white.bgBlue("SizeX head: ", boxWidth));
-        // console.log(chalk.white.bgBlue("SizeY head: ", boxHeight));
+        console.log(chalk.white.bgBlue("SizeX head: ", boxWidth));
+        console.log(chalk.white.bgBlue("SizeY head: ", boxHeight));
 
-        // console.log(chalk.white.bgRed("PosX head: ", boxCenterX));
-        // console.log(chalk.white.bgRed("PosY head:", boxCenterY));
+        console.log(chalk.white.bgRed("PosX head: ", boxCenterX));
+        console.log(chalk.white.bgRed("PosY head:", boxCenterY));
 
-        console.log(chalk.white.bgMagenta("Roll: ", rolldeg, "°"));
-        // console.log(chalk.white.bgMagenta("Pitch: ", pitchdeg, "°"));
-        // console.log(chalk.white.bgMagenta("Yaw: ", yawdeg, "°"));
+        console.log(chalk.white.bgMagenta("Roll head: ", rolldeg, "°"));
+        console.log(chalk.white.bgMagenta("Pitch head: ", pitchdeg, "°"));
+        console.log(chalk.white.bgMagenta("Yaw head: ", yawdeg, "°"));
 
         // Dessiner le carré englobant
         canvasCtx.beginPath();
@@ -182,6 +183,32 @@ export default class Utils {
         drawPoint(chinPos, "yellow");
         drawPoint(mouthPos, "yellow");
         drawPoint(frontPos, "yellow");
+
+        function drawArrow(ctx, start, end, color = "green") {
+          ctx.beginPath();
+          ctx.moveTo(start.x, start.y);
+          ctx.lineTo(end.x, end.y);
+          ctx.strokeStyle = color;
+          ctx.lineWidth = 2;
+          ctx.stroke();
+
+          // Ajouter une pointe à la flèche
+          const arrowLength = 10;
+          const angle = Math.atan2(end.y - start.y, end.x - start.x);
+          ctx.lineTo(
+            end.x - arrowLength * Math.cos(angle - Math.PI / 6),
+            end.y - arrowLength * Math.sin(angle - Math.PI / 6)
+          );
+          ctx.moveTo(end.x, end.y);
+          ctx.lineTo(
+            end.x - arrowLength * Math.cos(angle + Math.PI / 6),
+            end.y - arrowLength * Math.sin(angle + Math.PI / 6)
+          );
+          ctx.stroke();
+        }
+
+        // Visualisation du vecteur pour le yaw
+        drawArrow(canvasCtx, nosePos, frontPos, "blue");
       }
     }
 
