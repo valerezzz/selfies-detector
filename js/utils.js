@@ -4,8 +4,20 @@ import chalk from "chalk";
 
 export default class Utils {
   constructor() {
+    const ratio = window.devicePixelRatio || 1;
+    const widthCanvas = 390;
+    const heightCanvas = 550;
+
     this.canvasElement = document.getElementsByClassName("output_canvas")[0];
     this.canvasCtx = this.canvasElement.getContext("2d");
+
+    console.log(this.canvasElement);
+
+    this.canvasElement.width = widthCanvas * ratio;
+    this.canvasElement.height = heightCanvas * ratio;
+
+    this.canvasElement.style.width = widthCanvas + "px";
+    this.canvasElement.style.height = heightCanvas + "px";
 
     this.videoElement = document.getElementsByClassName("input_video")[0];
 
@@ -33,19 +45,14 @@ export default class Utils {
     });
 
     faceMesh.onResults((results) => this.onResults(results));
-    const width = 390;
-    const height = 745;
-
-    this.canvasElement.width = width;
-    this.canvasElement.height = height;
 
     const camera = new Camera(this.videoElement, {
       onFrame: async () => {
         await faceMesh.send({ image: this.videoElement });
       },
       facingMode: "user",
-      width: width * 2,
-      height: height,
+      width: this.widthCanvas,
+      height: this.heightCanvas,
     });
     camera.start();
   }
@@ -116,12 +123,11 @@ export default class Utils {
 
         // CALCUL DES ANGLES
         let pitch = Math.atan2(noseToChinVector.y, -noseToChinVector.z);
-        let pitchdeg = Math.round((pitch * 180) / Math.PI);
-
         let yaw = Math.atan2(noseToFrontVector.x, -noseToFrontVector.z);
-        let yawdeg = Math.round((yaw * 180) / Math.PI);
+        let roll = Math.atan2(eyeVector.y, eyeVector.x);
 
-        let roll = Math.atan2(eyeVector.y, eyeVector.x); // Inclinaison latérale
+        let pitchdeg = Math.round((pitch * 180) / Math.PI);
+        let yawdeg = Math.round((yaw * 180) / Math.PI);
         let rolldeg = Math.round((roll * 180) / Math.PI);
 
         // CALCUL DE LA BOUNDING BOX POS ET DIMENSIONS
@@ -140,10 +146,10 @@ export default class Utils {
           if (y > maxY) maxY = y;
         }
 
-        const boxWidth = maxX - minX;
-        const boxHeight = maxY - minY;
-        const boxCenterX = minX + boxWidth / 2;
-        const boxCenterY = minY + boxHeight / 2;
+        const boxWidth = Math.round(maxX - minX);
+        const boxHeight = Math.round(maxY - minY);
+        const boxCenterX = Math.round(minX + boxWidth / 2);
+        const boxCenterY = Math.round(minY + boxHeight / 2);
 
         // Variables contenant les dimensions
 

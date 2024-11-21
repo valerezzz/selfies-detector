@@ -1,25 +1,37 @@
+body {
+  overflow: hidden;
+  position: fixed;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: black;
 }
 
 .input_video {
   display: none;
 }
 
+.output_canvas {
+  transform: rotateY(180deg) scale(1.35);
+}
+
 .intro_acces {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: black;
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 1000;
 }
 
 .intro_acces button {
