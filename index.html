@@ -14,8 +14,19 @@
       <div class="intro_acces" id="intro">
         <button id="startCameraButton">Activer la caméra</button>
       </div>
-      <video class="input_video"></video>
-      <canvas class="output_canvas"></canvas>
+      <div class="process_video">
+        <video class="input_video"></video>
+        <canvas class="output_canvas"></canvas>
+      </div>
+      <div class="process_image">
+        <div class="process_image_top">
+          <input type="file" id="imageUpload" multiple accept="image/*" />
+          <button id="processImages">Process Images</button>
+        </div>
+        <div class="process_image_bottom">
+          <div id="output">Result</div>
+        </div>
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
