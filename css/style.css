@@ -10,6 +10,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: black;
+  overflow: hidden;
 }
 
 .input_video {
@@ -18,6 +19,7 @@ body {
 
 .output_canvas {
   /* transform: rotateY(180deg) scale(1.35); */
+  transform: rotateY(180deg);
 }
 
 .intro_acces {
@@ -42,7 +44,6 @@ body {
 
 .process_video {
   width: 100%;
-  background-color: red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +57,11 @@ body {
   flex-direction: column;
 }
 
-@
+@media (max-width: 768px) {
+  .process_image {
+    display: none;
+  }
+}
 
 .process_image_top {
   display: flex;

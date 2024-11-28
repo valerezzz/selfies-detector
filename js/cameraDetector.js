@@ -4,65 +4,66 @@ import { Camera } from "@mediapipe/camera_utils";
 export default class CameraDetector {
   constructor() {
     this.utils = new Utils();
-    this.videoElement = document.getElementsByClassName("input_video")[0];
+
+    const ratio = window.devicePixelRatio;
+    const widthCanvas = 390;
+    const heightCanvas = 550;
+
+    // Récupération des éléments DOM
     this.canvasElement = document.getElementsByClassName("output_canvas")[0];
     this.canvasCtx = this.canvasElement.getContext("2d");
+    this.videoElement = document.getElementsByClassName("input_video")[0];
+
+    // Configuration dynamique du canvas
+    this.canvasElement.width = widthCanvas * ratio;
+    this.canvasElement.height = heightCanvas * ratio;
+
+    this.canvasElement.style.width = `${widthCanvas}px`;
+    this.canvasElement.style.height = `${heightCanvas}px`;
   }
 
   async init() {
-    // Initialiser FaceMesh
     const faceMesh = await this.utils.initFaceMesh();
 
-    // Configurer les dimensions du canvas
-    this.canvasElement.width = 640; // ou la largeur souhaitée
-    this.canvasElement.height = 480; // ou la hauteur souhaitée
-
-    faceMesh.onResults((results) => {
-      // Effacer le canvas
-      this.canvasCtx.clearRect(
-        0,
-        0,
-        this.canvasElement.width,
-        this.canvasElement.height
-      );
-
-      // Dessiner la vidéo sur le canvas
-      this.canvasCtx.drawImage(
-        results.image, // L'image retournée par FaceMesh
-        0,
-        0,
-        this.canvasElement.width,
-        this.canvasElement.height
-      );
-
-      if (results.multiFaceLandmarks && results.multiFaceLandmarks.length > 0) {
-        // Calculer les données faciales
-        const data = this.utils.calculateFaceData(
-          results.multiFaceLandmarks[0],
-          this.canvasElement.width,
-          this.canvasElement.height
-        );
-
-        console.log("Face Data:", data);
-
-        // Dessiner les annotations
-        this.utils.drawLandmarks(
-          this.canvasCtx,
-          results.multiFaceLandmarks[0],
-          this.canvasElement.width,
-          this.canvasElement.height
-        );
-      }
-    });
+    faceMesh.onResults((results) => this.cameraDraw(results));
 
     const camera = new Camera(this.videoElement, {
       onFrame: async () => {
         await faceMesh.send({ image: this.videoElement });
       },
-      width: 640, // Largeur du flux vidéo
-      height: 480, // Hauteur du flux vidéo
+      facingMode: "user",
+      width: this.widthCanvas,
+      height: this.heightCanvas,
     });
 
     camera.start();
+  }
+
+  cameraDraw(results) {
+    const ctx = this.canvasCtx;
+    const canvas = this.canvasElement;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Dessiner la vidéo sur le canvas
+    if (results.image) {
+      ctx.drawImage(results.image, 0, 0, canvas.width, canvas.height);
+    }
+
+    // Dessiner les landmarks
+    if (results.multiFaceLandmarks && results.multiFaceLandmarks.length > 0) {
+      const landmarks = results.multiFaceLandmarks[0];
+      this.utils.drawLandmarks(ctx, landmarks, canvas.width, canvas.height);
+
+      // Optionnel : Calculer et afficher les données du visage
+      const faceData = this.utils.calculateFaceData(
+        landmarks,
+        canvas.width,
+        canvas.height
+      );
+      // console.log("Face Data:", faceData);
+
+      // console.log(canvas.width, canvas.height);
+    }
   }
 }
