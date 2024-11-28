@@ -61,9 +61,7 @@ export default class CameraDetector {
         canvas.width,
         canvas.height
       );
-      // console.log("Face Data:", faceData);
-
-      // console.log(canvas.width, canvas.height);
+      console.log("Face Data:", faceData);
     }
   }
 }

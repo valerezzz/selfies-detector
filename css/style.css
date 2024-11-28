@@ -19,7 +19,16 @@ body {
 
 .output_canvas {
   /* transform: rotateY(180deg) scale(1.35); */
-  transform: rotateY(180deg);
+  /* transform: rotateY(180deg); */
+}
+
+.image_output {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+
+  z-index: 100000;
+  width: 25%;
 }
 
 .intro_acces {
