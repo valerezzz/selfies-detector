@@ -14,6 +14,28 @@ export default class PhotoCapture {
 
       const captureObject = await this.captureData(); // Récupérer l'imageData depuis captureData
 
+      // Envoyer l'image au serveur
+      try {
+        const response = await fetch("/api/upload", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ imageData: captureObject.imageData }),
+        });
+
+        if (response.ok) {
+          console.log("Image envoyée avec succès");
+        } else {
+          console.error("Erreur lors de l'envoi de l'image");
+        }
+      } catch (error) {
+        console.error(
+          "Erreur lors de la communication avec le serveur:",
+          error
+        );
+      }
+
       const capturedImage = document.createElement("img");
 
       capturedImage.src = captureObject.imageData;
@@ -32,9 +54,9 @@ export default class PhotoCapture {
     console.log("Capture Data");
 
     const timeStamp = new Date().getTime();
-    const fileName = `catpure_${timeStamp}.png`;
+    const fileName = `catpure_${timeStamp}.jpg`;
 
-    const imageData = this.canvas.toDataURL("image/png");
+    const imageData = this.canvas.toDataURL("image/jpeg", 0.8);
 
     const detectorData = this.cameraDetector.getCurrentFaceData();
 
