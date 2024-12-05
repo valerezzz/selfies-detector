@@ -1,5 +1,6 @@
 import Utils from "./utils.js";
 import { Camera } from "@mediapipe/camera_utils";
+import PoseComparator from "./poseComparator.js";
 
 export default class CameraDetector {
   constructor() {

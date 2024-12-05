@@ -89,6 +89,13 @@ app.post("/api/upload", async (req, res) => {
   }
 });
 
+app.get("/api/getReferenceData", async (req, res) => {
+  const jsonPath = path.join(__dirname, "data", "photoData.json");
+  const jsonContent = await fs.readFile(jsonPath, "utf8");
+  const photoData = JSON.parse(jsonContent);
+  res.json(photoData);
+});
+
 const PORT = process.env.PORT || 5001;
 httpsServer.listen(PORT, () => {
   console.log(`Serveur HTTPS en écoute sur le port ${PORT}`);

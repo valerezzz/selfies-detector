@@ -18,10 +18,6 @@ body {
   display: none;
 }
 
-.output_canvas {
-  /* transform: rotateY(180deg) scale(1.35); */
-}
-
 .image_output {
   position: absolute;
   top: 10%;
@@ -100,4 +96,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.reference-image {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 200px;
+  height: auto;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }

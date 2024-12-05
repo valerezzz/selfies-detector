@@ -184,4 +184,10 @@ export default class Utils {
     console.log(`  Beta (rotation X)  : ${gyroData?.beta}°`);
     console.log(`  Gamma (rotation Y) : ${gyroData?.gamma}°`);
   }
+
+  async loadReferenceData() {
+    const response = await fetch("/api/getReferenceData");
+    this.referenceData = await response.json();
+    console.log(this.referenceData);
+  }
 }
