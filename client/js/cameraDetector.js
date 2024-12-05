@@ -72,10 +72,17 @@ export default class CameraDetector {
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-    // Dessiner la vidéo sur le canvas
+    // Inverser le contexte horizontalement
+    ctx.save(); // Sauvegarder le contexte actuel
+    ctx.scale(-1, 1); // Inverser horizontalement
+    ctx.translate(-canvas.width, 0); // Déplacer le contexte pour dessiner correctement
+
+    // Dessiner la vidéo sur le canvas en mode miroir
     if (results.image) {
       ctx.drawImage(results.image, 0, 0, canvas.width, canvas.height);
     }
+
+    ctx.restore(); // Restaurer le contexte à son état original
 
     // Dessiner les landmarks
     if (results.multiFaceLandmarks && results.multiFaceLandmarks.length > 0) {

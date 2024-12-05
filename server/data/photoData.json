@@ -58,5 +58,45 @@
       },
       "timestamp": 1733393798711
     }
+  },
+  {
+    "imagePath": "./images/capture_1733399230105.jpg",
+    "dateCapture": "2024-12-05T11:47:10.375Z",
+    "detectorData": {
+      "faceData": {
+        "pitch": -20,
+        "yaw": 1,
+        "roll": 5,
+        "eyeDistance": 647,
+        "eyeLeft": "770,2063",
+        "eyeRight": "1415,2119"
+      },
+      "gyroscopeData": {
+        "alpha": 352,
+        "beta": 53,
+        "gamma": -7
+      },
+      "timestamp": 1733399230168
+    }
+  },
+  {
+    "imagePath": "./images/capture_1733399386579.jpg",
+    "dateCapture": "2024-12-05T11:49:46.817Z",
+    "detectorData": {
+      "faceData": {
+        "pitch": -6,
+        "yaw": 1,
+        "roll": -1,
+        "eyeDistance": 615,
+        "eyeLeft": "736,2070",
+        "eyeRight": "1351,2060"
+      },
+      "gyroscopeData": {
+        "alpha": 290,
+        "beta": 65,
+        "gamma": -3
+      },
+      "timestamp": 1733399386643
+    }
   }
 ]

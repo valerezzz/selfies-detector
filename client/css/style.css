@@ -20,7 +20,6 @@ body {
 
 .output_canvas {
   /* transform: rotateY(180deg) scale(1.35); */
-  transform: rotateY(180deg);
 }
 
 .image_output {
@@ -81,7 +80,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scaleX(-1);
+  transform: translate(-50%, -50%);
   z-index: 1000000;
 }
 
