@@ -21,7 +21,11 @@ export default class PhotoCapture {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ imageData: captureObject.imageData }),
+          body: JSON.stringify({
+            imageData: captureObject.imageData,
+            timestamp: captureObject.timestamp,
+            detectorData: captureObject.detectorData,
+          }),
         });
 
         if (response.ok) {
@@ -57,14 +61,13 @@ export default class PhotoCapture {
     const fileName = `catpure_${timeStamp}.jpg`;
 
     const imageData = this.canvas.toDataURL("image/jpeg", 0.8);
-
     const detectorData = this.cameraDetector.getCurrentFaceData();
 
     const captureObject = {
       timestamp: timeStamp,
       imagePath: `./images/${fileName}`,
       imageData: imageData,
-      ...detectorData,
+      detectorData: detectorData,
     };
 
     console.log(captureObject);
