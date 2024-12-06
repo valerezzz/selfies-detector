@@ -11,12 +11,17 @@
   </head>
   <body>
     <div class="container">
-      <div class="intro_acces" id="intro">
-        <button id="startCameraButton">Activer la caméra</button>
+      <div class="intro_content" id="intro">
+        <button id="startVideoButton">Add your selfie</button>
+        <button id="startImageButton">Try the experience</button>
       </div>
-      <div class="process_video">
+      <div class="video_content" id="videoContent">
+        <button id="backButton" class="back_button">Back</button>
         <video class="input_video"></video>
         <canvas class="output_canvas"></canvas>
+
+        <img class="matched_image" id="matched-image" />
+
         <div class="take_picture">
           <button id="takePicture" class="take_picture_button"></button>
         </div>

@@ -15,8 +15,15 @@ export default class CameraDetector {
     this.canvasCtx = this.canvasElement.getContext("2d");
     this.videoElement = document.getElementsByClassName("input_video")[0];
 
-    const startButton = document.getElementById("startCameraButton");
     const intro = document.getElementById("intro");
+
+    const startVideoButton = document.getElementById("startVideoButton");
+    const videoContent = document.getElementById("videoContent");
+
+    const startImageButton = document.getElementById("startImageButton");
+
+    const backButton = document.getElementById("backButton");
+
     // Configuration dynamique du canvas
     this.canvasElement.width = widthCanvas * ratio;
     this.canvasElement.height = heightCanvas * ratio;
@@ -37,24 +44,54 @@ export default class CameraDetector {
     this.logInterval = 100;
 
     this.poseComparator = new PoseComparator();
-    this.matchedImageElement = document.createElement("img");
-    this.matchedImageElement.className = "matched-image";
-    document.body.appendChild(this.matchedImageElement);
+
+    this.matchedImageElement = document.getElementById("matched-image");
 
     // Récupérer l'URL du serveur depuis window.location
     this.serverUrl = `${window.location.protocol}//${window.location.hostname}:5001`;
 
-    if (startButton) {
-      startButton.addEventListener("click", async () => {
+    if (startVideoButton) {
+      startVideoButton.addEventListener("click", async () => {
+        // Initialiser la caméra
+        this.poseComparator.stop();
+        await this.init();
+        intro.style.display = "none";
+        this.matchedImageElement.style.display = "none";
+        videoContent.style.display = "flex";
+
+        // Initialiser le gyroscope en même temps
+        console.log("Initialisation du gyroscope...");
+        await this.utils.initGyroscope((gyroData) => {
+          this.gyroscopeData = gyroData;
+        });
+        // await this.poseComparator.init();
+      });
+    }
+
+    if (startImageButton) {
+      startImageButton.addEventListener("click", async () => {
         // Initialiser la caméra
         await this.init();
         intro.style.display = "none";
+        this.matchedImageElement.style.display = "block";
+        videoContent.style.display = "flex";
+
         // Initialiser le gyroscope en même temps
         console.log("Initialisation du gyroscope...");
         await this.utils.initGyroscope((gyroData) => {
           this.gyroscopeData = gyroData;
         });
         await this.poseComparator.init();
+      });
+    }
+
+    if (backButton) {
+      backButton.addEventListener("click", () => {
+        intro.style.display = "flex";
+        videoContent.style.display = "none";
+        this.matchedImageElement.style.display = "none";
+
+        this.poseComparator.stop();
       });
     }
   }

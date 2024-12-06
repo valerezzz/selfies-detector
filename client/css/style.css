@@ -1,7 +1,9 @@
+/* GENERAL */
+
 body {
   overflow: hidden;
   position: fixed;
-  background-color: red;
+  background-color: black;
 }
 
 .container {
@@ -9,31 +11,16 @@ body {
   height: 100vh;
   display: flex;
   justify-content: space-between;
-  background-color: red;
+  background-color: black;
   overflow: hidden;
 }
 
-.input_video {
-  display: none;
-}
+/* INTRO */
 
-.image_output {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-
-  z-index: 100000;
-  width: 25%;
-}
-
-.output_canvas {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-}
-
-.intro_acces {
+.intro_content {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   background-color: black;
@@ -42,35 +29,51 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 2000;
 }
 
-.intro_acces button {
+.intro_content button {
   width: 50%;
   height: 10%;
   font-size: 1rem;
   color: black;
 }
 
-.process_video {
+/* VIDEO */
+.video_content {
   width: 100%;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
+  background-color: black;
 }
 
-.process_image {
-  display: flex;
-  background-color: blue;
-  width: 50%;
-  justify-content: center;
+.back_button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2000;
+  width: 25%;
+  height: 5%;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: black;
+}
+
+.input_video {
+  display: none;
+}
+
+.output_canvas {
+  position: absolute;
+  top: 0%;
+  left: 0%;
 }
 
 .take_picture {
   position: absolute;
   bottom: 10%;
 }
-
 .take_picture_button {
   width: 65px;
   height: 65px;
@@ -82,45 +85,18 @@ body {
   top: 0%;
   left: 50%;
   transform: translate(-50%, 0%);
-  z-index: 1000000;
+  z-index: 1000;
 }
 
-@media (max-width: 768px) {
-  .process_image {
-    display: none;
-  }
-}
+/* IMAGE */
 
-.process_image_top {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.process_image_bottom {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.reference-image {
+.matched_image {
+  display: none;
   position: fixed;
-  top: 20px;
-  right: 20px;
-  width: 200px;
+  top: 0px;
+  right: 0px;
+  width: 100%;
   height: auto;
-  border: 3px solid #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.matched-image {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  width: 150px;
-  height: auto;
-  border: 2px solid white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  z-index: 1000;
 }

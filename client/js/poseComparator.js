@@ -5,6 +5,7 @@ export default class PoseComparator {
     this.referenceData = [];
     this.lastMatchedImage = null;
     this.utils = new Utils();
+    this.isRunning = false;
 
     this.init();
 
@@ -32,6 +33,7 @@ export default class PoseComparator {
   }
 
   async init() {
+    this.isRunning = true;
     await this.utils.loadReferenceData();
     this.referenceData = this.utils.referenceData;
     console.log(this.referenceData);
@@ -91,6 +93,7 @@ export default class PoseComparator {
   }
 
   findClosestPose(currentData) {
+    if (!this.isRunning) return null;
     if (!currentData.faceData || !currentData.gyroscopeData) return null;
 
     let closestMatch = null;
@@ -132,5 +135,9 @@ export default class PoseComparator {
     });
 
     return closestMatch;
+  }
+
+  stop() {
+    this.isRunning = false;
   }
 }
