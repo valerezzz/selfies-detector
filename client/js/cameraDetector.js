@@ -36,6 +36,14 @@ export default class CameraDetector {
     this.lastLogTime = 0;
     this.logInterval = 100;
 
+    this.poseComparator = new PoseComparator();
+    this.matchedImageElement = document.createElement("img");
+    this.matchedImageElement.className = "matched-image";
+    document.body.appendChild(this.matchedImageElement);
+
+    // Récupérer l'URL du serveur depuis window.location
+    this.serverUrl = `${window.location.protocol}//${window.location.hostname}:5001`;
+
     if (startButton) {
       startButton.addEventListener("click", async () => {
         // Initialiser la caméra
@@ -46,6 +54,7 @@ export default class CameraDetector {
         await this.utils.initGyroscope((gyroData) => {
           this.gyroscopeData = gyroData;
         });
+        await this.poseComparator.init();
       });
     }
   }
@@ -101,6 +110,14 @@ export default class CameraDetector {
       if (currentTime - this.lastLogTime >= this.logInterval) {
         console.log("Face Data:", this.currentFaceData);
         console.log("Gyroscope Data:", this.gyroscopeData);
+        const currentData = this.getCurrentFaceData();
+        const closestMatch = this.poseComparator.findClosestPose(currentData);
+
+        if (closestMatch && closestMatch.imagePath) {
+          // Utiliser l'URL du serveur dynamique
+          this.matchedImageElement.src = `${this.serverUrl}${closestMatch.imagePath}`;
+        }
+
         this.lastLogTime = currentTime;
       }
     }

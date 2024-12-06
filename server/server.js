@@ -8,6 +8,9 @@ const path = require("path");
 const app = express();
 app.use(express.json({ limit: "50mb" })); // Augmenter la limite à 50mb ou plus si nécessaire
 
+// Servir explicitement le dossier images
+app.use("/images", express.static(path.join(__dirname, "images")));
+
 const options = {
   key: fsSync.readFileSync("./ssl/private.key"),
   cert: fsSync.readFileSync("./ssl/certificate.crt"),
@@ -54,7 +57,7 @@ app.post("/api/upload", async (req, res) => {
 
     // Préparer les données pour le JSON
     const photoData = {
-      imagePath: `./images/${fileName}`,
+      imagePath: `/images/${fileName}`,
       dateCapture: new Date().toISOString(),
       detectorData: {
         faceData: detectorData.faceData,

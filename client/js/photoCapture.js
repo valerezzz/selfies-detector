@@ -50,7 +50,7 @@ export default class PhotoCapture {
 
       setTimeout(() => {
         capturedImage.remove();
-      }, 3000);
+      }, 1000);
     });
   }
 
