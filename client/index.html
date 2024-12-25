@@ -12,19 +12,19 @@
   <body>
     <div class="container">
       <div class="intro_content" id="intro">
-        <button id="startVideoButton">Add your selfie</button>
-        <button id="startImageButton">Try the experience</button>
+        <button id="startButton">Start</button>
       </div>
       <div class="video_content" id="videoContent">
         <button id="backButton" class="back_button">Back</button>
         <video class="input_video"></video>
-        <canvas class="output_canvas"></canvas>
-
-        <img class="matched_image" id="matched-image" />
-
-        <div class="take_picture">
-          <button id="takePicture" class="take_picture_button"></button>
+        <div class="canvas_container">
+          <canvas class="video_canvas"></canvas>
+          <canvas class="landmarks_canvas"></canvas>
         </div>
+        <img class="matched_selfie" id="matched-selfie" />
+      </div>
+      <div class="capture_content" id="captureContent">
+        <button id="captureButton"></button>
       </div>
     </div>
     <script type="module" src="/main.js"></script>

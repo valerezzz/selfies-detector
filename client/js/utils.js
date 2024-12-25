@@ -1,10 +1,12 @@
 import { FaceMesh } from "@mediapipe/face_mesh";
 
 export default class Utils {
-  constructor() {}
+  constructor() {
+    this.currentFaceData = null;
+    this.currentGyroscopeData = null;
+  }
 
-  // Initialisation de FaceMesh
-  async initFaceMesh() {
+  initFaceMesh() {
     const faceMesh = new FaceMesh({
       locateFile: (file) =>
         `https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/${file}`,
@@ -15,10 +17,24 @@ export default class Utils {
       minDetectionConfidence: 0.5,
       minTrackingConfidence: 0.5,
     });
+
     return faceMesh;
   }
 
-  // Calculer rotation, position et taille à partir des landmarks
+  initGyroscope(callback) {
+    if (typeof DeviceOrientationEvent.requestPermission === "function") {
+      DeviceOrientationEvent.requestPermission()
+        .then((permissionState) => {
+          if (permissionState === "granted") {
+            this.calculateGyroscopeData(callback);
+          }
+        })
+        .catch(console.error);
+    } else {
+      this.calculateGyroscopeData(callback);
+    }
+  }
+
   calculateFaceData(landmarks, canvasWidth, canvasHeight) {
     const px = (point) => ({
       x: point.x * canvasWidth,
@@ -114,13 +130,35 @@ export default class Utils {
     const boxCenterX = Math.round(minX + boxWidth / 2);
     const boxCenterY = Math.round(minY + boxHeight / 2);
 
-    return {
+    this.currentFaceData = {
       pitch: pitchdeg,
       yaw: yawdeg,
       roll: rolldeg,
       eyeDistance: Math.round(eyeDistance),
       eyeLeft: Math.round(leftEye.x) + "," + Math.round(leftEye.y),
       eyeRight: Math.round(rightEye.x) + "," + Math.round(rightEye.y),
+    };
+
+    return this.currentFaceData;
+  }
+
+  calculateGyroscopeData(callback) {
+    window.addEventListener("deviceorientation", (event) => {
+      this.currentGyroscopeData = {
+        alpha: Math.round(event.alpha) || 0,
+        beta: Math.round(event.beta) || 0,
+        gamma: Math.round(event.gamma) || 0,
+      };
+
+      callback(this.currentGyroscopeData);
+    });
+  }
+
+  getCurrentData(currentFaceData, currentGyroscopeData, isTiltedDown) {
+    return {
+      faceData: currentFaceData,
+      gyroscopeData: currentGyroscopeData,
+      isTiltedDown: isTiltedDown,
     };
   }
 
@@ -130,64 +168,61 @@ export default class Utils {
       y: point.y * canvasHeight,
     });
 
-    for (const point of landmarks) {
-      const pos = px(point);
+    // Définir un tableau de couleurs primaires
+    const primaryColors = [
+      "rgb(255, 0, 0)", // Rouge
+      "rgb(0, 0, 255)", // Bleu
+      "rgb(255, 255, 0)", // Jaune
+      "rgb(0, 255, 0)", // Vert
+      "rgb(255, 0, 255)", // Magenta
+      "rgb(0, 255, 255)", // Cyan
+      "rgb(255, 255, 255)", // Blanc
+    ];
 
+    const nosePoint = px(landmarks[1]);
+    const currentTime = performance.now() / 1000;
+    // Changement de couleur toutes les 2 secondes
+    const colorShift = Math.floor(currentTime / 0.2);
+
+    landmarks.forEach((point, index) => {
+      const pos = px(point);
+      // Ajouter colorShift à l'index pour faire tourner les couleurs lentement
+      const colorIndex = (index + colorShift) % primaryColors.length;
+      const color = primaryColors[colorIndex];
+
+      // ANIMATION
+      const dx = pos.x - nosePoint.x;
+      const dy = pos.y - nosePoint.y;
+      const distance = Math.sqrt(
+        Math.pow(dx * 1.5, 2) + Math.pow(dy * 1.05, 2)
+      );
+      const wave = Math.sin(currentTime * 3 - distance / 300);
+      const isVisible = wave > 0;
+      const alpha = isVisible ? 0.9 : 0;
+
+      // Ajout de l'effet de lueur
+      ctx.shadowColor = color;
+      ctx.shadowBlur = 30;
+
+      // DRAW
       ctx.beginPath();
-      ctx.arc(pos.x, pos.y, 5, 0, 5 * Math.PI);
-      ctx.fillStyle = "red";
+      ctx.ellipse(pos.x, pos.y, 15, 8, 0, 0, 2 * Math.PI);
+      ctx.fillStyle = color.replace("rgb", "rgba").replace(")", `, 1)`);
       ctx.fill();
       ctx.closePath();
-    }
+    });
+
+    ctx.shadowColor = "transparent";
+    ctx.shadowBlur = 0;
 
     const leftEye = px(landmarks[33]);
     const rightEye = px(landmarks[263]);
-
-    ctx.beginPath();
-    ctx.moveTo(leftEye.x, leftEye.y);
-    ctx.lineTo(rightEye.x, rightEye.y);
-    ctx.strokeStyle = "blue";
-    ctx.lineWidth = 5;
-    ctx.stroke();
-    ctx.closePath();
-  }
-
-  initGyroscope(callback) {
-    if (typeof DeviceOrientationEvent.requestPermission === "function") {
-      DeviceOrientationEvent.requestPermission()
-        .then((permissionState) => {
-          if (permissionState === "granted") {
-            this.setGyroscopeListener(callback);
-          }
-        })
-        .catch(console.error);
-    } else {
-      this.setGyroscopeListener(callback);
-    }
-  }
-
-  setGyroscopeListener(callback) {
-    window.addEventListener("deviceorientation", (event) => {
-      const gyroData = {
-        alpha: Math.round(event.alpha) || 0,
-        beta: Math.round(event.beta) || 0,
-        gamma: Math.round(event.gamma) || 0,
-      };
-      callback(gyroData);
-    });
-  }
-
-  displaySensorData(gyroData) {
-    console.log("=== Données des capteurs ===");
-    console.log("Gyroscope :");
-    console.log(`  Alpha (rotation Z) : ${gyroData?.alpha}°`);
-    console.log(`  Beta (rotation X)  : ${gyroData?.beta}°`);
-    console.log(`  Gamma (rotation Y) : ${gyroData?.gamma}°`);
   }
 
   async loadReferenceData() {
     const response = await fetch("/api/getReferenceData");
     this.referenceData = await response.json();
     console.log(this.referenceData);
+    return this.referenceData;
   }
 }

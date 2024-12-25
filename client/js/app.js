@@ -1,15 +1,19 @@
-import CameraDetector from "./cameraDetector.js";
-import PhotoCapture from "./photoCapture.js";
 import io from "socket.io-client";
+import SelfieInteraction from "./selfieInteraction.js";
 
 export default class App {
   constructor() {
+    this.selfieInteraction = new SelfieInteraction();
     this.init();
   }
 
   async init() {
     console.log("App init");
+    await this.connectToServer();
+    this.selfieInteraction.init();
+  }
 
+  async connectToServer() {
     // Test de la connexion au serveur
     try {
       const response = await fetch("/api/test", {
@@ -30,9 +34,6 @@ export default class App {
     } catch (error) {
       console.error("Erreur lors de la communication avec le serveur:", error);
     }
-
-    const cameraDetector = new CameraDetector();
-    const photoCapture = new PhotoCapture(cameraDetector);
 
     const socket = io({
       path: "/socket.io",

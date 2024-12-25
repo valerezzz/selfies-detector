@@ -19,10 +19,20 @@ const options = {
 const httpsServer = https.createServer(options, app);
 const io = socketIo(httpsServer, {
   cors: {
-    origin: "https://localhost:5173",
+    origin: ["https://192.168.1.111:5173"],
     methods: ["GET", "POST"],
     credentials: true,
+    allowedHeaders: ["Content-Type"],
   },
+});
+
+// Ajouter ces middlewares CORS pour Express
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "https://192.168.1.111:5173");
+  res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+  res.header("Access-Control-Allow-Headers", "Content-Type");
+  res.header("Access-Control-Allow-Credentials", "true");
+  next();
 });
 
 io.on("connection", (socket) => {
@@ -45,10 +55,11 @@ app.get("/api/test", (req, res) => {
 });
 
 app.post("/api/upload", async (req, res) => {
+  console.log("Requête reçue sur /api/upload");
   try {
     const { imageData, timestamp, detectorData } = req.body;
     const base64Data = imageData.replace(/^data:image\/jpeg;base64,/, "");
-    const fileName = `capture_${timestamp}.jpg`;
+    const fileName = `selfie${timestamp}.jpg`;
     const filePath = path.join(__dirname, "images", fileName);
     const jsonPath = path.join(__dirname, "data", "photoData.json");
 
@@ -62,29 +73,37 @@ app.post("/api/upload", async (req, res) => {
       detectorData: {
         faceData: detectorData.faceData,
         gyroscopeData: detectorData.gyroscopeData,
+        isTiltedDown: detectorData.isTiltedDown,
         timestamp: detectorData.timestamp,
       },
     };
 
-    // Lire le fichier JSON existant ou créer un nouveau tableau
-    let existingData = [];
+    // Lire le fichier JSON existant
+    let existingData;
     try {
       const jsonContent = await fs.readFile(jsonPath, "utf8");
       existingData = JSON.parse(jsonContent);
     } catch (error) {
+      existingData = { Up: [], Down: [] };
       console.log("Création d'un nouveau fichier JSON");
     }
 
-    // Ajouter les nouvelles données
-    existingData.push(photoData);
+    // Utiliser isTiltedDown pour déterminer la catégorie
+    const category = detectorData.isTiltedDown ? "Down" : "Up";
+
+    // Ajouter les nouvelles données dans la bonne catégorie
+    existingData[category].push(photoData);
 
     // Enregistrer le fichier JSON mis à jour
     await fs.writeFile(jsonPath, JSON.stringify(existingData, null, 2), "utf8");
 
-    console.log("Image et données enregistrées avec succès");
+    console.log(
+      `Image et données enregistrées avec succès dans la catégorie ${category}`
+    );
     res.status(200).json({
       message: "Image et données enregistrées avec succès",
       photoData: photoData,
+      category: category,
     });
   } catch (error) {
     console.error("Erreur lors de l'enregistrement:", error);

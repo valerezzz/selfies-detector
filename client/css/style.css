@@ -64,17 +64,30 @@ body {
   display: none;
 }
 
-.output_canvas {
-  position: absolute;
-  top: 0%;
-  left: 0%;
+.canvas-container {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
 }
 
-.take_picture {
+.video_canvas,
+.landmarks_canvas {
   position: absolute;
-  bottom: 10%;
+  top: 0;
+  left: 0;
 }
-.take_picture_button {
+
+.landmarks_canvas {
+  background: transparent;
+}
+
+.capture_content {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.capture_content button {
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -90,12 +103,13 @@ body {
 
 /* IMAGE */
 
-.matched_image {
-  display: none;
+.matched_selfie {
+  display: flex;
   position: fixed;
-  top: 0px;
-  right: 0px;
-  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
   height: auto;
   opacity: 0.9;
   z-index: 1000;

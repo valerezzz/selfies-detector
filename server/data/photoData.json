@@ -1,4762 +1,1946 @@
-[
-  {
-    "imagePath": "/images/capture_1733408657971.jpg",
-    "dateCapture": "2024-12-05T14:24:18.168Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -2,
-        "yaw": -2,
-        "roll": -1,
-        "eyeDistance": 601,
-        "eyeLeft": "782,2291",
-        "eyeRight": "1383,2278"
-      },
-      "gyroscopeData": {
-        "alpha": 347,
-        "beta": 89,
-        "gamma": -8
-      },
-      "timestamp": 1733408658037
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408662292.jpg",
-    "dateCapture": "2024-12-05T14:24:22.491Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -3,
-        "yaw": 18,
-        "roll": 24,
-        "eyeDistance": 545,
-        "eyeLeft": "1093,2001",
-        "eyeRight": "1591,2223"
-      },
-      "gyroscopeData": {
-        "alpha": 8,
-        "beta": 115,
-        "gamma": -51
-      },
-      "timestamp": 1733408662357
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408666765.jpg",
-    "dateCapture": "2024-12-05T14:24:26.964Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 34,
-        "yaw": -15,
-        "roll": 1,
-        "eyeDistance": 696,
-        "eyeLeft": "758,2414",
-        "eyeRight": "1454,2427"
-      },
-      "gyroscopeData": {
-        "alpha": 338,
-        "beta": 129,
-        "gamma": 1
-      },
-      "timestamp": 1733408666834
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408673206.jpg",
-    "dateCapture": "2024-12-05T14:24:33.407Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -33,
-        "yaw": -4,
-        "roll": -1,
-        "eyeDistance": 758,
-        "eyeLeft": "725,2135",
-        "eyeRight": "1483,2127"
-      },
-      "gyroscopeData": {
-        "alpha": 343,
-        "beta": 49,
-        "gamma": -2
-      },
-      "timestamp": 1733408673273
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408707180.jpg",
-    "dateCapture": "2024-12-05T14:25:07.365Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -12,
-        "yaw": 3,
-        "roll": -1,
-        "eyeDistance": 395,
-        "eyeLeft": "836,2083",
-        "eyeRight": "1231,2077"
-      },
-      "gyroscopeData": {
-        "alpha": 337,
-        "beta": 80,
-        "gamma": -1
-      },
-      "timestamp": 1733408707241
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408713521.jpg",
-    "dateCapture": "2024-12-05T14:25:13.737Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -5,
-        "yaw": -4,
-        "roll": 0,
-        "eyeDistance": 1003,
-        "eyeLeft": "563,2072",
-        "eyeRight": "1566,2068"
-      },
-      "gyroscopeData": {
-        "alpha": 342,
-        "beta": 80,
-        "gamma": 2
-      },
-      "timestamp": 1733408713593
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408719027.jpg",
-    "dateCapture": "2024-12-05T14:25:19.231Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 22,
-        "yaw": 0,
-        "roll": 2,
-        "eyeDistance": 535,
-        "eyeLeft": "754,1847",
-        "eyeRight": "1288,1864"
-      },
-      "gyroscopeData": {
-        "alpha": 347,
-        "beta": 143,
-        "gamma": -2
-      },
-      "timestamp": 1733408719089
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408724466.jpg",
-    "dateCapture": "2024-12-05T14:25:24.666Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 45,
-        "yaw": -58,
-        "roll": 51,
-        "eyeDistance": 520,
-        "eyeLeft": "981,1796",
-        "eyeRight": "1308,2201"
-      },
-      "gyroscopeData": {
-        "alpha": 34,
-        "beta": 157,
-        "gamma": -35
-      },
-      "timestamp": 1733408724540
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408739365.jpg",
-    "dateCapture": "2024-12-05T14:25:39.573Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 22,
-        "yaw": 54,
-        "roll": -65,
-        "eyeDistance": 437,
-        "eyeLeft": "1061,2250",
-        "eyeRight": "1246,1854"
-      },
-      "gyroscopeData": {
-        "alpha": 245,
-        "beta": 166,
-        "gamma": 52
-      },
-      "timestamp": 1733408739436
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408744168.jpg",
-    "dateCapture": "2024-12-05T14:25:44.367Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 23,
-        "yaw": 53,
-        "roll": -60,
-        "eyeDistance": 888,
-        "eyeLeft": "836,2752",
-        "eyeRight": "1281,1983"
-      },
-      "gyroscopeData": {
-        "alpha": 246,
-        "beta": 164,
-        "gamma": 57
-      },
-      "timestamp": 1733408744233
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408749907.jpg",
-    "dateCapture": "2024-12-05T14:25:50.120Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -22,
-        "yaw": -52,
-        "roll": -12,
-        "eyeDistance": 330,
-        "eyeLeft": "933,2226",
-        "eyeRight": "1255,2155"
-      },
-      "gyroscopeData": {
-        "alpha": 37,
-        "beta": 88,
-        "gamma": -47
-      },
-      "timestamp": 1733408749980
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408762467.jpg",
-    "dateCapture": "2024-12-05T14:26:02.681Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -17,
-        "yaw": -28,
-        "roll": 23,
-        "eyeDistance": 568,
-        "eyeLeft": "833,1966",
-        "eyeRight": "1356,2187"
-      },
-      "gyroscopeData": {
-        "alpha": 288,
-        "beta": 57,
-        "gamma": 69
-      },
-      "timestamp": 1733408762537
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408767139.jpg",
-    "dateCapture": "2024-12-05T14:26:07.357Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -17,
-        "yaw": 8,
-        "roll": 34,
-        "eyeDistance": 542,
-        "eyeLeft": "986,2084",
-        "eyeRight": "1437,2385"
-      },
-      "gyroscopeData": {
-        "alpha": 267,
-        "beta": 95,
-        "gamma": 73
-      },
-      "timestamp": 1733408767215
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408771925.jpg",
-    "dateCapture": "2024-12-05T14:26:12.142Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 0,
-        "yaw": 21,
-        "roll": 24,
-        "eyeDistance": 815,
-        "eyeLeft": "925,1759",
-        "eyeRight": "1669,2091"
-      },
-      "gyroscopeData": {
-        "alpha": 352,
-        "beta": 113,
-        "gamma": -20
-      },
-      "timestamp": 1733408771993
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733408776547.jpg",
-    "dateCapture": "2024-12-05T14:26:16.759Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 0,
-        "yaw": -23,
-        "roll": -29,
-        "eyeDistance": 632,
-        "eyeLeft": "531,2231",
-        "eyeRight": "1082,1920"
-      },
-      "gyroscopeData": {
-        "alpha": 325,
-        "beta": 109,
-        "gamma": 31
-      },
-      "timestamp": 1733408776620
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733409370880.jpg",
-    "dateCapture": "2024-12-05T14:36:11.139Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 10,
-        "yaw": 13,
-        "roll": -10,
-        "eyeDistance": 891,
-        "eyeLeft": "94,2477",
-        "eyeRight": "970,2317"
-      },
-      "gyroscopeData": {
-        "alpha": 323,
-        "beta": 69,
-        "gamma": -10
-      },
-      "timestamp": 1733409370947
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432412254.jpg",
-    "dateCapture": "2024-12-05T21:00:12.484Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -3,
-        "yaw": 2,
-        "roll": 0,
-        "eyeDistance": 714,
-        "eyeLeft": "723,1937",
-        "eyeRight": "1437,1935"
-      },
-      "gyroscopeData": {
-        "alpha": 352,
-        "beta": 80,
-        "gamma": -1
-      },
-      "timestamp": 1733432412332
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432490252.jpg",
-    "dateCapture": "2024-12-05T21:01:30.444Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -16,
-        "yaw": 12,
-        "roll": 3,
-        "eyeDistance": 713,
-        "eyeLeft": "932,2071",
-        "eyeRight": "1644,2105"
-      },
-      "gyroscopeData": {
-        "alpha": 333,
-        "beta": 65,
-        "gamma": -5
-      },
-      "timestamp": 1733432490322
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432504839.jpg",
-    "dateCapture": "2024-12-05T21:01:45.066Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -11,
-        "yaw": -33,
-        "roll": -1,
-        "eyeDistance": 649,
-        "eyeLeft": "574,2267",
-        "eyeRight": "1223,2254"
-      },
-      "gyroscopeData": {
-        "alpha": 1,
-        "beta": 75,
-        "gamma": 4
-      },
-      "timestamp": 1733432504906
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432514822.jpg",
-    "dateCapture": "2024-12-05T21:01:55.076Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 7,
-        "yaw": 6,
-        "roll": -1,
-        "eyeDistance": 469,
-        "eyeLeft": "729,2401",
-        "eyeRight": "1198,2392"
-      },
-      "gyroscopeData": {
-        "alpha": 352,
-        "beta": 104,
-        "gamma": -3
-      },
-      "timestamp": 1733432514897
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432524227.jpg",
-    "dateCapture": "2024-12-05T21:02:04.494Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -28,
-        "yaw": 0,
-        "roll": -2,
-        "eyeDistance": 955,
-        "eyeLeft": "578,1895",
-        "eyeRight": "1533,1862"
-      },
-      "gyroscopeData": {
-        "alpha": 358,
-        "beta": 66,
-        "gamma": -2
-      },
-      "timestamp": 1733432524309
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432529165.jpg",
-    "dateCapture": "2024-12-05T21:02:09.465Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -31,
-        "yaw": 36,
-        "roll": 10,
-        "eyeDistance": 756,
-        "eyeLeft": "897,1908",
-        "eyeRight": "1642,2033"
-      },
-      "gyroscopeData": {
-        "alpha": 2,
-        "beta": 63,
-        "gamma": -11
-      },
-      "timestamp": 1733432529268
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432533674.jpg",
-    "dateCapture": "2024-12-05T21:02:13.962Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -30,
-        "yaw": -31,
-        "roll": -7,
-        "eyeDistance": 851,
-        "eyeLeft": "436,2131",
-        "eyeRight": "1282,2033"
-      },
-      "gyroscopeData": {
-        "alpha": 1,
-        "beta": 61,
-        "gamma": -2
-      },
-      "timestamp": 1733432533783
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432539752.jpg",
-    "dateCapture": "2024-12-05T21:02:20.026Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -21,
-        "yaw": 42,
-        "roll": 15,
-        "eyeDistance": 580,
-        "eyeLeft": "1319,1999",
-        "eyeRight": "1879,2149"
-      },
-      "gyroscopeData": {
-        "alpha": 358,
-        "beta": 70,
-        "gamma": -4
-      },
-      "timestamp": 1733432539837
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432544019.jpg",
-    "dateCapture": "2024-12-05T21:02:24.284Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -22,
-        "yaw": -52,
-        "roll": -16,
-        "eyeDistance": 513,
-        "eyeLeft": "360,2208",
-        "eyeRight": "853,2071"
-      },
-      "gyroscopeData": {
-        "alpha": 5,
-        "beta": 71,
-        "gamma": -3
-      },
-      "timestamp": 1733432544098
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432548133.jpg",
-    "dateCapture": "2024-12-05T21:02:28.433Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -12,
-        "yaw": 20,
-        "roll": -27,
-        "eyeDistance": 731,
-        "eyeLeft": "578,2249",
-        "eyeRight": "1230,1917"
-      },
-      "gyroscopeData": {
-        "alpha": 358,
-        "beta": 71,
-        "gamma": 5
-      },
-      "timestamp": 1733432548240
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432552473.jpg",
-    "dateCapture": "2024-12-05T21:02:32.742Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -11,
-        "yaw": 22,
-        "roll": -29,
-        "eyeDistance": 563,
-        "eyeLeft": "631,2291",
-        "eyeRight": "1122,2016"
-      },
-      "gyroscopeData": {
-        "alpha": 0,
-        "beta": 70,
-        "gamma": 3
-      },
-      "timestamp": 1733432552570
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432559660.jpg",
-    "dateCapture": "2024-12-05T21:02:39.926Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 7,
-        "yaw": -27,
-        "roll": -32,
-        "eyeDistance": 709,
-        "eyeLeft": "277,2627",
-        "eyeRight": "880,2254"
-      },
-      "gyroscopeData": {
-        "alpha": 11,
-        "beta": 99,
-        "gamma": 6
-      },
-      "timestamp": 1733432559742
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432563941.jpg",
-    "dateCapture": "2024-12-05T21:02:44.228Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 13,
-        "yaw": -17,
-        "roll": -29,
-        "eyeDistance": 382,
-        "eyeLeft": "681,2377",
-        "eyeRight": "1014,2190"
-      },
-      "gyroscopeData": {
-        "alpha": 17,
-        "beta": 109,
-        "gamma": 6
-      },
-      "timestamp": 1733432564032
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432572692.jpg",
-    "dateCapture": "2024-12-05T21:02:52.963Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 18,
-        "yaw": 48,
-        "roll": -18,
-        "eyeDistance": 740,
-        "eyeLeft": "861,3001",
-        "eyeRight": "1564,2770"
-      },
-      "gyroscopeData": {
-        "alpha": 294,
-        "beta": 118,
-        "gamma": 39
-      },
-      "timestamp": 1733432572781
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432579829.jpg",
-    "dateCapture": "2024-12-05T21:03:00.120Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -21,
-        "yaw": -1,
-        "roll": 0,
-        "eyeDistance": 849,
-        "eyeLeft": "637,2232",
-        "eyeRight": "1485,2233"
-      },
-      "gyroscopeData": {
-        "alpha": 348,
-        "beta": 69,
-        "gamma": -6
-      },
-      "timestamp": 1733432579927
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432584892.jpg",
-    "dateCapture": "2024-12-05T21:03:05.148Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -41,
-        "yaw": -2,
-        "roll": -1,
-        "eyeDistance": 758,
-        "eyeLeft": "689,2215",
-        "eyeRight": "1447,2198"
-      },
-      "gyroscopeData": {
-        "alpha": 359,
-        "beta": 35,
-        "gamma": -4
-      },
-      "timestamp": 1733432584986
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432589276.jpg",
-    "dateCapture": "2024-12-05T21:03:09.517Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -30,
-        "yaw": -4,
-        "roll": -1,
-        "eyeDistance": 917,
-        "eyeLeft": "615,2443",
-        "eyeRight": "1532,2425"
-      },
-      "gyroscopeData": {
-        "alpha": 0,
-        "beta": 41,
-        "gamma": -3
-      },
-      "timestamp": 1733432589353
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432593311.jpg",
-    "dateCapture": "2024-12-05T21:03:13.587Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 43,
-        "yaw": 20,
-        "roll": -4,
-        "eyeDistance": 971,
-        "eyeLeft": "550,2265",
-        "eyeRight": "1519,2194"
-      },
-      "gyroscopeData": {
-        "alpha": 340,
-        "beta": 116,
-        "gamma": 5
-      },
-      "timestamp": 1733432593402
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432601951.jpg",
-    "dateCapture": "2024-12-05T21:03:22.200Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -30,
-        "yaw": -30,
-        "roll": -6,
-        "eyeDistance": 920,
-        "eyeLeft": "545,1314",
-        "eyeRight": "1460,1214"
-      },
-      "gyroscopeData": {
-        "alpha": 353,
-        "beta": 73,
-        "gamma": 1
-      },
-      "timestamp": 1733432602037
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432615581.jpg",
-    "dateCapture": "2024-12-05T21:03:35.846Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 42,
-        "yaw": 68,
-        "roll": -53,
-        "eyeDistance": 648,
-        "eyeLeft": "897,2998",
-        "eyeRight": "1283,2478"
-      },
-      "gyroscopeData": {
-        "alpha": 274,
-        "beta": 139,
-        "gamma": 42
-      },
-      "timestamp": 1733432615665
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432619866.jpg",
-    "dateCapture": "2024-12-05T21:03:40.143Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 28,
-        "yaw": 24,
-        "roll": -4,
-        "eyeDistance": 666,
-        "eyeLeft": "801,2828",
-        "eyeRight": "1465,2780"
-      },
-      "gyroscopeData": {
-        "alpha": 327,
-        "beta": 125,
-        "gamma": 8
-      },
-      "timestamp": 1733432619944
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432625098.jpg",
-    "dateCapture": "2024-12-05T21:03:45.369Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 10,
-        "yaw": -27,
-        "roll": 36,
-        "eyeDistance": 565,
-        "eyeLeft": "720,2278",
-        "eyeRight": "1175,2612"
-      },
-      "gyroscopeData": {
-        "alpha": 25,
-        "beta": 140,
-        "gamma": -53
-      },
-      "timestamp": 1733432625179
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432630250.jpg",
-    "dateCapture": "2024-12-05T21:03:50.503Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -23,
-        "yaw": -15,
-        "roll": -28,
-        "eyeDistance": 715,
-        "eyeLeft": "414,2433",
-        "eyeRight": "1044,2094"
-      },
-      "gyroscopeData": {
-        "alpha": 337,
-        "beta": 63,
-        "gamma": 15
-      },
-      "timestamp": 1733432630329
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432634016.jpg",
-    "dateCapture": "2024-12-05T21:03:54.258Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -37,
-        "yaw": -13,
-        "roll": -36,
-        "eyeDistance": 668,
-        "eyeLeft": "481,2587",
-        "eyeRight": "1019,2190"
-      },
-      "gyroscopeData": {
-        "alpha": 355,
-        "beta": 52,
-        "gamma": 7
-      },
-      "timestamp": 1733432634092
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432637917.jpg",
-    "dateCapture": "2024-12-05T21:03:58.185Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 39,
-        "yaw": 10,
-        "roll": -26,
-        "eyeDistance": 589,
-        "eyeLeft": "527,2721",
-        "eyeRight": "1057,2467"
-      },
-      "gyroscopeData": {
-        "alpha": 4,
-        "beta": 123,
-        "gamma": -4
-      },
-      "timestamp": 1733432638002
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432649985.jpg",
-    "dateCapture": "2024-12-05T21:04:10.242Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -15,
-        "yaw": -1,
-        "roll": -1,
-        "eyeDistance": 1314,
-        "eyeLeft": "375,1718",
-        "eyeRight": "1689,1693"
-      },
-      "gyroscopeData": {
-        "alpha": 360,
-        "beta": 71,
-        "gamma": 1
-      },
-      "timestamp": 1733432650048
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432654522.jpg",
-    "dateCapture": "2024-12-05T21:04:14.807Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 27,
-        "yaw": -3,
-        "roll": -3,
-        "eyeDistance": 1336,
-        "eyeLeft": "361,1849",
-        "eyeRight": "1695,1785"
-      },
-      "gyroscopeData": {
-        "alpha": 359,
-        "beta": 102,
-        "gamma": 3
-      },
-      "timestamp": 1733432654612
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432658570.jpg",
-    "dateCapture": "2024-12-05T21:04:18.866Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 21,
-        "yaw": -33,
-        "roll": 1,
-        "eyeDistance": 1314,
-        "eyeLeft": "171,1872",
-        "eyeRight": "1486,1895"
-      },
-      "gyroscopeData": {
-        "alpha": 358,
-        "beta": 100,
-        "gamma": 7
-      },
-      "timestamp": 1733432658678
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432662459.jpg",
-    "dateCapture": "2024-12-05T21:04:22.753Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 15,
-        "yaw": 46,
-        "roll": -3,
-        "eyeDistance": 1039,
-        "eyeLeft": "773,1845",
-        "eyeRight": "1810,1792"
-      },
-      "gyroscopeData": {
-        "alpha": 352,
-        "beta": 100,
-        "gamma": 9
-      },
-      "timestamp": 1733432662560
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432666388.jpg",
-    "dateCapture": "2024-12-05T21:04:26.643Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 3,
-        "yaw": 2,
-        "roll": 0,
-        "eyeDistance": 850,
-        "eyeLeft": "654,2064",
-        "eyeRight": "1504,2067"
-      },
-      "gyroscopeData": {
-        "alpha": 10,
-        "beta": 86,
-        "gamma": -8
-      },
-      "timestamp": 1733432666459
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733432676273.jpg",
-    "dateCapture": "2024-12-05T21:04:36.534Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -15,
-        "yaw": 0,
-        "roll": -1,
-        "eyeDistance": 796,
-        "eyeLeft": "691,1992",
-        "eyeRight": "1488,1984"
-      },
-      "gyroscopeData": {
-        "alpha": 5,
-        "beta": 63,
-        "gamma": -2
-      },
-      "timestamp": 1733432676355
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435138319.jpg",
-    "dateCapture": "2024-12-05T21:45:38.547Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -26,
-        "yaw": -1,
-        "roll": 26,
-        "eyeDistance": 815,
-        "eyeLeft": "231,3171",
-        "eyeRight": "962,3533"
-      },
-      "gyroscopeData": {
-        "alpha": 313,
-        "beta": 2,
-        "gamma": 0
-      },
-      "timestamp": 1733435138406
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435174647.jpg",
-    "dateCapture": "2024-12-05T21:46:14.824Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -1,
-        "yaw": 2,
-        "roll": 0,
-        "eyeDistance": 862,
-        "eyeLeft": "573,2279",
-        "eyeRight": "1434,2274"
-      },
-      "gyroscopeData": {
-        "alpha": 359,
-        "beta": 79,
-        "gamma": -5
-      },
-      "timestamp": 1733435174709
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435179348.jpg",
-    "dateCapture": "2024-12-05T21:46:19.622Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 37,
-        "yaw": 5,
-        "roll": 5,
-        "eyeDistance": 960,
-        "eyeLeft": "858,2511",
-        "eyeRight": "1815,2593"
-      },
-      "gyroscopeData": {
-        "alpha": 14,
-        "beta": 102,
-        "gamma": -29
-      },
-      "timestamp": 1733435179410
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435182548.jpg",
-    "dateCapture": "2024-12-05T21:46:22.727Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 24,
-        "yaw": -28,
-        "roll": -5,
-        "eyeDistance": 1007,
-        "eyeLeft": "232,2440",
-        "eyeRight": "1236,2357"
-      },
-      "gyroscopeData": {
-        "alpha": 332,
-        "beta": 97,
-        "gamma": 25
-      },
-      "timestamp": 1733435182610
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435194565.jpg",
-    "dateCapture": "2024-12-05T21:46:34.770Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 9,
-        "yaw": -48,
-        "roll": 2,
-        "eyeDistance": 772,
-        "eyeLeft": "318,2319",
-        "eyeRight": "1089,2343"
-      },
-      "gyroscopeData": {
-        "alpha": 328,
-        "beta": 99,
-        "gamma": 31
-      },
-      "timestamp": 1733435194629
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435260823.jpg",
-    "dateCapture": "2024-12-05T21:47:41.046Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 24,
-        "yaw": 7,
-        "roll": -7,
-        "eyeDistance": 639,
-        "eyeLeft": "721,2672",
-        "eyeRight": "1355,2592"
-      },
-      "gyroscopeData": {
-        "alpha": 3,
-        "beta": 93,
-        "gamma": -24
-      },
-      "timestamp": 1733435260904
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435265205.jpg",
-    "dateCapture": "2024-12-05T21:47:45.431Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 3,
-        "yaw": 38,
-        "roll": 2,
-        "eyeDistance": 692,
-        "eyeLeft": "850,2500",
-        "eyeRight": "1541,2521"
-      },
-      "gyroscopeData": {
-        "alpha": 323,
-        "beta": 96,
-        "gamma": 7
-      },
-      "timestamp": 1733435265283
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435270423.jpg",
-    "dateCapture": "2024-12-05T21:47:50.659Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -14,
-        "yaw": 36,
-        "roll": 10,
-        "eyeDistance": 624,
-        "eyeLeft": "966,2165",
-        "eyeRight": "1581,2269"
-      },
-      "gyroscopeData": {
-        "alpha": 332,
-        "beta": 81,
-        "gamma": -13
-      },
-      "timestamp": 1733435270501
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435272874.jpg",
-    "dateCapture": "2024-12-05T21:47:53.106Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -31,
-        "yaw": 28,
-        "roll": 12,
-        "eyeDistance": 660,
-        "eyeLeft": "971,2204",
-        "eyeRight": "1617,2344"
-      },
-      "gyroscopeData": {
-        "alpha": 322,
-        "beta": 64,
-        "gamma": -5
-      },
-      "timestamp": 1733435272938
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435275581.jpg",
-    "dateCapture": "2024-12-05T21:47:55.783Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -28,
-        "yaw": 26,
-        "roll": 6,
-        "eyeDistance": 538,
-        "eyeLeft": "866,2356",
-        "eyeRight": "1401,2414"
-      },
-      "gyroscopeData": {
-        "alpha": 323,
-        "beta": 62,
-        "gamma": -8
-      },
-      "timestamp": 1733435275650
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435277761.jpg",
-    "dateCapture": "2024-12-05T21:47:58.057Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -30,
-        "yaw": -29,
-        "roll": -11,
-        "eyeDistance": 673,
-        "eyeLeft": "418,2269",
-        "eyeRight": "1079,2143"
-      },
-      "gyroscopeData": {
-        "alpha": 355,
-        "beta": 62,
-        "gamma": -8
-      },
-      "timestamp": 1733435277834
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435279761.jpg",
-    "dateCapture": "2024-12-05T21:48:00.069Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -15,
-        "yaw": -4,
-        "roll": 0,
-        "eyeDistance": 663,
-        "eyeLeft": "712,2113",
-        "eyeRight": "1375,2112"
-      },
-      "gyroscopeData": {
-        "alpha": 342,
-        "beta": 75,
-        "gamma": -5
-      },
-      "timestamp": 1733435279847
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435282311.jpg",
-    "dateCapture": "2024-12-05T21:48:02.502Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 9,
-        "yaw": -5,
-        "roll": -1,
-        "eyeDistance": 1028,
-        "eyeLeft": "468,2245",
-        "eyeRight": "1496,2223"
-      },
-      "gyroscopeData": {
-        "alpha": 11,
-        "beta": 87,
-        "gamma": -33
-      },
-      "timestamp": 1733435282372
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435284211.jpg",
-    "dateCapture": "2024-12-05T21:48:04.419Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 5,
-        "yaw": -5,
-        "roll": -1,
-        "eyeDistance": 1150,
-        "eyeLeft": "534,1816",
-        "eyeRight": "1684,1790"
-      },
-      "gyroscopeData": {
-        "alpha": 47,
-        "beta": 89,
-        "gamma": -66
-      },
-      "timestamp": 1733435284278
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435286495.jpg",
-    "dateCapture": "2024-12-05T21:48:06.681Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -12,
-        "yaw": -5,
-        "roll": -3,
-        "eyeDistance": 1040,
-        "eyeLeft": "551,1406",
-        "eyeRight": "1590,1360"
-      },
-      "gyroscopeData": {
-        "alpha": 352,
-        "beta": 80,
-        "gamma": -10
-      },
-      "timestamp": 1733435286556
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435290746.jpg",
-    "dateCapture": "2024-12-05T21:48:10.956Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 22,
-        "yaw": -2,
-        "roll": -1,
-        "eyeDistance": 1182,
-        "eyeLeft": "444,2005",
-        "eyeRight": "1626,1982"
-      },
-      "gyroscopeData": {
-        "alpha": 332,
-        "beta": 95,
-        "gamma": 6
-      },
-      "timestamp": 1733435290817
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435293712.jpg",
-    "dateCapture": "2024-12-05T21:48:14.243Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -23,
-        "yaw": -4,
-        "roll": -3,
-        "eyeDistance": 1102,
-        "eyeLeft": "459,1974",
-        "eyeRight": "1560,1919"
-      },
-      "gyroscopeData": {
-        "alpha": 347,
-        "beta": 64,
-        "gamma": -3
-      },
-      "timestamp": 1733435293773
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435297846.jpg",
-    "dateCapture": "2024-12-05T21:48:18.036Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -30,
-        "yaw": -3,
-        "roll": -2,
-        "eyeDistance": 1143,
-        "eyeLeft": "399,1914",
-        "eyeRight": "1541,1867"
-      },
-      "gyroscopeData": {
-        "alpha": 352,
-        "beta": 51,
-        "gamma": -2
-      },
-      "timestamp": 1733435297918
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435300613.jpg",
-    "dateCapture": "2024-12-05T21:48:20.808Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -24,
-        "yaw": -5,
-        "roll": -3,
-        "eyeDistance": 1471,
-        "eyeLeft": "313,1767",
-        "eyeRight": "1783,1703"
-      },
-      "gyroscopeData": {
-        "alpha": 352,
-        "beta": 56,
-        "gamma": -1
-      },
-      "timestamp": 1733435300677
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435303884.jpg",
-    "dateCapture": "2024-12-05T21:48:24.119Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 30,
-        "yaw": 12,
-        "roll": -2,
-        "eyeDistance": 1097,
-        "eyeLeft": "496,2541",
-        "eyeRight": "1593,2497"
-      },
-      "gyroscopeData": {
-        "alpha": 343,
-        "beta": 96,
-        "gamma": 1
-      },
-      "timestamp": 1733435303967
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435306629.jpg",
-    "dateCapture": "2024-12-05T21:48:26.861Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 19,
-        "yaw": -30,
-        "roll": -5,
-        "eyeDistance": 836,
-        "eyeLeft": "237,2631",
-        "eyeRight": "1070,2560"
-      },
-      "gyroscopeData": {
-        "alpha": 332,
-        "beta": 103,
-        "gamma": 24
-      },
-      "timestamp": 1733435306701
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435309463.jpg",
-    "dateCapture": "2024-12-05T21:48:29.701Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 24,
-        "yaw": 44,
-        "roll": 2,
-        "eyeDistance": 764,
-        "eyeLeft": "936,2462",
-        "eyeRight": "1699,2493"
-      },
-      "gyroscopeData": {
-        "alpha": 320,
-        "beta": 116,
-        "gamma": 1
-      },
-      "timestamp": 1733435309532
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435311664.jpg",
-    "dateCapture": "2024-12-05T21:48:31.877Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 31,
-        "yaw": 67,
-        "roll": -12,
-        "eyeDistance": 656,
-        "eyeLeft": "896,2710",
-        "eyeRight": "1537,2575"
-      },
-      "gyroscopeData": {
-        "alpha": 309,
-        "beta": 126,
-        "gamma": 2
-      },
-      "timestamp": 1733435311735
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435314813.jpg",
-    "dateCapture": "2024-12-05T21:48:35.021Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 20,
-        "yaw": 2,
-        "roll": -1,
-        "eyeDistance": 800,
-        "eyeLeft": "706,2324",
-        "eyeRight": "1506,2314"
-      },
-      "gyroscopeData": {
-        "alpha": 329,
-        "beta": 103,
-        "gamma": 7
-      },
-      "timestamp": 1733435314876
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435317645.jpg",
-    "dateCapture": "2024-12-05T21:48:37.825Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -31,
-        "yaw": -3,
-        "roll": -2,
-        "eyeDistance": 793,
-        "eyeLeft": "608,2121",
-        "eyeRight": "1400,2096"
-      },
-      "gyroscopeData": {
-        "alpha": 344,
-        "beta": 60,
-        "gamma": -6
-      },
-      "timestamp": 1733435317704
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435320162.jpg",
-    "dateCapture": "2024-12-05T21:48:40.362Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -25,
-        "yaw": 45,
-        "roll": 8,
-        "eyeDistance": 662,
-        "eyeLeft": "1143,2012",
-        "eyeRight": "1798,2105"
-      },
-      "gyroscopeData": {
-        "alpha": 345,
-        "beta": 66,
-        "gamma": -14
-      },
-      "timestamp": 1733435320221
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435322363.jpg",
-    "dateCapture": "2024-12-05T21:48:42.542Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -2,
-        "yaw": 19,
-        "roll": 2,
-        "eyeDistance": 965,
-        "eyeLeft": "813,2175",
-        "eyeRight": "1777,2216"
-      },
-      "gyroscopeData": {
-        "alpha": 333,
-        "beta": 82,
-        "gamma": 2
-      },
-      "timestamp": 1733435322429
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435325797.jpg",
-    "dateCapture": "2024-12-05T21:48:45.998Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -12,
-        "yaw": 7,
-        "roll": -1,
-        "eyeDistance": 459,
-        "eyeLeft": "793,2292",
-        "eyeRight": "1253,2283"
-      },
-      "gyroscopeData": {
-        "alpha": 334,
-        "beta": 83,
-        "gamma": 0
-      },
-      "timestamp": 1733435325870
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435327697.jpg",
-    "dateCapture": "2024-12-05T21:48:47.931Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 0,
-        "yaw": 5,
-        "roll": -4,
-        "eyeDistance": 596,
-        "eyeLeft": "787,2247",
-        "eyeRight": "1382,2210"
-      },
-      "gyroscopeData": {
-        "alpha": 342,
-        "beta": 94,
-        "gamma": -6
-      },
-      "timestamp": 1733435327777
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435329681.jpg",
-    "dateCapture": "2024-12-05T21:48:49.893Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -13,
-        "yaw": 35,
-        "roll": 14,
-        "eyeDistance": 479,
-        "eyeLeft": "1124,2120",
-        "eyeRight": "1588,2239"
-      },
-      "gyroscopeData": {
-        "alpha": 321,
-        "beta": 95,
-        "gamma": 11
-      },
-      "timestamp": 1733435329757
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435332265.jpg",
-    "dateCapture": "2024-12-05T21:48:52.474Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -6,
-        "yaw": -23,
-        "roll": -16,
-        "eyeDistance": 523,
-        "eyeLeft": "597,2327",
-        "eyeRight": "1100,2186"
-      },
-      "gyroscopeData": {
-        "alpha": 358,
-        "beta": 94,
-        "gamma": -21
-      },
-      "timestamp": 1733435332335
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435337781.jpg",
-    "dateCapture": "2024-12-05T21:48:58.058Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 37,
-        "yaw": 11,
-        "roll": -21,
-        "eyeDistance": 593,
-        "eyeLeft": "612,2622",
-        "eyeRight": "1167,2412"
-      },
-      "gyroscopeData": {
-        "alpha": 321,
-        "beta": 122,
-        "gamma": 25
-      },
-      "timestamp": 1733435337854
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435341599.jpg",
-    "dateCapture": "2024-12-05T21:49:01.820Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 28,
-        "yaw": -15,
-        "roll": 52,
-        "eyeDistance": 416,
-        "eyeLeft": "1192,2067",
-        "eyeRight": "1449,2394"
-      },
-      "gyroscopeData": {
-        "alpha": 1,
-        "beta": 140,
-        "gamma": -48
-      },
-      "timestamp": 1733435341684
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435344202.jpg",
-    "dateCapture": "2024-12-05T21:49:04.443Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -25,
-        "yaw": 44,
-        "roll": 23,
-        "eyeDistance": 444,
-        "eyeLeft": "1201,1803",
-        "eyeRight": "1609,1977"
-      },
-      "gyroscopeData": {
-        "alpha": 277,
-        "beta": 94,
-        "gamma": 27
-      },
-      "timestamp": 1733435344311
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435346428.jpg",
-    "dateCapture": "2024-12-05T21:49:06.709Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 9,
-        "yaw": 68,
-        "roll": -47,
-        "eyeDistance": 457,
-        "eyeLeft": "947,2386",
-        "eyeRight": "1257,2050"
-      },
-      "gyroscopeData": {
-        "alpha": 238,
-        "beta": 143,
-        "gamma": 49
-      },
-      "timestamp": 1733435346555
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435355791.jpg",
-    "dateCapture": "2024-12-05T21:49:16.125Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 22,
-        "yaw": 23,
-        "roll": -4,
-        "eyeDistance": 670,
-        "eyeLeft": "840,2365",
-        "eyeRight": "1508,2317"
-      },
-      "gyroscopeData": {
-        "alpha": 342,
-        "beta": 102,
-        "gamma": -4
-      },
-      "timestamp": 1733435355963
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435358215.jpg",
-    "dateCapture": "2024-12-05T21:49:18.497Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -6,
-        "yaw": 6,
-        "roll": -1,
-        "eyeDistance": 685,
-        "eyeLeft": "760,2278",
-        "eyeRight": "1445,2267"
-      },
-      "gyroscopeData": {
-        "alpha": 349,
-        "beta": 98,
-        "gamma": -7
-      },
-      "timestamp": 1733435358353
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435369768.jpg",
-    "dateCapture": "2024-12-05T21:49:30.161Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -29,
-        "yaw": -1,
-        "roll": 0,
-        "eyeDistance": 879,
-        "eyeLeft": "630,2056",
-        "eyeRight": "1509,2051"
-      },
-      "gyroscopeData": {
-        "alpha": 345,
-        "beta": 51,
-        "gamma": -1
-      },
-      "timestamp": 1733435369847
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435372923.jpg",
-    "dateCapture": "2024-12-05T21:49:33.170Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -19,
-        "yaw": -1,
-        "roll": 0,
-        "eyeDistance": 953,
-        "eyeLeft": "640,2153",
-        "eyeRight": "1593,2147"
-      },
-      "gyroscopeData": {
-        "alpha": 345,
-        "beta": 59,
-        "gamma": 0
-      },
-      "timestamp": 1733435373011
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435377214.jpg",
-    "dateCapture": "2024-12-05T21:49:37.437Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -40,
-        "yaw": -4,
-        "roll": 8,
-        "eyeDistance": 819,
-        "eyeLeft": "822,1865",
-        "eyeRight": "1632,1984"
-      },
-      "gyroscopeData": {
-        "alpha": 354,
-        "beta": 40,
-        "gamma": -4
-      },
-      "timestamp": 1733435377315
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435380462.jpg",
-    "dateCapture": "2024-12-05T21:49:40.733Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -37,
-        "yaw": -22,
-        "roll": -4,
-        "eyeDistance": 821,
-        "eyeLeft": "474,1884",
-        "eyeRight": "1292,1828"
-      },
-      "gyroscopeData": {
-        "alpha": 354,
-        "beta": 46,
-        "gamma": 1
-      },
-      "timestamp": 1733435380552
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435382590.jpg",
-    "dateCapture": "2024-12-05T21:49:42.819Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -40,
-        "yaw": 20,
-        "roll": 16,
-        "eyeDistance": 827,
-        "eyeLeft": "1125,1728",
-        "eyeRight": "1918,1962"
-      },
-      "gyroscopeData": {
-        "alpha": 357,
-        "beta": 44,
-        "gamma": -5
-      },
-      "timestamp": 1733435382676
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435384774.jpg",
-    "dateCapture": "2024-12-05T21:49:45.052Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -38,
-        "yaw": 15,
-        "roll": 16,
-        "eyeDistance": 709,
-        "eyeLeft": "1034,1892",
-        "eyeRight": "1716,2088"
-      },
-      "gyroscopeData": {
-        "alpha": 357,
-        "beta": 41,
-        "gamma": -7
-      },
-      "timestamp": 1733435384849
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435386749.jpg",
-    "dateCapture": "2024-12-05T21:49:46.961Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 25,
-        "yaw": 6,
-        "roll": -3,
-        "eyeDistance": 744,
-        "eyeLeft": "605,2404",
-        "eyeRight": "1349,2369"
-      },
-      "gyroscopeData": {
-        "alpha": 341,
-        "beta": 100,
-        "gamma": 6
-      },
-      "timestamp": 1733435386832
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435389925.jpg",
-    "dateCapture": "2024-12-05T21:49:50.278Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -3,
-        "yaw": 28,
-        "roll": 3,
-        "eyeDistance": 606,
-        "eyeLeft": "846,2131",
-        "eyeRight": "1451,2160"
-      },
-      "gyroscopeData": {
-        "alpha": 28,
-        "beta": 86,
-        "gamma": -56
-      },
-      "timestamp": 1733435390015
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435392293.jpg",
-    "dateCapture": "2024-12-05T21:49:52.519Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -4,
-        "yaw": 35,
-        "roll": 3,
-        "eyeDistance": 878,
-        "eyeLeft": "933,1932",
-        "eyeRight": "1810,1983"
-      },
-      "gyroscopeData": {
-        "alpha": 242,
-        "beta": 92,
-        "gamma": 89
-      },
-      "timestamp": 1733435392383
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435395230.jpg",
-    "dateCapture": "2024-12-05T21:49:55.494Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -3,
-        "yaw": -45,
-        "roll": 1,
-        "eyeDistance": 620,
-        "eyeLeft": "428,2182",
-        "eyeRight": "1048,2193"
-      },
-      "gyroscopeData": {
-        "alpha": 309,
-        "beta": 88,
-        "gamma": 37
-      },
-      "timestamp": 1733435395322
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435410756.jpg",
-    "dateCapture": "2024-12-05T21:50:10.986Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 29,
-        "yaw": -5,
-        "roll": 5,
-        "eyeDistance": 457,
-        "eyeLeft": "795,2109",
-        "eyeRight": "1251,2147"
-      },
-      "gyroscopeData": {
-        "alpha": 348,
-        "beta": 119,
-        "gamma": 2
-      },
-      "timestamp": 1733435410820
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435413805.jpg",
-    "dateCapture": "2024-12-05T21:50:14.150Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 26,
-        "yaw": -3,
-        "roll": 3,
-        "eyeDistance": 512,
-        "eyeLeft": "802,2200",
-        "eyeRight": "1313,2231"
-      },
-      "gyroscopeData": {
-        "alpha": 350,
-        "beta": 118,
-        "gamma": 2
-      },
-      "timestamp": 1733435413875
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435416441.jpg",
-    "dateCapture": "2024-12-05T21:50:16.693Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -24,
-        "yaw": 1,
-        "roll": 7,
-        "eyeDistance": 367,
-        "eyeLeft": "916,2077",
-        "eyeRight": "1281,2119"
-      },
-      "gyroscopeData": {
-        "alpha": 33,
-        "beta": 86,
-        "gamma": -39
-      },
-      "timestamp": 1733435416528
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435419807.jpg",
-    "dateCapture": "2024-12-05T21:50:20.066Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 26,
-        "yaw": 38,
-        "roll": -11,
-        "eyeDistance": 533,
-        "eyeLeft": "717,2344",
-        "eyeRight": "1241,2245"
-      },
-      "gyroscopeData": {
-        "alpha": 308,
-        "beta": 130,
-        "gamma": 34
-      },
-      "timestamp": 1733435419903
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435422427.jpg",
-    "dateCapture": "2024-12-05T21:50:22.753Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 32,
-        "yaw": -45,
-        "roll": 42,
-        "eyeDistance": 489,
-        "eyeLeft": "991,2046",
-        "eyeRight": "1356,2371"
-      },
-      "gyroscopeData": {
-        "alpha": 35,
-        "beta": 129,
-        "gamma": -37
-      },
-      "timestamp": 1733435422522
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435426526.jpg",
-    "dateCapture": "2024-12-05T21:50:26.765Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -7,
-        "yaw": 2,
-        "roll": 7,
-        "eyeDistance": 709,
-        "eyeLeft": "771,2033",
-        "eyeRight": "1475,2114"
-      },
-      "gyroscopeData": {
-        "alpha": 358,
-        "beta": 103,
-        "gamma": 3
-      },
-      "timestamp": 1733435426609
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435429609.jpg",
-    "dateCapture": "2024-12-05T21:50:29.847Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 25,
-        "yaw": 21,
-        "roll": -3,
-        "eyeDistance": 793,
-        "eyeLeft": "713,2353",
-        "eyeRight": "1505,2308"
-      },
-      "gyroscopeData": {
-        "alpha": 319,
-        "beta": 126,
-        "gamma": 10
-      },
-      "timestamp": 1733435429692
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435432758.jpg",
-    "dateCapture": "2024-12-05T21:50:33.012Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 41,
-        "yaw": -19,
-        "roll": 1,
-        "eyeDistance": 918,
-        "eyeLeft": "658,2314",
-        "eyeRight": "1577,2326"
-      },
-      "gyroscopeData": {
-        "alpha": 343,
-        "beta": 133,
-        "gamma": 1
-      },
-      "timestamp": 1733435432845
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733435434625.jpg",
-    "dateCapture": "2024-12-05T21:50:34.968Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 2,
-        "yaw": 2,
-        "roll": 0,
-        "eyeDistance": 713,
-        "eyeLeft": "805,2014",
-        "eyeRight": "1518,2019"
-      },
-      "gyroscopeData": {
-        "alpha": 339,
-        "beta": 106,
-        "gamma": 4
-      },
-      "timestamp": 1733435434706
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482797474.jpg",
-    "dateCapture": "2024-12-06T10:59:57.663Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -10,
-        "yaw": 3,
-        "roll": 1,
-        "eyeDistance": 649,
-        "eyeLeft": "747,2313",
-        "eyeRight": "1397,2322"
-      },
-      "gyroscopeData": {
-        "alpha": 354,
-        "beta": 67,
-        "gamma": 1
-      },
-      "timestamp": 1733482797540
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482800257.jpg",
-    "dateCapture": "2024-12-06T11:00:00.446Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -5,
-        "yaw": 1,
-        "roll": 0,
-        "eyeDistance": 730,
-        "eyeLeft": "716,2198",
-        "eyeRight": "1446,2196"
-      },
-      "gyroscopeData": {
-        "alpha": 355,
-        "beta": 73,
-        "gamma": 1
-      },
-      "timestamp": 1733482800324
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482802425.jpg",
-    "dateCapture": "2024-12-06T11:00:02.588Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 9,
-        "yaw": 29,
-        "roll": -31,
-        "eyeDistance": 848,
-        "eyeLeft": "433,2555",
-        "eyeRight": "1162,2123"
-      },
-      "gyroscopeData": {
-        "alpha": 67,
-        "beta": 61,
-        "gamma": -73
-      },
-      "timestamp": 1733482802487
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482804375.jpg",
-    "dateCapture": "2024-12-06T11:00:04.651Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 37,
-        "yaw": 20,
-        "roll": -5,
-        "eyeDistance": 840,
-        "eyeLeft": "727,2560",
-        "eyeRight": "1565,2494"
-      },
-      "gyroscopeData": {
-        "alpha": 326,
-        "beta": 115,
-        "gamma": 13
-      },
-      "timestamp": 1733482804445
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482806392.jpg",
-    "dateCapture": "2024-12-06T11:00:06.615Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 5,
-        "yaw": 3,
-        "roll": -3,
-        "eyeDistance": 757,
-        "eyeLeft": "774,2253",
-        "eyeRight": "1530,2219"
-      },
-      "gyroscopeData": {
-        "alpha": 332,
-        "beta": 97,
-        "gamma": 6
-      },
-      "timestamp": 1733482806456
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482808092.jpg",
-    "dateCapture": "2024-12-06T11:00:08.276Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -12,
-        "yaw": 7,
-        "roll": -3,
-        "eyeDistance": 474,
-        "eyeLeft": "846,2244",
-        "eyeRight": "1319,2221"
-      },
-      "gyroscopeData": {
-        "alpha": 341,
-        "beta": 86,
-        "gamma": -8
-      },
-      "timestamp": 1733482808160
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482809775.jpg",
-    "dateCapture": "2024-12-06T11:00:09.962Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -1,
-        "yaw": 7,
-        "roll": -1,
-        "eyeDistance": 545,
-        "eyeLeft": "906,2343",
-        "eyeRight": "1451,2334"
-      },
-      "gyroscopeData": {
-        "alpha": 326,
-        "beta": 88,
-        "gamma": 10
-      },
-      "timestamp": 1733482809845
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482811859.jpg",
-    "dateCapture": "2024-12-06T11:00:12.108Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -4,
-        "yaw": 10,
-        "roll": -17,
-        "eyeDistance": 615,
-        "eyeLeft": "814,2459",
-        "eyeRight": "1403,2278"
-      },
-      "gyroscopeData": {
-        "alpha": 57,
-        "beta": 75,
-        "gamma": -81
-      },
-      "timestamp": 1733482811929
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482814309.jpg",
-    "dateCapture": "2024-12-06T11:00:14.584Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -14,
-        "yaw": 1,
-        "roll": 4,
-        "eyeDistance": 786,
-        "eyeLeft": "443,2133",
-        "eyeRight": "1227,2181"
-      },
-      "gyroscopeData": {
-        "alpha": 327,
-        "beta": 71,
-        "gamma": 12
-      },
-      "timestamp": 1733482814373
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482816260.jpg",
-    "dateCapture": "2024-12-06T11:00:16.452Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 20,
-        "yaw": 45,
-        "roll": -15,
-        "eyeDistance": 599,
-        "eyeLeft": "821,2567",
-        "eyeRight": "1399,2408"
-      },
-      "gyroscopeData": {
-        "alpha": 292,
-        "beta": 115,
-        "gamma": 9
-      },
-      "timestamp": 1733482816332
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482820527.jpg",
-    "dateCapture": "2024-12-06T11:00:20.821Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 66,
-        "yaw": 40,
-        "roll": -90,
-        "eyeDistance": 615,
-        "eyeLeft": "1039,2442",
-        "eyeRight": "1043,1827"
-      },
-      "gyroscopeData": {
-        "alpha": 241,
-        "beta": 176,
-        "gamma": 82
-      },
-      "timestamp": 1733482820596
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482822577.jpg",
-    "dateCapture": "2024-12-06T11:00:22.870Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 21,
-        "yaw": 46,
-        "roll": -60,
-        "eyeDistance": 588,
-        "eyeLeft": "950,2406",
-        "eyeRight": "1242,1895"
-      },
-      "gyroscopeData": {
-        "alpha": 235,
-        "beta": 149,
-        "gamma": 76
-      },
-      "timestamp": 1733482822648
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482825493.jpg",
-    "dateCapture": "2024-12-06T11:00:25.728Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -1,
-        "yaw": 40,
-        "roll": -31,
-        "eyeDistance": 608,
-        "eyeLeft": "744,2616",
-        "eyeRight": "1266,2305"
-      },
-      "gyroscopeData": {
-        "alpha": 228,
-        "beta": 126,
-        "gamma": 71
-      },
-      "timestamp": 1733482825563
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482830577.jpg",
-    "dateCapture": "2024-12-06T11:00:30.874Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 78,
-        "yaw": 62,
-        "roll": -107,
-        "eyeDistance": 526,
-        "eyeLeft": "1321,2263",
-        "eyeRight": "1171,1759"
-      },
-      "gyroscopeData": {
-        "alpha": 238,
-        "beta": -168,
-        "gamma": 64
-      },
-      "timestamp": 1733482830644
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482834059.jpg",
-    "dateCapture": "2024-12-06T11:00:34.239Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -11,
-        "yaw": 30,
-        "roll": -44,
-        "eyeDistance": 562,
-        "eyeLeft": "900,2463",
-        "eyeRight": "1301,2070"
-      },
-      "gyroscopeData": {
-        "alpha": 33,
-        "beta": 40,
-        "gamma": -81
-      },
-      "timestamp": 1733482834123
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482836127.jpg",
-    "dateCapture": "2024-12-06T11:00:36.396Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -21,
-        "yaw": 1,
-        "roll": -2,
-        "eyeDistance": 651,
-        "eyeLeft": "568,2063",
-        "eyeRight": "1219,2042"
-      },
-      "gyroscopeData": {
-        "alpha": 350,
-        "beta": 74,
-        "gamma": -6
-      },
-      "timestamp": 1733482836191
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482838361.jpg",
-    "dateCapture": "2024-12-06T11:00:38.646Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 9,
-        "yaw": 3,
-        "roll": -2,
-        "eyeDistance": 762,
-        "eyeLeft": "691,2001",
-        "eyeRight": "1453,1979"
-      },
-      "gyroscopeData": {
-        "alpha": 341,
-        "beta": 98,
-        "gamma": 2
-      },
-      "timestamp": 1733482838427
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482840260.jpg",
-    "dateCapture": "2024-12-06T11:00:40.466Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 24,
-        "yaw": 1,
-        "roll": -3,
-        "eyeDistance": 762,
-        "eyeLeft": "694,2024",
-        "eyeRight": "1455,1988"
-      },
-      "gyroscopeData": {
-        "alpha": 343,
-        "beta": 115,
-        "gamma": 1
-      },
-      "timestamp": 1733482840327
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482842210.jpg",
-    "dateCapture": "2024-12-06T11:00:42.411Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 7,
-        "yaw": -41,
-        "roll": 5,
-        "eyeDistance": 691,
-        "eyeLeft": "607,1808",
-        "eyeRight": "1295,1869"
-      },
-      "gyroscopeData": {
-        "alpha": 339,
-        "beta": 114,
-        "gamma": 5
-      },
-      "timestamp": 1733482842279
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482844110.jpg",
-    "dateCapture": "2024-12-06T11:00:44.395Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 4,
-        "yaw": 31,
-        "roll": 8,
-        "eyeDistance": 615,
-        "eyeLeft": "1045,1890",
-        "eyeRight": "1653,1978"
-      },
-      "gyroscopeData": {
-        "alpha": 336,
-        "beta": 112,
-        "gamma": 6
-      },
-      "timestamp": 1733482844186
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482846628.jpg",
-    "dateCapture": "2024-12-06T11:00:46.914Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -33,
-        "yaw": 12,
-        "roll": 1,
-        "eyeDistance": 653,
-        "eyeLeft": "806,2197",
-        "eyeRight": "1459,2205"
-      },
-      "gyroscopeData": {
-        "alpha": 347,
-        "beta": 58,
-        "gamma": -14
-      },
-      "timestamp": 1733482846696
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482848962.jpg",
-    "dateCapture": "2024-12-06T11:00:49.186Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -36,
-        "yaw": -28,
-        "roll": -15,
-        "eyeDistance": 576,
-        "eyeLeft": "664,2107",
-        "eyeRight": "1221,1960"
-      },
-      "gyroscopeData": {
-        "alpha": 344,
-        "beta": 61,
-        "gamma": -2
-      },
-      "timestamp": 1733482849031
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482853996.jpg",
-    "dateCapture": "2024-12-06T11:00:54.293Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -19,
-        "yaw": 13,
-        "roll": -2,
-        "eyeDistance": 982,
-        "eyeLeft": "473,2157",
-        "eyeRight": "1455,2119"
-      },
-      "gyroscopeData": {
-        "alpha": 355,
-        "beta": 61,
-        "gamma": -15
-      },
-      "timestamp": 1733482854066
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482856730.jpg",
-    "dateCapture": "2024-12-06T11:00:56.917Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -27,
-        "yaw": -32,
-        "roll": 0,
-        "eyeDistance": 852,
-        "eyeLeft": "672,2018",
-        "eyeRight": "1524,2020"
-      },
-      "gyroscopeData": {
-        "alpha": 349,
-        "beta": 63,
-        "gamma": -5
-      },
-      "timestamp": 1733482856796
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482858664.jpg",
-    "dateCapture": "2024-12-06T11:00:58.921Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 9,
-        "yaw": -36,
-        "roll": 4,
-        "eyeDistance": 957,
-        "eyeLeft": "614,2215",
-        "eyeRight": "1568,2287"
-      },
-      "gyroscopeData": {
-        "alpha": 45,
-        "beta": 86,
-        "gamma": -60
-      },
-      "timestamp": 1733482858735
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482860998.jpg",
-    "dateCapture": "2024-12-06T11:01:01.291Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 5,
-        "yaw": 33,
-        "roll": -5,
-        "eyeDistance": 926,
-        "eyeLeft": "612,2055",
-        "eyeRight": "1535,1979"
-      },
-      "gyroscopeData": {
-        "alpha": 272,
-        "beta": 98,
-        "gamma": 63
-      },
-      "timestamp": 1733482861066
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482864749.jpg",
-    "dateCapture": "2024-12-06T11:01:04.972Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 18,
-        "yaw": 0,
-        "roll": -3,
-        "eyeDistance": 930,
-        "eyeLeft": "578,1773",
-        "eyeRight": "1507,1732"
-      },
-      "gyroscopeData": {
-        "alpha": 327,
-        "beta": 101,
-        "gamma": 13
-      },
-      "timestamp": 1733482864830
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482867379.jpg",
-    "dateCapture": "2024-12-06T11:01:07.615Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -41,
-        "yaw": 0,
-        "roll": -4,
-        "eyeDistance": 720,
-        "eyeLeft": "700,1745",
-        "eyeRight": "1419,1700"
-      },
-      "gyroscopeData": {
-        "alpha": 348,
-        "beta": 46,
-        "gamma": -1
-      },
-      "timestamp": 1733482867490
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482869683.jpg",
-    "dateCapture": "2024-12-06T11:01:09.945Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -34,
-        "yaw": -1,
-        "roll": -4,
-        "eyeDistance": 810,
-        "eyeLeft": "675,1974",
-        "eyeRight": "1483,1923"
-      },
-      "gyroscopeData": {
-        "alpha": 349,
-        "beta": 45,
-        "gamma": -2
-      },
-      "timestamp": 1733482869819
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482871592.jpg",
-    "dateCapture": "2024-12-06T11:01:11.893Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -22,
-        "yaw": -15,
-        "roll": -8,
-        "eyeDistance": 824,
-        "eyeLeft": "480,1899",
-        "eyeRight": "1296,1792"
-      },
-      "gyroscopeData": {
-        "alpha": 358,
-        "beta": 62,
-        "gamma": -5
-      },
-      "timestamp": 1733482871734
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482874159.jpg",
-    "dateCapture": "2024-12-06T11:01:14.500Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -30,
-        "yaw": 35,
-        "roll": 6,
-        "eyeDistance": 725,
-        "eyeLeft": "874,1974",
-        "eyeRight": "1595,2048"
-      },
-      "gyroscopeData": {
-        "alpha": 350,
-        "beta": 54,
-        "gamma": -15
-      },
-      "timestamp": 1733482874284
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482879808.jpg",
-    "dateCapture": "2024-12-06T11:01:20.096Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -71,
-        "yaw": 10,
-        "roll": -85,
-        "eyeDistance": 663,
-        "eyeLeft": "996,2735",
-        "eyeRight": "1056,2075"
-      },
-      "gyroscopeData": {
-        "alpha": 69,
-        "beta": 6,
-        "gamma": -55
-      },
-      "timestamp": 1733482879950
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482882270.jpg",
-    "dateCapture": "2024-12-06T11:01:22.497Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 72,
-        "yaw": 66,
-        "roll": -92,
-        "eyeDistance": 851,
-        "eyeLeft": "551,2782",
-        "eyeRight": "522,1931"
-      },
-      "gyroscopeData": {
-        "alpha": 258,
-        "beta": -179,
-        "gamma": 66
-      },
-      "timestamp": 1733482882382
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482886180.jpg",
-    "dateCapture": "2024-12-06T11:01:26.447Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 58,
-        "yaw": 65,
-        "roll": -90,
-        "eyeDistance": 732,
-        "eyeLeft": "1082,2466",
-        "eyeRight": "1084,1734"
-      },
-      "gyroscopeData": {
-        "alpha": 237,
-        "beta": 178,
-        "gamma": 78
-      },
-      "timestamp": 1733482886301
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482888899.jpg",
-    "dateCapture": "2024-12-06T11:01:29.244Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 53,
-        "yaw": 33,
-        "roll": -88,
-        "eyeDistance": 576,
-        "eyeLeft": "851,2378",
-        "eyeRight": "868,1802"
-      },
-      "gyroscopeData": {
-        "alpha": 221,
-        "beta": 179,
-        "gamma": 85
-      },
-      "timestamp": 1733482889001
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482892071.jpg",
-    "dateCapture": "2024-12-06T11:01:32.408Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 49,
-        "yaw": 27,
-        "roll": -88,
-        "eyeDistance": 512,
-        "eyeLeft": "970,2368",
-        "eyeRight": "990,1856"
-      },
-      "gyroscopeData": {
-        "alpha": 36,
-        "beta": 1,
-        "gamma": -70
-      },
-      "timestamp": 1733482892178
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482893942.jpg",
-    "dateCapture": "2024-12-06T11:01:34.167Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 26,
-        "yaw": 26,
-        "roll": -86,
-        "eyeDistance": 487,
-        "eyeLeft": "960,2318",
-        "eyeRight": "993,1832"
-      },
-      "gyroscopeData": {
-        "alpha": 36,
-        "beta": 1,
-        "gamma": -67
-      },
-      "timestamp": 1733482894051
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482897339.jpg",
-    "dateCapture": "2024-12-06T11:01:37.574Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 95,
-        "yaw": 49,
-        "roll": -149,
-        "eyeDistance": 474,
-        "eyeLeft": "1456,2000",
-        "eyeRight": "1049,1758"
-      },
-      "gyroscopeData": {
-        "alpha": 205,
-        "beta": -132,
-        "gamma": 51
-      },
-      "timestamp": 1733482897441
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482903904.jpg",
-    "dateCapture": "2024-12-06T11:01:44.168Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 103,
-        "yaw": -13,
-        "roll": 178,
-        "eyeDistance": 505,
-        "eyeLeft": "1313,2097",
-        "eyeRight": "808,2116"
-      },
-      "gyroscopeData": {
-        "alpha": 157,
-        "beta": -123,
-        "gamma": 8
-      },
-      "timestamp": 1733482903997
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482906806.jpg",
-    "dateCapture": "2024-12-06T11:01:47.085Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 64,
-        "yaw": 35,
-        "roll": -90,
-        "eyeDistance": 562,
-        "eyeLeft": "909,2522",
-        "eyeRight": "911,1959"
-      },
-      "gyroscopeData": {
-        "alpha": 238,
-        "beta": 174,
-        "gamma": 81
-      },
-      "timestamp": 1733482906898
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482906912.jpg",
-    "dateCapture": "2024-12-06T11:01:47.173Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 63,
-        "yaw": 36,
-        "roll": -90,
-        "eyeDistance": 560,
-        "eyeLeft": "905,2503",
-        "eyeRight": "907,1943"
-      },
-      "gyroscopeData": {
-        "alpha": 238,
-        "beta": 174,
-        "gamma": 81
-      },
-      "timestamp": 1733482907022
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482910505.jpg",
-    "dateCapture": "2024-12-06T11:01:50.831Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -10,
-        "yaw": 25,
-        "roll": -60,
-        "eyeDistance": 583,
-        "eyeLeft": "794,2210",
-        "eyeRight": "1089,1707"
-      },
-      "gyroscopeData": {
-        "alpha": 239,
-        "beta": 153,
-        "gamma": 90
-      },
-      "timestamp": 1733482910602
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482913025.jpg",
-    "dateCapture": "2024-12-06T11:01:53.278Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -22,
-        "yaw": 3,
-        "roll": 1,
-        "eyeDistance": 612,
-        "eyeLeft": "837,2052",
-        "eyeRight": "1448,2067"
-      },
-      "gyroscopeData": {
-        "alpha": 340,
-        "beta": 70,
-        "gamma": 1
-      },
-      "timestamp": 1733482913120
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482915104.jpg",
-    "dateCapture": "2024-12-06T11:01:55.319Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -18,
-        "yaw": 3,
-        "roll": 0,
-        "eyeDistance": 854,
-        "eyeLeft": "645,2149",
-        "eyeRight": "1499,2153"
-      },
-      "gyroscopeData": {
-        "alpha": 339,
-        "beta": 69,
-        "gamma": 1
-      },
-      "timestamp": 1733482915196
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482918188.jpg",
-    "dateCapture": "2024-12-06T11:01:58.385Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 33,
-        "yaw": -5,
-        "roll": 0,
-        "eyeDistance": 698,
-        "eyeLeft": "861,2128",
-        "eyeRight": "1559,2125"
-      },
-      "gyroscopeData": {
-        "alpha": 340,
-        "beta": 123,
-        "gamma": 6
-      },
-      "timestamp": 1733482918267
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482920740.jpg",
-    "dateCapture": "2024-12-06T11:02:00.962Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -23,
-        "yaw": 6,
-        "roll": -33,
-        "eyeDistance": 643,
-        "eyeLeft": "643,2475",
-        "eyeRight": "1184,2128"
-      },
-      "gyroscopeData": {
-        "alpha": 58,
-        "beta": 56,
-        "gamma": -60
-      },
-      "timestamp": 1733482920815
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482923023.jpg",
-    "dateCapture": "2024-12-06T11:02:03.327Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -19,
-        "yaw": 8,
-        "roll": -22,
-        "eyeDistance": 648,
-        "eyeLeft": "685,2304",
-        "eyeRight": "1288,2066"
-      },
-      "gyroscopeData": {
-        "alpha": 360,
-        "beta": 76,
-        "gamma": 2
-      },
-      "timestamp": 1733482923102
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482926391.jpg",
-    "dateCapture": "2024-12-06T11:02:06.641Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -21,
-        "yaw": -55,
-        "roll": 2,
-        "eyeDistance": 418,
-        "eyeLeft": "739,2096",
-        "eyeRight": "1157,2109"
-      },
-      "gyroscopeData": {
-        "alpha": 7,
-        "beta": 78,
-        "gamma": -6
-      },
-      "timestamp": 1733482926477
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482928541.jpg",
-    "dateCapture": "2024-12-06T11:02:08.756Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -17,
-        "yaw": -57,
-        "roll": -1,
-        "eyeDistance": 544,
-        "eyeLeft": "633,2007",
-        "eyeRight": "1177,2001"
-      },
-      "gyroscopeData": {
-        "alpha": 29,
-        "beta": 85,
-        "gamma": -24
-      },
-      "timestamp": 1733482928626
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482931225.jpg",
-    "dateCapture": "2024-12-06T11:02:11.489Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -10,
-        "yaw": -57,
-        "roll": -1,
-        "eyeDistance": 685,
-        "eyeLeft": "546,1917",
-        "eyeRight": "1231,1906"
-      },
-      "gyroscopeData": {
-        "alpha": 289,
-        "beta": 93,
-        "gamma": 77
-      },
-      "timestamp": 1733482931320
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482934359.jpg",
-    "dateCapture": "2024-12-06T11:02:14.602Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -18,
-        "yaw": 55,
-        "roll": -1,
-        "eyeDistance": 533,
-        "eyeLeft": "1190,2032",
-        "eyeRight": "1723,2026"
-      },
-      "gyroscopeData": {
-        "alpha": 23,
-        "beta": 83,
-        "gamma": -27
-      },
-      "timestamp": 1733482934442
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482936559.jpg",
-    "dateCapture": "2024-12-06T11:02:16.776Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -7,
-        "yaw": 40,
-        "roll": 7,
-        "eyeDistance": 737,
-        "eyeLeft": "1073,1909",
-        "eyeRight": "1805,1993"
-      },
-      "gyroscopeData": {
-        "alpha": 58,
-        "beta": 87,
-        "gamma": -61
-      },
-      "timestamp": 1733482936638
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482938860.jpg",
-    "dateCapture": "2024-12-06T11:02:19.078Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 21,
-        "yaw": 59,
-        "roll": -16,
-        "eyeDistance": 795,
-        "eyeLeft": "1113,1998",
-        "eyeRight": "1876,1772"
-      },
-      "gyroscopeData": {
-        "alpha": 316,
-        "beta": 115,
-        "gamma": 10
-      },
-      "timestamp": 1733482938955
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733482941092.jpg",
-    "dateCapture": "2024-12-06T11:02:21.343Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -4,
-        "yaw": -50,
-        "roll": -3,
-        "eyeDistance": 597,
-        "eyeLeft": "441,2071",
-        "eyeRight": "1037,2036"
-      },
-      "gyroscopeData": {
-        "alpha": 340,
-        "beta": 105,
-        "gamma": 4
-      },
-      "timestamp": 1733482941214
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733483787051.jpg",
-    "dateCapture": "2024-12-06T11:16:27.342Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -27,
-        "yaw": 19,
-        "roll": 8,
-        "eyeDistance": 777,
-        "eyeLeft": "-145,1661",
-        "eyeRight": "623,1776"
-      },
-      "gyroscopeData": {
-        "alpha": 358,
-        "beta": 31,
-        "gamma": 0
-      },
-      "timestamp": 1733483787137
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733483958224.jpg",
-    "dateCapture": "2024-12-06T11:19:18.399Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -21,
-        "yaw": 7,
-        "roll": -2,
-        "eyeDistance": 862,
-        "eyeLeft": "437,1990",
-        "eyeRight": "1299,1960"
-      },
-      "gyroscopeData": {
-        "alpha": 48,
-        "beta": 52,
-        "gamma": -7
-      },
-      "timestamp": 1733483958272
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733488395366.jpg",
-    "dateCapture": "2024-12-06T12:33:15.802Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -13,
-        "yaw": 4,
-        "roll": 0,
-        "eyeDistance": 755,
-        "eyeLeft": "697,1644",
-        "eyeRight": "1452,1639"
-      },
-      "gyroscopeData": {
-        "alpha": 4,
-        "beta": 68,
-        "gamma": -6
-      },
-      "timestamp": 1733488395467
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493939222.jpg",
-    "dateCapture": "2024-12-06T14:05:39.650Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 2,
-        "yaw": 7,
-        "roll": -1,
-        "eyeDistance": 662,
-        "eyeLeft": "799,2244",
-        "eyeRight": "1460,2228"
-      },
-      "gyroscopeData": {
-        "alpha": 353,
-        "beta": 99,
-        "gamma": -4
-      },
-      "timestamp": 1733493939327
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493939372.jpg",
-    "dateCapture": "2024-12-06T14:05:39.685Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 2,
-        "yaw": 4,
-        "roll": -2,
-        "eyeDistance": 663,
-        "eyeLeft": "794,2211",
-        "eyeRight": "1457,2194"
-      },
-      "gyroscopeData": {
-        "alpha": 352,
-        "beta": 99,
-        "gamma": -3
-      },
-      "timestamp": 1733493939455
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493945713.jpg",
-    "dateCapture": "2024-12-06T14:05:46.077Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 4,
-        "yaw": 1,
-        "roll": 1,
-        "eyeDistance": 658,
-        "eyeLeft": "778,2143",
-        "eyeRight": "1437,2158"
-      },
-      "gyroscopeData": {
-        "alpha": 351,
-        "beta": 99,
-        "gamma": -4
-      },
-      "timestamp": 1733493945786
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493948105.jpg",
-    "dateCapture": "2024-12-06T14:05:48.462Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -8,
-        "yaw": -1,
-        "roll": 0,
-        "eyeDistance": 632,
-        "eyeLeft": "835,2057",
-        "eyeRight": "1467,2059"
-      },
-      "gyroscopeData": {
-        "alpha": 353,
-        "beta": 86,
-        "gamma": -2
-      },
-      "timestamp": 1733493948178
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493950208.jpg",
-    "dateCapture": "2024-12-06T14:05:50.577Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -14,
-        "yaw": -4,
-        "roll": 0,
-        "eyeDistance": 610,
-        "eyeLeft": "864,2022",
-        "eyeRight": "1474,2019"
-      },
-      "gyroscopeData": {
-        "alpha": 353,
-        "beta": 78,
-        "gamma": -2
-      },
-      "timestamp": 1733493950291
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493952290.jpg",
-    "dateCapture": "2024-12-06T14:05:52.670Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -18,
-        "yaw": -1,
-        "roll": -1,
-        "eyeDistance": 613,
-        "eyeLeft": "882,2030",
-        "eyeRight": "1494,2021"
-      },
-      "gyroscopeData": {
-        "alpha": 355,
-        "beta": 69,
-        "gamma": -2
-      },
-      "timestamp": 1733493952364
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493954143.jpg",
-    "dateCapture": "2024-12-06T14:05:54.492Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -23,
-        "yaw": 1,
-        "roll": 0,
-        "eyeDistance": 589,
-        "eyeLeft": "918,2032",
-        "eyeRight": "1507,2037"
-      },
-      "gyroscopeData": {
-        "alpha": 354,
-        "beta": 63,
-        "gamma": -1
-      },
-      "timestamp": 1733493954215
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493956108.jpg",
-    "dateCapture": "2024-12-06T14:05:56.412Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -27,
-        "yaw": 1,
-        "roll": -1,
-        "eyeDistance": 590,
-        "eyeLeft": "863,2024",
-        "eyeRight": "1453,2011"
-      },
-      "gyroscopeData": {
-        "alpha": 356,
-        "beta": 58,
-        "gamma": -3
-      },
-      "timestamp": 1733493956180
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493958466.jpg",
-    "dateCapture": "2024-12-06T14:05:58.766Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -35,
-        "yaw": 1,
-        "roll": -1,
-        "eyeDistance": 632,
-        "eyeLeft": "859,1863",
-        "eyeRight": "1490,1847"
-      },
-      "gyroscopeData": {
-        "alpha": 0,
-        "beta": 55,
-        "gamma": -3
-      },
-      "timestamp": 1733493958538
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493960360.jpg",
-    "dateCapture": "2024-12-06T14:06:00.708Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -40,
-        "yaw": -2,
-        "roll": -1,
-        "eyeDistance": 678,
-        "eyeLeft": "815,1820",
-        "eyeRight": "1493,1811"
-      },
-      "gyroscopeData": {
-        "alpha": 2,
-        "beta": 47,
-        "gamma": -3
-      },
-      "timestamp": 1733493960433
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493962879.jpg",
-    "dateCapture": "2024-12-06T14:06:03.152Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -41,
-        "yaw": -2,
-        "roll": -2,
-        "eyeDistance": 723,
-        "eyeLeft": "747,1711",
-        "eyeRight": "1470,1681"
-      },
-      "gyroscopeData": {
-        "alpha": 7,
-        "beta": 44,
-        "gamma": -5
-      },
-      "timestamp": 1733493962953
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493965877.jpg",
-    "dateCapture": "2024-12-06T14:06:06.163Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 35,
-        "yaw": 9,
-        "roll": 0,
-        "eyeDistance": 679,
-        "eyeLeft": "750,2283",
-        "eyeRight": "1429,2281"
-      },
-      "gyroscopeData": {
-        "alpha": 350,
-        "beta": 111,
-        "gamma": -1
-      },
-      "timestamp": 1733493965957
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493967767.jpg",
-    "dateCapture": "2024-12-06T14:06:08.106Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 16,
-        "yaw": -2,
-        "roll": 0,
-        "eyeDistance": 667,
-        "eyeLeft": "810,2048",
-        "eyeRight": "1477,2053"
-      },
-      "gyroscopeData": {
-        "alpha": 351,
-        "beta": 98,
-        "gamma": 0
-      },
-      "timestamp": 1733493967851
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493969841.jpg",
-    "dateCapture": "2024-12-06T14:06:10.143Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 0,
-        "yaw": 34,
-        "roll": -5,
-        "eyeDistance": 520,
-        "eyeLeft": "831,2184",
-        "eyeRight": "1349,2139"
-      },
-      "gyroscopeData": {
-        "alpha": 329,
-        "beta": 96,
-        "gamma": 2
-      },
-      "timestamp": 1733493969917
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493971785.jpg",
-    "dateCapture": "2024-12-06T14:06:12.090Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 2,
-        "yaw": 36,
-        "roll": -23,
-        "eyeDistance": 502,
-        "eyeLeft": "714,2383",
-        "eyeRight": "1178,2190"
-      },
-      "gyroscopeData": {
-        "alpha": 257,
-        "beta": 108,
-        "gamma": 77
-      },
-      "timestamp": 1733493971862
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493973628.jpg",
-    "dateCapture": "2024-12-06T14:06:13.928Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 3,
-        "yaw": 40,
-        "roll": -32,
-        "eyeDistance": 484,
-        "eyeLeft": "598,2448",
-        "eyeRight": "1008,2190"
-      },
-      "gyroscopeData": {
-        "alpha": 247,
-        "beta": 118,
-        "gamma": 84
-      },
-      "timestamp": 1733493973714
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493975425.jpg",
-    "dateCapture": "2024-12-06T14:06:15.786Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 9,
-        "yaw": 43,
-        "roll": -42,
-        "eyeDistance": 495,
-        "eyeLeft": "704,2522",
-        "eyeRight": "1070,2188"
-      },
-      "gyroscopeData": {
-        "alpha": 247,
-        "beta": 128,
-        "gamma": 86
-      },
-      "timestamp": 1733493975503
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493977255.jpg",
-    "dateCapture": "2024-12-06T14:06:17.525Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 10,
-        "yaw": 43,
-        "roll": -48,
-        "eyeDistance": 476,
-        "eyeLeft": "726,2538",
-        "eyeRight": "1046,2186"
-      },
-      "gyroscopeData": {
-        "alpha": 245,
-        "beta": 135,
-        "gamma": 87
-      },
-      "timestamp": 1733493977335
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493978995.jpg",
-    "dateCapture": "2024-12-06T14:06:19.275Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 13,
-        "yaw": 45,
-        "roll": -55,
-        "eyeDistance": 479,
-        "eyeLeft": "817,2562",
-        "eyeRight": "1094,2172"
-      },
-      "gyroscopeData": {
-        "alpha": 243,
-        "beta": 143,
-        "gamma": 90
-      },
-      "timestamp": 1733493979075
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493980839.jpg",
-    "dateCapture": "2024-12-06T14:06:21.111Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 14,
-        "yaw": 45,
-        "roll": -60,
-        "eyeDistance": 468,
-        "eyeLeft": "899,2635",
-        "eyeRight": "1134,2231"
-      },
-      "gyroscopeData": {
-        "alpha": 61,
-        "beta": 31,
-        "gamma": -88
-      },
-      "timestamp": 1733493980915
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493988531.jpg",
-    "dateCapture": "2024-12-06T14:06:28.840Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 23,
-        "yaw": 41,
-        "roll": -73,
-        "eyeDistance": 420,
-        "eyeLeft": "1072,2284",
-        "eyeRight": "1192,1881"
-      },
-      "gyroscopeData": {
-        "alpha": 66,
-        "beta": 19,
-        "gamma": -88
-      },
-      "timestamp": 1733493988620
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493990728.jpg",
-    "dateCapture": "2024-12-06T14:06:31.138Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -10,
-        "yaw": 40,
-        "roll": -53,
-        "eyeDistance": 418,
-        "eyeLeft": "955,2071",
-        "eyeRight": "1207,1738"
-      },
-      "gyroscopeData": {
-        "alpha": 55,
-        "beta": 35,
-        "gamma": -87
-      },
-      "timestamp": 1733493990814
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493993202.jpg",
-    "dateCapture": "2024-12-06T14:06:33.461Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -16,
-        "yaw": 33,
-        "roll": -51,
-        "eyeDistance": 440,
-        "eyeLeft": "913,2016",
-        "eyeRight": "1191,1675"
-      },
-      "gyroscopeData": {
-        "alpha": 52,
-        "beta": 37,
-        "gamma": -78
-      },
-      "timestamp": 1733493993277
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493996011.jpg",
-    "dateCapture": "2024-12-06T14:06:36.302Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 50,
-        "yaw": 59,
-        "roll": -78,
-        "eyeDistance": 488,
-        "eyeLeft": "1067,2352",
-        "eyeRight": "1169,1875"
-      },
-      "gyroscopeData": {
-        "alpha": 255,
-        "beta": 168,
-        "gamma": 72
-      },
-      "timestamp": 1733493996106
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733493999324.jpg",
-    "dateCapture": "2024-12-06T14:06:39.659Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 101,
-        "yaw": 49,
-        "roll": -102,
-        "eyeDistance": 483,
-        "eyeLeft": "1150,2561",
-        "eyeRight": "1052,2088"
-      },
-      "gyroscopeData": {
-        "alpha": 296,
-        "beta": -175,
-        "gamma": 77
-      },
-      "timestamp": 1733493999426
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494002073.jpg",
-    "dateCapture": "2024-12-06T14:06:42.392Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 108,
-        "yaw": 39,
-        "roll": -103,
-        "eyeDistance": 473,
-        "eyeLeft": "1124,2473",
-        "eyeRight": "1021,2011"
-      },
-      "gyroscopeData": {
-        "alpha": 295,
-        "beta": -177,
-        "gamma": 87
-      },
-      "timestamp": 1733494002172
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494004558.jpg",
-    "dateCapture": "2024-12-06T14:06:44.982Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 114,
-        "yaw": 34,
-        "roll": -103,
-        "eyeDistance": 467,
-        "eyeLeft": "1017,2475",
-        "eyeRight": "916,2019"
-      },
-      "gyroscopeData": {
-        "alpha": 116,
-        "beta": -1,
-        "gamma": -83
-      },
-      "timestamp": 1733494004665
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494007625.jpg",
-    "dateCapture": "2024-12-06T14:06:47.934Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 85,
-        "yaw": 58,
-        "roll": -100,
-        "eyeDistance": 501,
-        "eyeLeft": "1336,2556",
-        "eyeRight": "1249,2062"
-      },
-      "gyroscopeData": {
-        "alpha": 287,
-        "beta": -179,
-        "gamma": 75
-      },
-      "timestamp": 1733494007719
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494011427.jpg",
-    "dateCapture": "2024-12-06T14:06:51.829Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 113,
-        "yaw": 30,
-        "roll": -157,
-        "eyeDistance": 476,
-        "eyeLeft": "1346,1966",
-        "eyeRight": "909,1778"
-      },
-      "gyroscopeData": {
-        "alpha": 251,
-        "beta": -121,
-        "gamma": 64
-      },
-      "timestamp": 1733494011517
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494015558.jpg",
-    "dateCapture": "2024-12-06T14:06:55.838Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 73,
-        "yaw": 32,
-        "roll": -92,
-        "eyeDistance": 436,
-        "eyeLeft": "1032,2369",
-        "eyeRight": "1016,1934"
-      },
-      "gyroscopeData": {
-        "alpha": 83,
-        "beta": 0,
-        "gamma": -83
-      },
-      "timestamp": 1733494015652
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494019256.jpg",
-    "dateCapture": "2024-12-06T14:06:59.608Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 69,
-        "yaw": 51,
-        "roll": -92,
-        "eyeDistance": 593,
-        "eyeLeft": "1019,1904",
-        "eyeRight": "998,1311"
-      },
-      "gyroscopeData": {
-        "alpha": 88,
-        "beta": 0,
-        "gamma": -89
-      },
-      "timestamp": 1733494019347
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494020976.jpg",
-    "dateCapture": "2024-12-06T14:07:01.285Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 69,
-        "yaw": 51,
-        "roll": -91,
-        "eyeDistance": 594,
-        "eyeLeft": "1004,1898",
-        "eyeRight": "991,1304"
-      },
-      "gyroscopeData": {
-        "alpha": 88,
-        "beta": 0,
-        "gamma": -90
-      },
-      "timestamp": 1733494021080
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494024448.jpg",
-    "dateCapture": "2024-12-06T14:07:04.871Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 53,
-        "yaw": 55,
-        "roll": -88,
-        "eyeDistance": 488,
-        "eyeLeft": "1000,2183",
-        "eyeRight": "1016,1695"
-      },
-      "gyroscopeData": {
-        "alpha": 251,
-        "beta": 178,
-        "gamma": 89
-      },
-      "timestamp": 1733494024552
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494027117.jpg",
-    "dateCapture": "2024-12-06T14:07:07.508Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 47,
-        "yaw": 23,
-        "roll": -88,
-        "eyeDistance": 482,
-        "eyeLeft": "762,2248",
-        "eyeRight": "778,1766"
-      },
-      "gyroscopeData": {
-        "alpha": 70,
-        "beta": 3,
-        "gamma": -71
-      },
-      "timestamp": 1733494027216
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494030604.jpg",
-    "dateCapture": "2024-12-06T14:07:10.885Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -27,
-        "yaw": 16,
-        "roll": -68,
-        "eyeDistance": 458,
-        "eyeLeft": "908,2352",
-        "eyeRight": "1079,1926"
-      },
-      "gyroscopeData": {
-        "alpha": 58,
-        "beta": 19,
-        "gamma": -57
-      },
-      "timestamp": 1733494030689
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494033861.jpg",
-    "dateCapture": "2024-12-06T14:07:14.252Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -2,
-        "yaw": 4,
-        "roll": -1,
-        "eyeDistance": 510,
-        "eyeLeft": "805,1968",
-        "eyeRight": "1316,1962"
-      },
-      "gyroscopeData": {
-        "alpha": 341,
-        "beta": 85,
-        "gamma": 6
-      },
-      "timestamp": 1733494033947
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494036245.jpg",
-    "dateCapture": "2024-12-06T14:07:16.655Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 25,
-        "yaw": -12,
-        "roll": 1,
-        "eyeDistance": 569,
-        "eyeLeft": "811,1935",
-        "eyeRight": "1380,1948"
-      },
-      "gyroscopeData": {
-        "alpha": 355,
-        "beta": 113,
-        "gamma": -4
-      },
-      "timestamp": 1733494036338
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494038416.jpg",
-    "dateCapture": "2024-12-06T14:07:18.793Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -20,
-        "yaw": 6,
-        "roll": -2,
-        "eyeDistance": 423,
-        "eyeLeft": "857,1947",
-        "eyeRight": "1280,1933"
-      },
-      "gyroscopeData": {
-        "alpha": 338,
-        "beta": 84,
-        "gamma": 6
-      },
-      "timestamp": 1733494038501
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494041399.jpg",
-    "dateCapture": "2024-12-06T14:07:21.710Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 6,
-        "yaw": 4,
-        "roll": -2,
-        "eyeDistance": 358,
-        "eyeLeft": "807,2229",
-        "eyeRight": "1166,2219"
-      },
-      "gyroscopeData": {
-        "alpha": 270,
-        "beta": 88,
-        "gamma": 68
-      },
-      "timestamp": 1733494041489
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494043885.jpg",
-    "dateCapture": "2024-12-06T14:07:24.189Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -6,
-        "yaw": 32,
-        "roll": -1,
-        "eyeDistance": 328,
-        "eyeLeft": "897,2186",
-        "eyeRight": "1225,2178"
-      },
-      "gyroscopeData": {
-        "alpha": 320,
-        "beta": 88,
-        "gamma": -3
-      },
-      "timestamp": 1733494043976
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494047108.jpg",
-    "dateCapture": "2024-12-06T14:07:27.463Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -7,
-        "yaw": -20,
-        "roll": -3,
-        "eyeDistance": 409,
-        "eyeLeft": "1038,2125",
-        "eyeRight": "1447,2106"
-      },
-      "gyroscopeData": {
-        "alpha": 10,
-        "beta": 87,
-        "gamma": 8
-      },
-      "timestamp": 1733494047198
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494048505.jpg",
-    "dateCapture": "2024-12-06T14:07:28.799Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 4,
-        "yaw": -22,
-        "roll": -2,
-        "eyeDistance": 434,
-        "eyeLeft": "1132,2219",
-        "eyeRight": "1566,2201"
-      },
-      "gyroscopeData": {
-        "alpha": 20,
-        "beta": 99,
-        "gamma": -2
-      },
-      "timestamp": 1733494048592
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494050642.jpg",
-    "dateCapture": "2024-12-06T14:07:31.042Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 19,
-        "yaw": -24,
-        "roll": -1,
-        "eyeDistance": 456,
-        "eyeLeft": "851,2047",
-        "eyeRight": "1307,2042"
-      },
-      "gyroscopeData": {
-        "alpha": 12,
-        "beta": 113,
-        "gamma": 3
-      },
-      "timestamp": 1733494050741
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494061490.jpg",
-    "dateCapture": "2024-12-06T14:07:41.792Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 28,
-        "yaw": 43,
-        "roll": -28,
-        "eyeDistance": 480,
-        "eyeLeft": "811,2328",
-        "eyeRight": "1234,2101"
-      },
-      "gyroscopeData": {
-        "alpha": 304,
-        "beta": 124,
-        "gamma": 36
-      },
-      "timestamp": 1733494061584
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494064315.jpg",
-    "dateCapture": "2024-12-06T14:07:44.677Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -7,
-        "yaw": 8,
-        "roll": -2,
-        "eyeDistance": 435,
-        "eyeLeft": "833,1995",
-        "eyeRight": "1268,1983"
-      },
-      "gyroscopeData": {
-        "alpha": 327,
-        "beta": 120,
-        "gamma": 16
-      },
-      "timestamp": 1733494064422
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494066524.jpg",
-    "dateCapture": "2024-12-06T14:07:46.920Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -11,
-        "yaw": 1,
-        "roll": 5,
-        "eyeDistance": 485,
-        "eyeLeft": "920,1932",
-        "eyeRight": "1404,1970"
-      },
-      "gyroscopeData": {
-        "alpha": 1,
-        "beta": 114,
-        "gamma": -6
-      },
-      "timestamp": 1733494066617
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494068921.jpg",
-    "dateCapture": "2024-12-06T14:07:49.226Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 1,
-        "yaw": -9,
-        "roll": -11,
-        "eyeDistance": 505,
-        "eyeLeft": "708,2108",
-        "eyeRight": "1203,2012"
-      },
-      "gyroscopeData": {
-        "alpha": 2,
-        "beta": 114,
-        "gamma": -6
-      },
-      "timestamp": 1733494069008
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494071671.jpg",
-    "dateCapture": "2024-12-06T14:07:52.061Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -20,
-        "yaw": 2,
-        "roll": -4,
-        "eyeDistance": 577,
-        "eyeLeft": "835,1908",
-        "eyeRight": "1411,1873"
-      },
-      "gyroscopeData": {
-        "alpha": 356,
-        "beta": 81,
-        "gamma": 1
-      },
-      "timestamp": 1733494071755
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494073760.jpg",
-    "dateCapture": "2024-12-06T14:07:54.093Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -22,
-        "yaw": 7,
-        "roll": -29,
-        "eyeDistance": 527,
-        "eyeLeft": "707,2103",
-        "eyeRight": "1168,1848"
-      },
-      "gyroscopeData": {
-        "alpha": 58,
-        "beta": 63,
-        "gamma": -55
-      },
-      "timestamp": 1733494073845
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494076242.jpg",
-    "dateCapture": "2024-12-06T14:07:56.551Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 34,
-        "yaw": 43,
-        "roll": -33,
-        "eyeDistance": 535,
-        "eyeLeft": "628,2140",
-        "eyeRight": "1077,1851"
-      },
-      "gyroscopeData": {
-        "alpha": 318,
-        "beta": 129,
-        "gamma": 37
-      },
-      "timestamp": 1733494076330
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494085904.jpg",
-    "dateCapture": "2024-12-06T14:08:06.203Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -8,
-        "yaw": 3,
-        "roll": 0,
-        "eyeDistance": 528,
-        "eyeLeft": "863,2367",
-        "eyeRight": "1392,2369"
-      },
-      "gyroscopeData": {
-        "alpha": 342,
-        "beta": 98,
-        "gamma": 1
-      },
-      "timestamp": 1733494085989
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494088763.jpg",
-    "dateCapture": "2024-12-06T14:08:09.066Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -30,
-        "yaw": 4,
-        "roll": -1,
-        "eyeDistance": 768,
-        "eyeLeft": "648,2180",
-        "eyeRight": "1416,2167"
-      },
-      "gyroscopeData": {
-        "alpha": 352,
-        "beta": 47,
-        "gamma": 1
-      },
-      "timestamp": 1733494088850
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494091450.jpg",
-    "dateCapture": "2024-12-06T14:08:11.807Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 1,
-        "yaw": 5,
-        "roll": -1,
-        "eyeDistance": 737,
-        "eyeLeft": "678,2171",
-        "eyeRight": "1415,2152"
-      },
-      "gyroscopeData": {
-        "alpha": 0,
-        "beta": 92,
-        "gamma": -3
-      },
-      "timestamp": 1733494091536
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494095153.jpg",
-    "dateCapture": "2024-12-06T14:08:15.496Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -12,
-        "yaw": 1,
-        "roll": -1,
-        "eyeDistance": 657,
-        "eyeLeft": "777,1966",
-        "eyeRight": "1434,1955"
-      },
-      "gyroscopeData": {
-        "alpha": 359,
-        "beta": 81,
-        "gamma": 0
-      },
-      "timestamp": 1733494095240
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494105409.jpg",
-    "dateCapture": "2024-12-06T14:08:25.729Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -2,
-        "yaw": 22,
-        "roll": 1,
-        "eyeDistance": 555,
-        "eyeLeft": "971,2258",
-        "eyeRight": "1526,2270"
-      },
-      "gyroscopeData": {
-        "alpha": 268,
-        "beta": 89,
-        "gamma": 62
-      },
-      "timestamp": 1733494105499
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494108859.jpg",
-    "dateCapture": "2024-12-06T14:08:29.163Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -16,
-        "yaw": -51,
-        "roll": 2,
-        "eyeDistance": 396,
-        "eyeLeft": "536,2256",
-        "eyeRight": "931,2272"
-      },
-      "gyroscopeData": {
-        "alpha": 5,
-        "beta": 86,
-        "gamma": -25
-      },
-      "timestamp": 1733494108953
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494111652.jpg",
-    "dateCapture": "2024-12-06T14:08:31.968Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -14,
-        "yaw": 70,
-        "roll": -9,
-        "eyeDistance": 356,
-        "eyeLeft": "1337,2194",
-        "eyeRight": "1689,2136"
-      },
-      "gyroscopeData": {
-        "alpha": 6,
-        "beta": 87,
-        "gamma": -31
-      },
-      "timestamp": 1733494111743
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494114796.jpg",
-    "dateCapture": "2024-12-06T14:08:35.175Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -15,
-        "yaw": 57,
-        "roll": -3,
-        "eyeDistance": 430,
-        "eyeLeft": "1269,2209",
-        "eyeRight": "1698,2183"
-      },
-      "gyroscopeData": {
-        "alpha": 353,
-        "beta": 88,
-        "gamma": -16
-      },
-      "timestamp": 1733494114878
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494121314.jpg",
-    "dateCapture": "2024-12-06T14:08:41.632Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 0,
-        "yaw": 20,
-        "roll": 22,
-        "eyeDistance": 539,
-        "eyeLeft": "1048,2042",
-        "eyeRight": "1550,2240"
-      },
-      "gyroscopeData": {
-        "alpha": 298,
-        "beta": 99,
-        "gamma": 28
-      },
-      "timestamp": 1733494121406
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494123350.jpg",
-    "dateCapture": "2024-12-06T14:08:43.666Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 0,
-        "yaw": 44,
-        "roll": -1,
-        "eyeDistance": 525,
-        "eyeLeft": "1151,1989",
-        "eyeRight": "1676,1981"
-      },
-      "gyroscopeData": {
-        "alpha": 304,
-        "beta": 114,
-        "gamma": 7
-      },
-      "timestamp": 1733494123436
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494125766.jpg",
-    "dateCapture": "2024-12-06T14:08:46.057Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -21,
-        "yaw": 26,
-        "roll": 2,
-        "eyeDistance": 508,
-        "eyeLeft": "985,1848",
-        "eyeRight": "1493,1864"
-      },
-      "gyroscopeData": {
-        "alpha": 346,
-        "beta": 86,
-        "gamma": -40
-      },
-      "timestamp": 1733494125853
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494127739.jpg",
-    "dateCapture": "2024-12-06T14:08:48.027Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -20,
-        "yaw": 3,
-        "roll": -1,
-        "eyeDistance": 635,
-        "eyeLeft": "921,1988",
-        "eyeRight": "1555,1978"
-      },
-      "gyroscopeData": {
-        "alpha": 348,
-        "beta": 71,
-        "gamma": -7
-      },
-      "timestamp": 1733494127835
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494129888.jpg",
-    "dateCapture": "2024-12-06T14:08:50.283Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -29,
-        "yaw": -38,
-        "roll": -22,
-        "eyeDistance": 600,
-        "eyeLeft": "271,2101",
-        "eyeRight": "828,1876"
-      },
-      "gyroscopeData": {
-        "alpha": 30,
-        "beta": 68,
-        "gamma": -17
-      },
-      "timestamp": 1733494129974
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494131858.jpg",
-    "dateCapture": "2024-12-06T14:08:52.135Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -39,
-        "yaw": -35,
-        "roll": -23,
-        "eyeDistance": 567,
-        "eyeLeft": "461,1928",
-        "eyeRight": "984,1710"
-      },
-      "gyroscopeData": {
-        "alpha": 31,
-        "beta": 59,
-        "gamma": -19
-      },
-      "timestamp": 1733494131943
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494133791.jpg",
-    "dateCapture": "2024-12-06T14:08:54.092Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -46,
-        "yaw": -8,
-        "roll": -16,
-        "eyeDistance": 725,
-        "eyeLeft": "589,1834",
-        "eyeRight": "1285,1631"
-      },
-      "gyroscopeData": {
-        "alpha": 9,
-        "beta": 52,
-        "gamma": -11
-      },
-      "timestamp": 1733494133875
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494135766.jpg",
-    "dateCapture": "2024-12-06T14:08:56.081Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -39,
-        "yaw": 2,
-        "roll": -9,
-        "eyeDistance": 713,
-        "eyeLeft": "782,1855",
-        "eyeRight": "1487,1749"
-      },
-      "gyroscopeData": {
-        "alpha": 353,
-        "beta": 53,
-        "gamma": -7
-      },
-      "timestamp": 1733494135844
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494138141.jpg",
-    "dateCapture": "2024-12-06T14:08:58.412Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -31,
-        "yaw": 17,
-        "roll": 9,
-        "eyeDistance": 716,
-        "eyeLeft": "987,1763",
-        "eyeRight": "1694,1877"
-      },
-      "gyroscopeData": {
-        "alpha": 352,
-        "beta": 53,
-        "gamma": -9
-      },
-      "timestamp": 1733494138220
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494141275.jpg",
-    "dateCapture": "2024-12-06T14:09:01.586Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 9,
-        "yaw": 13,
-        "roll": -2,
-        "eyeDistance": 666,
-        "eyeLeft": "761,2366",
-        "eyeRight": "1426,2340"
-      },
-      "gyroscopeData": {
-        "alpha": 335,
-        "beta": 111,
-        "gamma": 0
-      },
-      "timestamp": 1733494141363
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494143248.jpg",
-    "dateCapture": "2024-12-06T14:09:03.578Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 23,
-        "yaw": 47,
-        "roll": -6,
-        "eyeDistance": 599,
-        "eyeLeft": "995,2521",
-        "eyeRight": "1591,2459"
-      },
-      "gyroscopeData": {
-        "alpha": 330,
-        "beta": 113,
-        "gamma": -3
-      },
-      "timestamp": 1733494143346
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494146145.jpg",
-    "dateCapture": "2024-12-06T14:09:06.478Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 4,
-        "yaw": -8,
-        "roll": 1,
-        "eyeDistance": 632,
-        "eyeLeft": "691,2229",
-        "eyeRight": "1323,2243"
-      },
-      "gyroscopeData": {
-        "alpha": 331,
-        "beta": 110,
-        "gamma": 1
-      },
-      "timestamp": 1733494146241
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494148470.jpg",
-    "dateCapture": "2024-12-06T14:09:08.870Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -18,
-        "yaw": -44,
-        "roll": -1,
-        "eyeDistance": 554,
-        "eyeLeft": "590,2077",
-        "eyeRight": "1144,2070"
-      },
-      "gyroscopeData": {
-        "alpha": 43,
-        "beta": 86,
-        "gamma": -56
-      },
-      "timestamp": 1733494148556
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494151099.jpg",
-    "dateCapture": "2024-12-06T14:09:11.490Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -33,
-        "yaw": -5,
-        "roll": -2,
-        "eyeDistance": 729,
-        "eyeLeft": "856,1893",
-        "eyeRight": "1584,1868"
-      },
-      "gyroscopeData": {
-        "alpha": 351,
-        "beta": 54,
-        "gamma": -3
-      },
-      "timestamp": 1733494151187
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494153178.jpg",
-    "dateCapture": "2024-12-06T14:09:13.578Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": 39,
-        "yaw": 29,
-        "roll": -7,
-        "eyeDistance": 618,
-        "eyeLeft": "719,3103",
-        "eyeRight": "1333,3030"
-      },
-      "gyroscopeData": {
-        "alpha": 322,
-        "beta": 117,
-        "gamma": 27
-      },
-      "timestamp": 1733494153264
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494155251.jpg",
-    "dateCapture": "2024-12-06T14:09:15.600Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -3,
-        "yaw": 16,
-        "roll": -14,
-        "eyeDistance": 539,
-        "eyeLeft": "777,2179",
-        "eyeRight": "1299,2045"
-      },
-      "gyroscopeData": {
-        "alpha": 263,
-        "beta": 104,
-        "gamma": 78
-      },
-      "timestamp": 1733494155336
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494157352.jpg",
-    "dateCapture": "2024-12-06T14:09:17.729Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -29,
-        "yaw": 35,
-        "roll": 1,
-        "eyeDistance": 498,
-        "eyeLeft": "1123,2025",
-        "eyeRight": "1621,2030"
-      },
-      "gyroscopeData": {
-        "alpha": 338,
-        "beta": 75,
-        "gamma": -19
-      },
-      "timestamp": 1733494157440
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494159312.jpg",
-    "dateCapture": "2024-12-06T14:09:19.589Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -6,
-        "yaw": 39,
-        "roll": -3,
-        "eyeDistance": 750,
-        "eyeLeft": "1021,2188",
-        "eyeRight": "1770,2147"
-      },
-      "gyroscopeData": {
-        "alpha": 336,
-        "beta": 82,
-        "gamma": -19
-      },
-      "timestamp": 1733494159401
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494161503.jpg",
-    "dateCapture": "2024-12-06T14:09:21.841Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -9,
-        "yaw": 51,
-        "roll": -3,
-        "eyeDistance": 692,
-        "eyeLeft": "996,1956",
-        "eyeRight": "1686,1915"
-      },
-      "gyroscopeData": {
-        "alpha": 338,
-        "beta": 86,
-        "gamma": -29
-      },
-      "timestamp": 1733494161584
-    }
-  },
-  {
-    "imagePath": "/images/capture_1733494163673.jpg",
-    "dateCapture": "2024-12-06T14:09:24.003Z",
-    "detectorData": {
-      "faceData": {
-        "pitch": -14,
-        "yaw": 27,
-        "roll": -2,
-        "eyeDistance": 921,
-        "eyeLeft": "887,1868",
-        "eyeRight": "1807,1844"
-      },
-      "gyroscopeData": {
-        "alpha": 339,
-        "beta": 77,
-        "gamma": -13
-      },
-      "timestamp": 1733494163760
-    }
-  }
-]
+{
+  "Up": [
+    {
+      "imagePath": "/images/selfie1735130624958.jpg",
+      "dateCapture": "2024-12-25T12:43:45.086Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 26,
+          "yaw": 1,
+          "roll": -1,
+          "eyeDistance": 670,
+          "eyeLeft": "746,2121",
+          "eyeRight": "1416,2109"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 108,
+          "gamma": 1
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130627298.jpg",
+      "dateCapture": "2024-12-25T12:43:47.463Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 17,
+          "yaw": 3,
+          "roll": -3,
+          "eyeDistance": 720,
+          "eyeLeft": "731,1910",
+          "eyeRight": "1450,1878"
+        },
+        "gyroscopeData": {
+          "alpha": 352,
+          "beta": 127,
+          "gamma": 4
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130628961.jpg",
+      "dateCapture": "2024-12-25T12:43:49.096Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 35,
+          "yaw": 4,
+          "roll": -2,
+          "eyeDistance": 760,
+          "eyeLeft": "651,2196",
+          "eyeRight": "1411,2169"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 139,
+          "gamma": 2
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130629833.jpg",
+      "dateCapture": "2024-12-25T12:43:50.005Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 18,
+          "yaw": 1,
+          "roll": -3,
+          "eyeDistance": 698,
+          "eyeLeft": "706,2001",
+          "eyeRight": "1404,1969"
+        },
+        "gyroscopeData": {
+          "alpha": 352,
+          "beta": 125,
+          "gamma": 4
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130630755.jpg",
+      "dateCapture": "2024-12-25T12:43:50.926Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 6,
+          "yaw": 2,
+          "roll": -2,
+          "eyeDistance": 621,
+          "eyeLeft": "852,1899",
+          "eyeRight": "1473,1881"
+        },
+        "gyroscopeData": {
+          "alpha": 351,
+          "beta": 111,
+          "gamma": 7
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130633396.jpg",
+      "dateCapture": "2024-12-25T12:43:53.583Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -7,
+          "yaw": -1,
+          "roll": -1,
+          "eyeDistance": 573,
+          "eyeLeft": "848,1838",
+          "eyeRight": "1421,1829"
+        },
+        "gyroscopeData": {
+          "alpha": 350,
+          "beta": 98,
+          "gamma": 7
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130661806.jpg",
+      "dateCapture": "2024-12-25T12:44:22.109Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 45,
+          "yaw": -41,
+          "roll": 0,
+          "eyeDistance": 1247,
+          "eyeLeft": "381,2714",
+          "eyeRight": "1628,2709"
+        },
+        "gyroscopeData": {
+          "alpha": 339,
+          "beta": 101,
+          "gamma": 15
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130662944.jpg",
+      "dateCapture": "2024-12-25T12:44:23.091Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 28,
+          "yaw": 1,
+          "roll": -1,
+          "eyeDistance": 1144,
+          "eyeLeft": "530,2207",
+          "eyeRight": "1674,2196"
+        },
+        "gyroscopeData": {
+          "alpha": 327,
+          "beta": 96,
+          "gamma": 26
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130668661.jpg",
+      "dateCapture": "2024-12-25T12:44:28.802Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 14,
+          "yaw": 35,
+          "roll": -9,
+          "eyeDistance": 589,
+          "eyeLeft": "856,2429",
+          "eyeRight": "1438,2339"
+        },
+        "gyroscopeData": {
+          "alpha": 309,
+          "beta": 110,
+          "gamma": 7
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130669719.jpg",
+      "dateCapture": "2024-12-25T12:44:29.851Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 23,
+          "yaw": 29,
+          "roll": -4,
+          "eyeDistance": 643,
+          "eyeLeft": "864,2526",
+          "eyeRight": "1506,2484"
+        },
+        "gyroscopeData": {
+          "alpha": 320,
+          "beta": 110,
+          "gamma": 8
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130670475.jpg",
+      "dateCapture": "2024-12-25T12:44:30.610Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 24,
+          "yaw": -7,
+          "roll": -5,
+          "eyeDistance": 683,
+          "eyeLeft": "524,2723",
+          "eyeRight": "1204,2668"
+        },
+        "gyroscopeData": {
+          "alpha": 346,
+          "beta": 108,
+          "gamma": 9
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130671465.jpg",
+      "dateCapture": "2024-12-25T12:44:31.614Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -21,
+          "yaw": -35,
+          "roll": -6,
+          "eyeDistance": 578,
+          "eyeLeft": "659,2519",
+          "eyeRight": "1233,2461"
+        },
+        "gyroscopeData": {
+          "alpha": 67,
+          "beta": 84,
+          "gamma": -43
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130672591.jpg",
+      "dateCapture": "2024-12-25T12:44:32.736Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 13,
+          "yaw": 47,
+          "roll": -49,
+          "eyeDistance": 512,
+          "eyeLeft": "850,2478",
+          "eyeRight": "1189,2094"
+        },
+        "gyroscopeData": {
+          "alpha": 248,
+          "beta": 135,
+          "gamma": 73
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130673154.jpg",
+      "dateCapture": "2024-12-25T12:44:33.294Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 7,
+          "yaw": 42,
+          "roll": -38,
+          "eyeDistance": 518,
+          "eyeLeft": "998,2452",
+          "eyeRight": "1409,2135"
+        },
+        "gyroscopeData": {
+          "alpha": 253,
+          "beta": 125,
+          "gamma": 76
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130673698.jpg",
+      "dateCapture": "2024-12-25T12:44:33.831Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 6,
+          "yaw": 38,
+          "roll": -27,
+          "eyeDistance": 535,
+          "eyeLeft": "1040,2479",
+          "eyeRight": "1518,2240"
+        },
+        "gyroscopeData": {
+          "alpha": 259,
+          "beta": 115,
+          "gamma": 74
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130674358.jpg",
+      "dateCapture": "2024-12-25T12:44:34.497Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 5,
+          "yaw": 29,
+          "roll": -14,
+          "eyeDistance": 533,
+          "eyeLeft": "942,2537",
+          "eyeRight": "1459,2407"
+        },
+        "gyroscopeData": {
+          "alpha": 265,
+          "beta": 103,
+          "gamma": 67
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130675054.jpg",
+      "dateCapture": "2024-12-25T12:44:35.186Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 0,
+          "yaw": 11,
+          "roll": 0,
+          "eyeDistance": 555,
+          "eyeLeft": "894,2373",
+          "eyeRight": "1449,2377"
+        },
+        "gyroscopeData": {
+          "alpha": 315,
+          "beta": 94,
+          "gamma": 17
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130675635.jpg",
+      "dateCapture": "2024-12-25T12:44:35.783Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -4,
+          "yaw": 11,
+          "roll": 2,
+          "eyeDistance": 659,
+          "eyeLeft": "861,2173",
+          "eyeRight": "1520,2192"
+        },
+        "gyroscopeData": {
+          "alpha": 41,
+          "beta": 89,
+          "gamma": -69
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130694278.jpg",
+      "dateCapture": "2024-12-25T12:44:54.471Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 12,
+          "yaw": -52,
+          "roll": -2,
+          "eyeDistance": 548,
+          "eyeLeft": "426,2574",
+          "eyeRight": "974,2560"
+        },
+        "gyroscopeData": {
+          "alpha": 17,
+          "beta": 106,
+          "gamma": 15
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130695917.jpg",
+      "dateCapture": "2024-12-25T12:44:56.158Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 24,
+          "yaw": 51,
+          "roll": -17,
+          "eyeDistance": 528,
+          "eyeLeft": "960,2265",
+          "eyeRight": "1464,2109"
+        },
+        "gyroscopeData": {
+          "alpha": 319,
+          "beta": 119,
+          "gamma": 1
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130696672.jpg",
+      "dateCapture": "2024-12-25T12:44:56.926Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 2,
+          "yaw": 24,
+          "roll": -7,
+          "eyeDistance": 610,
+          "eyeLeft": "939,2202",
+          "eyeRight": "1544,2123"
+        },
+        "gyroscopeData": {
+          "alpha": 301,
+          "beta": 100,
+          "gamma": 24
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130697486.jpg",
+      "dateCapture": "2024-12-25T12:44:57.729Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -11,
+          "yaw": 8,
+          "roll": -5,
+          "eyeDistance": 671,
+          "eyeLeft": "712,2159",
+          "eyeRight": "1380,2099"
+        },
+        "gyroscopeData": {
+          "alpha": 1,
+          "beta": 82,
+          "gamma": -31
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130699359.jpg",
+      "dateCapture": "2024-12-25T12:44:59.499Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 40,
+          "yaw": 6,
+          "roll": -3,
+          "eyeDistance": 1193,
+          "eyeLeft": "529,2158",
+          "eyeRight": "1721,2105"
+        },
+        "gyroscopeData": {
+          "alpha": 333,
+          "beta": 116,
+          "gamma": 6
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130707376.jpg",
+      "dateCapture": "2024-12-25T12:45:07.519Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 6,
+          "yaw": 1,
+          "roll": 0,
+          "eyeDistance": 943,
+          "eyeLeft": "538,1989",
+          "eyeRight": "1482,1985"
+        },
+        "gyroscopeData": {
+          "alpha": 325,
+          "beta": 93,
+          "gamma": 28
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130708791.jpg",
+      "dateCapture": "2024-12-25T12:45:09.057Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 10,
+          "yaw": -1,
+          "roll": -1,
+          "eyeDistance": 1079,
+          "eyeLeft": "530,2090",
+          "eyeRight": "1608,2071"
+        },
+        "gyroscopeData": {
+          "alpha": 316,
+          "beta": 92,
+          "gamma": 40
+        },
+        "isTiltedDown": false
+      }
+    }
+  ],
+  "Down": [
+    {
+      "imagePath": "/images/selfie1735130581373.jpg",
+      "dateCapture": "2024-12-25T12:43:01.560Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -4,
+          "yaw": 2,
+          "roll": -2,
+          "eyeDistance": 553,
+          "eyeLeft": "747,2034",
+          "eyeRight": "1299,2013"
+        },
+        "gyroscopeData": {
+          "alpha": 350,
+          "beta": 82,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130613672.jpg",
+      "dateCapture": "2024-12-25T12:43:33.844Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -24,
+          "yaw": 2,
+          "roll": -3,
+          "eyeDistance": 594,
+          "eyeLeft": "697,2259",
+          "eyeRight": "1290,2226"
+        },
+        "gyroscopeData": {
+          "alpha": 2,
+          "beta": 49,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130623563.jpg",
+      "dateCapture": "2024-12-25T12:43:43.708Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -2,
+          "yaw": 0,
+          "roll": -2,
+          "eyeDistance": 624,
+          "eyeLeft": "717,1922",
+          "eyeRight": "1340,1901"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 79,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130635437.jpg",
+      "dateCapture": "2024-12-25T12:43:55.580Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 0,
+          "roll": 0,
+          "eyeDistance": 536,
+          "eyeLeft": "837,1833",
+          "eyeRight": "1372,1829"
+        },
+        "gyroscopeData": {
+          "alpha": 13,
+          "beta": 88,
+          "gamma": -17
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130636489.jpg",
+      "dateCapture": "2024-12-25T12:43:56.638Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -18,
+          "yaw": -1,
+          "roll": -1,
+          "eyeDistance": 534,
+          "eyeLeft": "764,1967",
+          "eyeRight": "1297,1957"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 70,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130637538.jpg",
+      "dateCapture": "2024-12-25T12:43:57.683Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 1,
+          "roll": 0,
+          "eyeDistance": 569,
+          "eyeLeft": "718,2066",
+          "eyeRight": "1287,2062"
+        },
+        "gyroscopeData": {
+          "alpha": 355,
+          "beta": 58,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130638654.jpg",
+      "dateCapture": "2024-12-25T12:43:58.819Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -28,
+          "yaw": 1,
+          "roll": -2,
+          "eyeDistance": 658,
+          "eyeLeft": "697,2016",
+          "eyeRight": "1355,1992"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 47,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130639676.jpg",
+      "dateCapture": "2024-12-25T12:43:59.814Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -42,
+          "yaw": 0,
+          "roll": -2,
+          "eyeDistance": 689,
+          "eyeLeft": "688,1932",
+          "eyeRight": "1376,1912"
+        },
+        "gyroscopeData": {
+          "alpha": 359,
+          "beta": 38,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130641079.jpg",
+      "dateCapture": "2024-12-25T12:44:01.294Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -35,
+          "yaw": -2,
+          "roll": -1,
+          "eyeDistance": 758,
+          "eyeLeft": "672,2222",
+          "eyeRight": "1429,2209"
+        },
+        "gyroscopeData": {
+          "alpha": 3,
+          "beta": 27,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130644928.jpg",
+      "dateCapture": "2024-12-25T12:44:05.063Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 6,
+          "yaw": -3,
+          "roll": 0,
+          "eyeDistance": 695,
+          "eyeLeft": "624,2062",
+          "eyeRight": "1320,2065"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 83,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130646641.jpg",
+      "dateCapture": "2024-12-25T12:44:06.811Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -4,
+          "yaw": -53,
+          "roll": 6,
+          "eyeDistance": 538,
+          "eyeLeft": "541,1995",
+          "eyeRight": "1076,2053"
+        },
+        "gyroscopeData": {
+          "alpha": 13,
+          "beta": 85,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130647784.jpg",
+      "dateCapture": "2024-12-25T12:44:07.919Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -6,
+          "yaw": -51,
+          "roll": -2,
+          "eyeDistance": 570,
+          "eyeLeft": "278,2011",
+          "eyeRight": "848,1994"
+        },
+        "gyroscopeData": {
+          "alpha": 15,
+          "beta": 84,
+          "gamma": 2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130648587.jpg",
+      "dateCapture": "2024-12-25T12:44:08.735Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -3,
+          "yaw": -52,
+          "roll": -1,
+          "eyeDistance": 716,
+          "eyeLeft": "57,2096",
+          "eyeRight": "773,2083"
+        },
+        "gyroscopeData": {
+          "alpha": 17,
+          "beta": 85,
+          "gamma": 5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130649442.jpg",
+      "dateCapture": "2024-12-25T12:44:09.692Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -5,
+          "yaw": -15,
+          "roll": -6,
+          "eyeDistance": 761,
+          "eyeLeft": "543,2099",
+          "eyeRight": "1300,2023"
+        },
+        "gyroscopeData": {
+          "alpha": 4,
+          "beta": 84,
+          "gamma": 5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130650328.jpg",
+      "dateCapture": "2024-12-25T12:44:10.605Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -4,
+          "yaw": 0,
+          "roll": 1,
+          "eyeDistance": 715,
+          "eyeLeft": "664,2024",
+          "eyeRight": "1378,2042"
+        },
+        "gyroscopeData": {
+          "alpha": 3,
+          "beta": 84,
+          "gamma": -14
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130651480.jpg",
+      "dateCapture": "2024-12-25T12:44:11.720Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -10,
+          "yaw": 46,
+          "roll": 4,
+          "eyeDistance": 580,
+          "eyeLeft": "667,2107",
+          "eyeRight": "1246,2146"
+        },
+        "gyroscopeData": {
+          "alpha": 350,
+          "beta": 81,
+          "gamma": -20
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130652311.jpg",
+      "dateCapture": "2024-12-25T12:44:12.469Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -10,
+          "yaw": 44,
+          "roll": 8,
+          "eyeDistance": 669,
+          "eyeLeft": "1308,1958",
+          "eyeRight": "1970,2050"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 83,
+          "gamma": -19
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130653879.jpg",
+      "dateCapture": "2024-12-25T12:44:14.017Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 40,
+          "roll": 5,
+          "eyeDistance": 877,
+          "eyeLeft": "895,1795",
+          "eyeRight": "1768,1876"
+        },
+        "gyroscopeData": {
+          "alpha": 7,
+          "beta": 83,
+          "gamma": -39
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130655106.jpg",
+      "dateCapture": "2024-12-25T12:44:15.289Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -39,
+          "yaw": 29,
+          "roll": 12,
+          "eyeDistance": 853,
+          "eyeLeft": "903,1617",
+          "eyeRight": "1738,1790"
+        },
+        "gyroscopeData": {
+          "alpha": 345,
+          "beta": 56,
+          "gamma": -15
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130656043.jpg",
+      "dateCapture": "2024-12-25T12:44:16.178Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -34,
+          "yaw": -3,
+          "roll": -1,
+          "eyeDistance": 909,
+          "eyeLeft": "650,1739",
+          "eyeRight": "1558,1720"
+        },
+        "gyroscopeData": {
+          "alpha": 347,
+          "beta": 52,
+          "gamma": -6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130657725.jpg",
+      "dateCapture": "2024-12-25T12:44:17.917Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -26,
+          "yaw": 3,
+          "roll": 1,
+          "eyeDistance": 1122,
+          "eyeLeft": "466,1878",
+          "eyeRight": "1588,1903"
+        },
+        "gyroscopeData": {
+          "alpha": 355,
+          "beta": 46,
+          "gamma": -7
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130660044.jpg",
+      "dateCapture": "2024-12-25T12:44:20.206Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -20,
+          "yaw": -5,
+          "roll": -1,
+          "eyeDistance": 1427,
+          "eyeLeft": "344,1561",
+          "eyeRight": "1771,1525"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 53,
+          "gamma": -6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130663791.jpg",
+      "dateCapture": "2024-12-25T12:44:23.932Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -12,
+          "yaw": 1,
+          "roll": -1,
+          "eyeDistance": 892,
+          "eyeLeft": "597,1850",
+          "eyeRight": "1489,1839"
+        },
+        "gyroscopeData": {
+          "alpha": 1,
+          "beta": 69,
+          "gamma": -8
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130664634.jpg",
+      "dateCapture": "2024-12-25T12:44:24.775Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -33,
+          "yaw": 2,
+          "roll": -1,
+          "eyeDistance": 856,
+          "eyeLeft": "419,1892",
+          "eyeRight": "1275,1879"
+        },
+        "gyroscopeData": {
+          "alpha": 359,
+          "beta": 48,
+          "gamma": -8
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130665826.jpg",
+      "dateCapture": "2024-12-25T12:44:26.062Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -44,
+          "yaw": -22,
+          "roll": -10,
+          "eyeDistance": 837,
+          "eyeLeft": "339,1795",
+          "eyeRight": "1161,1643"
+        },
+        "gyroscopeData": {
+          "alpha": 2,
+          "beta": 43,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130666757.jpg",
+      "dateCapture": "2024-12-25T12:44:27.014Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -32,
+          "yaw": 13,
+          "roll": -3,
+          "eyeDistance": 742,
+          "eyeLeft": "581,1868",
+          "eyeRight": "1322,1829"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 43,
+          "gamma": -18
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130676390.jpg",
+      "dateCapture": "2024-12-25T12:44:36.628Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -6,
+          "yaw": 6,
+          "roll": 0,
+          "eyeDistance": 885,
+          "eyeLeft": "720,2033",
+          "eyeRight": "1605,2039"
+        },
+        "gyroscopeData": {
+          "alpha": 2,
+          "beta": 85,
+          "gamma": -26
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130677174.jpg",
+      "dateCapture": "2024-12-25T12:44:37.321Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -26,
+          "yaw": -2,
+          "roll": 0,
+          "eyeDistance": 1040,
+          "eyeLeft": "627,1827",
+          "eyeRight": "1667,1822"
+        },
+        "gyroscopeData": {
+          "alpha": 349,
+          "beta": 68,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130678615.jpg",
+      "dateCapture": "2024-12-25T12:44:38.753Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -33,
+          "yaw": -40,
+          "roll": -14,
+          "eyeDistance": 677,
+          "eyeLeft": "423,1918",
+          "eyeRight": "1079,1751"
+        },
+        "gyroscopeData": {
+          "alpha": 4,
+          "beta": 60,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130679889.jpg",
+      "dateCapture": "2024-12-25T12:44:40.031Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -19,
+          "yaw": 26,
+          "roll": 2,
+          "eyeDistance": 572,
+          "eyeLeft": "1098,1984",
+          "eyeRight": "1670,2001"
+        },
+        "gyroscopeData": {
+          "alpha": 338,
+          "beta": 72,
+          "gamma": -16
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130680675.jpg",
+      "dateCapture": "2024-12-25T12:44:40.808Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 0,
+          "yaw": 27,
+          "roll": -3,
+          "eyeDistance": 858,
+          "eyeLeft": "793,2171",
+          "eyeRight": "1649,2123"
+        },
+        "gyroscopeData": {
+          "alpha": 348,
+          "beta": 79,
+          "gamma": -25
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130681349.jpg",
+      "dateCapture": "2024-12-25T12:44:41.515Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 7,
+          "yaw": 8,
+          "roll": -2,
+          "eyeDistance": 1153,
+          "eyeLeft": "492,2127",
+          "eyeRight": "1644,2087"
+        },
+        "gyroscopeData": {
+          "alpha": 358,
+          "beta": 84,
+          "gamma": -26
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130681964.jpg",
+      "dateCapture": "2024-12-25T12:44:42.205Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -6,
+          "yaw": 48,
+          "roll": 2,
+          "eyeDistance": 750,
+          "eyeLeft": "1211,2116",
+          "eyeRight": "1960,2140"
+        },
+        "gyroscopeData": {
+          "alpha": 3,
+          "beta": 85,
+          "gamma": -46
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130682941.jpg",
+      "dateCapture": "2024-12-25T12:44:43.083Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 36,
+          "roll": 5,
+          "eyeDistance": 367,
+          "eyeLeft": "1387,2240",
+          "eyeRight": "1753,2270"
+        },
+        "gyroscopeData": {
+          "alpha": 317,
+          "beta": 82,
+          "gamma": -5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130683596.jpg",
+      "dateCapture": "2024-12-25T12:44:43.735Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -10,
+          "yaw": 29,
+          "roll": 2,
+          "eyeDistance": 363,
+          "eyeLeft": "1141,2063",
+          "eyeRight": "1504,2079"
+        },
+        "gyroscopeData": {
+          "alpha": 319,
+          "beta": 84,
+          "gamma": -10
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130684190.jpg",
+      "dateCapture": "2024-12-25T12:44:44.437Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -8,
+          "yaw": 26,
+          "roll": 1,
+          "eyeDistance": 403,
+          "eyeLeft": "1089,2169",
+          "eyeRight": "1492,2179"
+        },
+        "gyroscopeData": {
+          "alpha": 325,
+          "beta": 84,
+          "gamma": -14
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130684820.jpg",
+      "dateCapture": "2024-12-25T12:44:44.980Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -5,
+          "yaw": 29,
+          "roll": 0,
+          "eyeDistance": 465,
+          "eyeLeft": "1054,2005",
+          "eyeRight": "1519,2005"
+        },
+        "gyroscopeData": {
+          "alpha": 17,
+          "beta": 88,
+          "gamma": -66
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130685529.jpg",
+      "dateCapture": "2024-12-25T12:44:45.667Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -6,
+          "yaw": 28,
+          "roll": 0,
+          "eyeDistance": 519,
+          "eyeLeft": "932,2081",
+          "eyeRight": "1451,2078"
+        },
+        "gyroscopeData": {
+          "alpha": 8,
+          "beta": 87,
+          "gamma": -57
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130686083.jpg",
+      "dateCapture": "2024-12-25T12:44:46.321Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -4,
+          "yaw": 5,
+          "roll": 1,
+          "eyeDistance": 634,
+          "eyeLeft": "872,2002",
+          "eyeRight": "1506,2011"
+        },
+        "gyroscopeData": {
+          "alpha": 30,
+          "beta": 88,
+          "gamma": -74
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130687495.jpg",
+      "dateCapture": "2024-12-25T12:44:47.633Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -19,
+          "yaw": -44,
+          "roll": -9,
+          "eyeDistance": 485,
+          "eyeLeft": "577,2086",
+          "eyeRight": "1057,2013"
+        },
+        "gyroscopeData": {
+          "alpha": 347,
+          "beta": 86,
+          "gamma": 12
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130688441.jpg",
+      "dateCapture": "2024-12-25T12:44:48.618Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -26,
+          "yaw": -43,
+          "roll": -16,
+          "eyeDistance": 420,
+          "eyeLeft": "534,2129",
+          "eyeRight": "937,2013"
+        },
+        "gyroscopeData": {
+          "alpha": 19,
+          "beta": 80,
+          "gamma": -13
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130689186.jpg",
+      "dateCapture": "2024-12-25T12:44:49.325Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -30,
+          "yaw": -42,
+          "roll": -19,
+          "eyeDistance": 383,
+          "eyeLeft": "381,2435",
+          "eyeRight": "744,2312"
+        },
+        "gyroscopeData": {
+          "alpha": 20,
+          "beta": 73,
+          "gamma": -17
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130690175.jpg",
+      "dateCapture": "2024-12-25T12:44:50.314Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -25,
+          "yaw": -42,
+          "roll": -10,
+          "eyeDistance": 528,
+          "eyeLeft": "533,2015",
+          "eyeRight": "1053,1928"
+        },
+        "gyroscopeData": {
+          "alpha": 10,
+          "beta": 78,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130690449.jpg",
+      "dateCapture": "2024-12-25T12:44:50.619Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -25,
+          "yaw": -39,
+          "roll": -12,
+          "eyeDistance": 567,
+          "eyeLeft": "623,2288",
+          "eyeRight": "1176,2167"
+        },
+        "gyroscopeData": {
+          "alpha": 12,
+          "beta": 70,
+          "gamma": 1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130690984.jpg",
+      "dateCapture": "2024-12-25T12:44:51.236Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -26,
+          "yaw": -13,
+          "roll": -8,
+          "eyeDistance": 715,
+          "eyeLeft": "689,2108",
+          "eyeRight": "1398,2012"
+        },
+        "gyroscopeData": {
+          "alpha": 11,
+          "beta": 63,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130691735.jpg",
+      "dateCapture": "2024-12-25T12:44:51.880Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -19,
+          "yaw": 31,
+          "roll": 5,
+          "eyeDistance": 723,
+          "eyeLeft": "880,1753",
+          "eyeRight": "1600,1821"
+        },
+        "gyroscopeData": {
+          "alpha": 15,
+          "beta": 68,
+          "gamma": -15
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130693125.jpg",
+      "dateCapture": "2024-12-25T12:44:53.258Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -27,
+          "yaw": -41,
+          "roll": -24,
+          "eyeDistance": 440,
+          "eyeLeft": "335,2151",
+          "eyeRight": "738,1974"
+        },
+        "gyroscopeData": {
+          "alpha": 62,
+          "beta": 77,
+          "gamma": -23
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130698155.jpg",
+      "dateCapture": "2024-12-25T12:44:58.290Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -5,
+          "yaw": 4,
+          "roll": -3,
+          "eyeDistance": 959,
+          "eyeLeft": "535,2145",
+          "eyeRight": "1492,2089"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 84,
+          "gamma": -22
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130700374.jpg",
+      "dateCapture": "2024-12-25T12:45:00.521Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -13,
+          "yaw": 0,
+          "roll": -4,
+          "eyeDistance": 839,
+          "eyeLeft": "726,1789",
+          "eyeRight": "1563,1727"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 73,
+          "gamma": -11
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130702239.jpg",
+      "dateCapture": "2024-12-25T12:45:02.398Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -36,
+          "yaw": -1,
+          "roll": -3,
+          "eyeDistance": 764,
+          "eyeLeft": "662,2011",
+          "eyeRight": "1425,1972"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 43,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130703406.jpg",
+      "dateCapture": "2024-12-25T12:45:03.545Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -46,
+          "yaw": -31,
+          "roll": -12,
+          "eyeDistance": 725,
+          "eyeLeft": "484,1994",
+          "eyeRight": "1193,1841"
+        },
+        "gyroscopeData": {
+          "alpha": 3,
+          "beta": 44,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130704668.jpg",
+      "dateCapture": "2024-12-25T12:45:04.865Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -36,
+          "yaw": 23,
+          "roll": 2,
+          "eyeDistance": 729,
+          "eyeLeft": "688,1947",
+          "eyeRight": "1416,1974"
+        },
+        "gyroscopeData": {
+          "alpha": 355,
+          "beta": 52,
+          "gamma": -17
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130710278.jpg",
+      "dateCapture": "2024-12-25T12:45:10.650Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -3,
+          "yaw": 3,
+          "roll": -1,
+          "eyeDistance": 641,
+          "eyeLeft": "716,1903",
+          "eyeRight": "1357,1897"
+        },
+        "gyroscopeData": {
+          "alpha": 52,
+          "beta": 88,
+          "gamma": -64
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130711530.jpg",
+      "dateCapture": "2024-12-25T12:45:11.717Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -11,
+          "yaw": 3,
+          "roll": -2,
+          "eyeDistance": 629,
+          "eyeLeft": "737,1918",
+          "eyeRight": "1365,1896"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 72,
+          "gamma": -8
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130712925.jpg",
+      "dateCapture": "2024-12-25T12:45:13.062Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -24,
+          "yaw": 1,
+          "roll": -2,
+          "eyeDistance": 706,
+          "eyeLeft": "694,2028",
+          "eyeRight": "1399,1999"
+        },
+        "gyroscopeData": {
+          "alpha": 358,
+          "beta": 53,
+          "gamma": -5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130715843.jpg",
+      "dateCapture": "2024-12-25T12:45:16.002Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -39,
+          "yaw": 3,
+          "roll": 1,
+          "eyeDistance": 956,
+          "eyeLeft": "577,1836",
+          "eyeRight": "1533,1857"
+        },
+        "gyroscopeData": {
+          "alpha": 2,
+          "beta": 47,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130717885.jpg",
+      "dateCapture": "2024-12-25T12:45:18.032Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -33,
+          "yaw": 1,
+          "roll": 1,
+          "eyeDistance": 692,
+          "eyeLeft": "683,2116",
+          "eyeRight": "1374,2126"
+        },
+        "gyroscopeData": {
+          "alpha": 1,
+          "beta": 38,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130718988.jpg",
+      "dateCapture": "2024-12-25T12:45:19.126Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -37,
+          "yaw": -38,
+          "roll": -9,
+          "eyeDistance": 629,
+          "eyeLeft": "319,1949",
+          "eyeRight": "941,1854"
+        },
+        "gyroscopeData": {
+          "alpha": 5,
+          "beta": 41,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130719796.jpg",
+      "dateCapture": "2024-12-25T12:45:20.048Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -27,
+          "yaw": -41,
+          "roll": -9,
+          "eyeDistance": 1004,
+          "eyeLeft": "53,1978",
+          "eyeRight": "1046,1821"
+        },
+        "gyroscopeData": {
+          "alpha": 2,
+          "beta": 54,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735130721482.jpg",
+      "dateCapture": "2024-12-25T12:45:21.643Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -24,
+          "yaw": 31,
+          "roll": -1,
+          "eyeDistance": 1056,
+          "eyeLeft": "864,1789",
+          "eyeRight": "1920,1768"
+        },
+        "gyroscopeData": {
+          "alpha": 3,
+          "beta": 55,
+          "gamma": -7
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735132181523.jpg",
+      "dateCapture": "2024-12-25T13:09:41.830Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -15,
+          "yaw": 3,
+          "roll": -4,
+          "eyeDistance": 618,
+          "eyeLeft": "722,2077",
+          "eyeRight": "1339,2033"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 63,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735132182787.jpg",
+      "dateCapture": "2024-12-25T13:09:42.952Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -5,
+          "yaw": 4,
+          "roll": -4,
+          "eyeDistance": 661,
+          "eyeLeft": "725,1971",
+          "eyeRight": "1384,1926"
+        },
+        "gyroscopeData": {
+          "alpha": 355,
+          "beta": 79,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735132183998.jpg",
+      "dateCapture": "2024-12-25T13:09:44.265Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -17,
+          "yaw": 2,
+          "roll": -3,
+          "eyeDistance": 591,
+          "eyeLeft": "754,1946",
+          "eyeRight": "1345,1919"
+        },
+        "gyroscopeData": {
+          "alpha": 355,
+          "beta": 66,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735132336165.webp",
+      "dateCapture": "2024-12-25T13:12:16.369Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -20,
+          "yaw": 6,
+          "roll": -1,
+          "eyeDistance": 611,
+          "eyeLeft": "673,2184",
+          "eyeRight": "1284,2172"
+        },
+        "gyroscopeData": {
+          "alpha": 8,
+          "beta": 60,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735132433027.webp",
+      "dateCapture": "2024-12-25T13:13:53.356Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -15,
+          "yaw": 4,
+          "roll": -2,
+          "eyeDistance": 637,
+          "eyeLeft": "674,2190",
+          "eyeRight": "1311,2172"
+        },
+        "gyroscopeData": {
+          "alpha": 72,
+          "beta": 62,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735132452020.webp",
+      "dateCapture": "2024-12-25T13:14:12.179Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -18,
+          "yaw": 8,
+          "roll": -1,
+          "eyeDistance": 625,
+          "eyeLeft": "605,2137",
+          "eyeRight": "1229,2122"
+        },
+        "gyroscopeData": {
+          "alpha": 68,
+          "beta": 62,
+          "gamma": -5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735132453326.webp",
+      "dateCapture": "2024-12-25T13:14:13.478Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -19,
+          "yaw": 8,
+          "roll": -1,
+          "eyeDistance": 629,
+          "eyeLeft": "663,2109",
+          "eyeRight": "1292,2095"
+        },
+        "gyroscopeData": {
+          "alpha": 68,
+          "beta": 62,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735132579611.webp",
+      "dateCapture": "2024-12-25T13:16:19.795Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -26,
+          "yaw": 3,
+          "roll": 2,
+          "eyeDistance": 614,
+          "eyeLeft": "770,2019",
+          "eyeRight": "1384,2045"
+        },
+        "gyroscopeData": {
+          "alpha": 4,
+          "beta": 54,
+          "gamma": 1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735132580373.webp",
+      "dateCapture": "2024-12-25T13:16:20.533Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -23,
+          "yaw": 3,
+          "roll": 2,
+          "eyeDistance": 623,
+          "eyeLeft": "732,1978",
+          "eyeRight": "1355,1998"
+        },
+        "gyroscopeData": {
+          "alpha": 4,
+          "beta": 54,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735133406360.webp",
+      "dateCapture": "2024-12-25T13:30:06.589Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -21,
+          "yaw": 1,
+          "roll": 5,
+          "eyeDistance": 553,
+          "eyeLeft": "597,1958",
+          "eyeRight": "1148,2003"
+        },
+        "gyroscopeData": {
+          "alpha": 15,
+          "beta": 64,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735133436261.jpg",
+      "dateCapture": "2024-12-25T13:30:36.561Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -23,
+          "yaw": -4,
+          "roll": 6,
+          "eyeDistance": 550,
+          "eyeLeft": "644,2314",
+          "eyeRight": "1191,2369"
+        },
+        "gyroscopeData": {
+          "alpha": 20,
+          "beta": 54,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1735141585881.jpg",
+      "dateCapture": "2024-12-25T15:46:26.094Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -33,
+          "yaw": 14,
+          "roll": 12,
+          "eyeDistance": 595,
+          "eyeLeft": "1425,3447",
+          "eyeRight": "2006,3575"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 2,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    }
+  ]
+}
