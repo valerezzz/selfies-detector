@@ -9,8 +9,21 @@ export default class App {
 
   async init() {
     console.log("App init");
+    console.log("poppy");
     await this.connectToServer();
     this.selfieInteraction.init();
+
+    this.desactiveComportment();
+  }
+
+  desactiveComportment() {
+    document.addEventListener("contextmenu", (e) => {
+      e.preventDefault();
+    });
+
+    document.addEventListener("selectstart", (e) => {
+      e.preventDefault();
+    });
   }
 
   async connectToServer() {

@@ -1,10 +1,13 @@
 import Utils from "./utils.js";
+import SelfieLandmarks from "./selfieLandmarks.js";
+import SelfieVisuals from "./selfieVisuals.js";
 import { Camera } from "@mediapipe/camera_utils";
 
 export default class SelfieAnalyse {
   constructor() {
     this.utils = new Utils();
-
+    this.selfieLandmarks = new SelfieLandmarks();
+    this.selfieVisuals = new SelfieVisuals();
     //CANVAS SET UP
     const ratio = window.devicePixelRatio;
     const widthCanvas = 720;
@@ -40,6 +43,10 @@ export default class SelfieAnalyse {
     this.gyroscopeData = null;
     this.isTiltedDown = null;
     this.selfieComparator = null;
+
+    this.referenceData = null;
+    this.currentMode = 1;
+    this.currentVisualMode = 1;
   }
 
   async init() {
@@ -76,6 +83,10 @@ export default class SelfieAnalyse {
     this.selfieData = this.getSelfieData();
     console.log("SELFIE DATA", this.selfieData);
     return this.selfieData;
+  }
+
+  setReferenceData(data) {
+    this.referenceData = data;
   }
 
   getSelfieData() {
@@ -132,12 +143,28 @@ export default class SelfieAnalyse {
     landmarksCtx.translate(-landmarksCanvas.width, 0);
     if (results.multiFaceLandmarks && results.multiFaceLandmarks.length > 0) {
       const landmarks = results.multiFaceLandmarks[0];
-      this.utils.drawLandmarks(
-        landmarksCtx,
-        landmarks,
-        landmarksCanvas.width,
-        landmarksCanvas.height
-      );
+
+      if (this.currentMode === 1) {
+        this.selfieLandmarks.drawLandmarks(
+          landmarksCtx,
+          landmarks,
+          landmarksCanvas.width,
+          landmarksCanvas.height
+        );
+      }
+
+      if (this.currentMode === 3) {
+        const currentData = this.getSelfieData();
+        this.selfieVisuals.modeVisuals = this.currentVisualMode; // Ajouter cette ligne
+
+        this.selfieVisuals.drawCanvasShape(
+          landmarksCtx,
+          landmarksCanvas.width,
+          landmarksCanvas.height,
+          currentData,
+          this.referenceData
+        );
+      }
     }
     landmarksCtx.restore();
   }

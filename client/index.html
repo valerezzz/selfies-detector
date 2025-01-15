@@ -11,20 +11,68 @@
   </head>
   <body>
     <div class="container">
-      <div class="intro_content" id="intro">
-        <button id="startButton">Start</button>
+      <div class="intro" id="intro">
+        <div class="intro_content">
+          <button id="startButton">Start</button>
+        </div>
       </div>
+
+      <div class="header">
+        <div class="header__content">
+          <div class="content__logo">
+            <h1 id="headerTitle">Selfie Analyzer</h1>
+          </div>
+        </div>
+      </div>
+
       <div class="video_content" id="videoContent">
-        <button id="backButton" class="back_button">Back</button>
         <video class="input_video"></video>
         <div class="canvas_container">
           <canvas class="video_canvas"></canvas>
           <canvas class="landmarks_canvas"></canvas>
+          <canvas class="shape_canvas"></canvas>
         </div>
         <img class="matched_selfie" id="matched-selfie" />
+        <div class="capture_content" id="captureContent">
+          <button id="captureButton"></button>
+        </div>
       </div>
-      <div class="capture_content" id="captureContent">
-        <button id="captureButton"></button>
+      <div class="buttons_visuals" id="buttons_visuals">
+        <button class="button_visual active_button_visual" id="buttonVisuals1">
+          Visuals 1
+        </button>
+        <button class="button_visual" id="buttonVisuals2">Visuals 2</button>
+        <button class="button_visual" id="buttonVisuals3">Visuals 3</button>
+      </div>
+      <div class="footer">
+        <div class="footer__gradient__left"></div>
+        <div class="footer__gradient__right"></div>
+        <div class="footer__content" id="footerContent">
+          <div class="footer__content__list__item">
+            <button
+              class="footer__content__list__item__button active__button"
+              id="buttonMode1Footer"
+            >
+              Mode 1
+            </button>
+          </div>
+          <div class="footer__content__list__item">
+            <button
+              class="footer__content__list__item__button"
+              id="buttonMode2Footer"
+            >
+              Mode 2
+            </button>
+          </div>
+          <div class="footer__content__list__item">
+            <button
+              class="footer__content__list__item__button"
+              id="buttonMode3Footer"
+            >
+              Mode 3
+            </button>
+          </div>
+        </div>
       </div>
     </div>
     <script type="module" src="/main.js"></script>

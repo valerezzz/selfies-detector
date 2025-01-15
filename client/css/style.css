@@ -1,4 +1,15 @@
 /* GENERAL */
+@font-face {
+  font-family: BananaGrotesk;
+  src: url(../public/fonts/MNKYBananaGroteskMono-Regular.otf);
+}
+/* 
+* {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+} */
 
 body {
   overflow: hidden;
@@ -6,16 +17,62 @@ body {
   background-color: black;
 }
 
+button {
+  font-family: BananaGrotesk;
+  text-transform: uppercase;
+}
+
 .container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: space-between;
+  width: 100dvw;
+  height: 100dvh;
   background-color: black;
   overflow: hidden;
+  position: relative;
+}
+
+/* HEADER */
+
+.header {
+  width: 100%;
+  height: 10%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+
+  mix-blend-mode: difference;
+}
+
+.header__content {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.content__logo {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content__logo h1 {
+  font-size: 1rem;
+  color: white;
+  font-family: BananaGrotesk;
+  text-transform: uppercase;
 }
 
 /* INTRO */
+
+.intro {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
 
 .intro_content {
   display: flex;
@@ -39,13 +96,22 @@ body {
   color: black;
 }
 
-/* VIDEO */
+/* MODE 1 VIDEO */
 .video_content {
   width: 100%;
+  height: 90%;
   display: none;
   align-items: center;
   justify-content: center;
-  background-color: black;
+
+  position: relative; /* Ajouté */
+  overflow: hidden; /* Ajouté */
+  border-radius: 25px;
+}
+
+.canvas_container {
+  width: 100%;
+  height: 100%;
 }
 
 .back_button {
@@ -83,7 +149,7 @@ body {
 
 .capture_content {
   position: absolute;
-  bottom: 15%;
+  bottom: 5%;
   left: 50%;
   transform: translate(-50%, 0%);
 }
@@ -91,6 +157,8 @@ body {
   width: 65px;
   height: 65px;
   border-radius: 50%;
+  background-color: white;
+  border: none;
 }
 
 .captured-image {
@@ -101,16 +169,118 @@ body {
   z-index: 1000;
 }
 
+.buttons_visuals {
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  mix-blend-mode: difference;
+  display: none;
+}
+
+.button_visual {
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.active_button_visual {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
 /* IMAGE */
 
 .matched_selfie {
-  display: flex;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50%;
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  /* transform: translate(-50%, -50%); */
+  width: 100%;
   height: auto;
   opacity: 0.9;
   z-index: 1000;
+}
+
+/* FOOTER */
+
+.footer {
+  height: 10%;
+  width: 100%;
+  position: relative;
+}
+.footer__gradient__left {
+  height: 100%;
+  width: 45%;
+  background-image: linear-gradient(to right, black 15%, transparent);
+  position: absolute;
+  z-index: 9000;
+  left: -2px;
+  top: 0;
+  pointer-events: none;
+}
+
+.footer__gradient__right {
+  height: 100%;
+  width: 45%;
+  background-image: linear-gradient(to left, black 15%, transparent);
+  position: absolute;
+  z-index: 9000;
+  right: -2px;
+  top: 0;
+  pointer-events: none;
+}
+
+.footer__content {
+  height: 100%;
+  width: fit-content;
+  background-color: black;
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  left: 75%;
+  transform: translate(-50%, 0%);
+
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  transition: all 0.25s ease-in-out;
+}
+
+.footer__content__list__item:nth-child(1) {
+  background-color: transparent;
+}
+
+.footer__content__list__item {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.footer__content__list__item__button {
+  width: fit-content;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.active__button {
+  font-size: 1.5rem;
 }

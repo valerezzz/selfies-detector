@@ -1,4 +1,5 @@
 import Utils from "./utils.js";
+import SelfieLandmarks from "./selfieLandmarks.js";
 
 export default class SelfieCapture {
   constructor() {

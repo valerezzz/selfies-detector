@@ -4,6 +4,7 @@ export default class Utils {
   constructor() {
     this.currentFaceData = null;
     this.currentGyroscopeData = null;
+    this.captureButton = document.getElementById("captureButton");
   }
 
   initFaceMesh() {
@@ -160,63 +161,6 @@ export default class Utils {
       gyroscopeData: currentGyroscopeData,
       isTiltedDown: isTiltedDown,
     };
-  }
-
-  drawLandmarks(ctx, landmarks, canvasWidth, canvasHeight) {
-    const px = (point) => ({
-      x: point.x * canvasWidth,
-      y: point.y * canvasHeight,
-    });
-
-    // Définir un tableau de couleurs primaires
-    const primaryColors = [
-      "rgb(255, 0, 0)", // Rouge
-      "rgb(0, 0, 255)", // Bleu
-      "rgb(255, 255, 0)", // Jaune
-      "rgb(0, 255, 0)", // Vert
-      "rgb(255, 0, 255)", // Magenta
-      "rgb(0, 255, 255)", // Cyan
-      "rgb(255, 255, 255)", // Blanc
-    ];
-
-    const nosePoint = px(landmarks[1]);
-    const currentTime = performance.now() / 1000;
-    // Changement de couleur toutes les 2 secondes
-    const colorShift = Math.floor(currentTime / 0.2);
-
-    landmarks.forEach((point, index) => {
-      const pos = px(point);
-      // Ajouter colorShift à l'index pour faire tourner les couleurs lentement
-      const colorIndex = (index + colorShift) % primaryColors.length;
-      const color = primaryColors[colorIndex];
-
-      // ANIMATION
-      const dx = pos.x - nosePoint.x;
-      const dy = pos.y - nosePoint.y;
-      const distance = Math.sqrt(
-        Math.pow(dx * 1.5, 2) + Math.pow(dy * 1.05, 2)
-      );
-      const wave = Math.sin(currentTime * 3 - distance / 300);
-      const isVisible = wave > 0;
-      const alpha = isVisible ? 0.9 : 0;
-
-      // Ajout de l'effet de lueur
-      ctx.shadowColor = color;
-      ctx.shadowBlur = 30;
-
-      // DRAW
-      ctx.beginPath();
-      ctx.ellipse(pos.x, pos.y, 15, 8, 0, 0, 2 * Math.PI);
-      ctx.fillStyle = color.replace("rgb", "rgba").replace(")", `, 1)`);
-      ctx.fill();
-      ctx.closePath();
-    });
-
-    ctx.shadowColor = "transparent";
-    ctx.shadowBlur = 0;
-
-    const leftEye = px(landmarks[33]);
-    const rightEye = px(landmarks[263]);
   }
 
   async loadReferenceData() {

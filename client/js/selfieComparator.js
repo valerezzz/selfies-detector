@@ -45,13 +45,13 @@ export default class SelfieComparator {
   calculateDifference(currentData, referenceData) {
     // Poids pour chaque composant de la comparaison
     const weights = {
-      pitch: 2,
-      yaw: 2,
-      roll: 1,
-      eyeDistance: 0.5,
+      pitch: 3,
+      yaw: 2.5,
+      roll: 1.5,
+      eyeDistance: 3,
       beta: 1.5,
       alpha: 1,
-      gamma: 1,
+      gamma: 1.5,
     };
 
     const face1 = currentData.faceData;
