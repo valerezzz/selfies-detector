@@ -6,10 +6,21 @@ import SelfieVisuals from "./selfieVisuals";
 
 export default class SelfieInteraction {
   constructor() {
+    this.title = document.getElementById("headerTitle");
+
     this.intro = document.getElementById("intro");
     this.matchedSelfieElement = document.getElementById("matched-selfie");
 
     this.startButton = document.getElementById("startButton");
+
+    this.previousButton = document.getElementById("previousButton");
+    this.nextButton = document.getElementById("nextButton");
+
+    this.introPart1 = document.getElementById("intro_part_1");
+    this.introPart2 = document.getElementById("intro_part_2");
+    this.introPart3 = document.getElementById("intro_part_3");
+    this.introPart4 = document.getElementById("intro_part_4");
+    this.modeIntro = 1;
 
     this.videoContent = document.getElementById("videoContent");
     this.captureButton = document.getElementById("captureButton");
@@ -40,11 +51,14 @@ export default class SelfieInteraction {
     this.comparisonInterval = null;
 
     this.modeVisuals = 1;
+
+    this.preventDoubleClick();
   }
 
   async init() {
     this.interface();
     this.sendSelfieToServer();
+    this.introModeSwitch();
 
     const photoData = await this.utils.loadReferenceData();
     console.log("Photo data:", photoData);
@@ -60,6 +74,45 @@ export default class SelfieInteraction {
         this.buttonShowDatas.classList.add("active_button_visual");
       }
     });
+  }
+
+  introModeSwitch() {
+    switch (this.modeIntro) {
+      case 1:
+        this.introPart1.style.display = "flex";
+        this.introPart2.style.display = "none";
+        this.introPart3.style.display = "none";
+        this.introPart4.style.display = "none";
+        this.title.style.display = "none";
+        break;
+      case 2:
+        this.introPart1.style.display = "none";
+        this.introPart2.style.display = "flex";
+        this.introPart3.style.display = "none";
+        this.introPart4.style.display = "none";
+        this.title.style.display = "flex";
+        break;
+      case 3:
+        this.introPart1.style.display = "none";
+        this.introPart2.style.display = "none";
+        this.introPart3.style.display = "flex";
+        this.introPart4.style.display = "none";
+        this.title.style.display = "flex";
+        break;
+      case 4:
+        this.introPart1.style.display = "none";
+        this.introPart2.style.display = "none";
+        this.introPart3.style.display = "none";
+        this.introPart4.style.display = "flex";
+        this.title.style.display = "flex";
+        break;
+      case 5:
+        this.intro.style.display = "none";
+        this.videoContent.style.display = "flex";
+        this.title.style.display = "flex";
+        this.selfieAnalyse.init();
+        break;
+    }
   }
 
   menuModeSwitch() {
@@ -78,6 +131,12 @@ export default class SelfieInteraction {
         this.buttonsVisuals.style.display = "none";
         this.buttonShowDatas.style.display = "none";
         this.buttonShowDatas.classList.remove("active_button_visual");
+
+        this.utils.getCurrentData(
+          this.faceData,
+          this.gyroscopeData,
+          this.isTiltedDown
+        );
         break;
       case 2:
         this.stopSelfieComparison();
@@ -152,8 +211,10 @@ export default class SelfieInteraction {
   interface() {
     console.log("initInterface");
     this.startButton.addEventListener("click", async () => {
+      this.modeIntro = 5;
+      this.introModeSwitch();
       console.log("startButton");
-      this.intro.style.display = "none";
+
       this.videoContent.style.display = "flex";
       this.selfieAnalyse.init();
     });
@@ -186,6 +247,16 @@ export default class SelfieInteraction {
       this.modeVisuals = 3;
       this.buttonVisualsSwitch();
     });
+
+    this.previousButton.addEventListener("click", () => {
+      this.modeIntro--;
+      this.introModeSwitch();
+    });
+
+    this.nextButton.addEventListener("click", () => {
+      this.modeIntro++;
+      this.introModeSwitch();
+    });
   }
 
   startSelfieComparison() {
@@ -217,7 +288,6 @@ export default class SelfieInteraction {
       this.isCapturing = !this.isCapturing;
 
       if (this.isCapturing) {
-        console.log("Bouton capture cliqué");
         console.log("Début de la capture");
         this.captureButtonCircle.style.display = "none";
         this.captureButtonSquare.style.display = "block";
@@ -226,6 +296,7 @@ export default class SelfieInteraction {
         const captureInterval = setInterval(async () => {
           if (!this.isCapturing) {
             clearInterval(captureInterval);
+            this.selfieAnalyse.selfieLandmarks.animMode = 1;
             return;
           }
           const selfieData = this.selfieAnalyse.getSelfieData();
@@ -245,6 +316,15 @@ export default class SelfieInteraction {
         this.captureButtonCircle.style.display = "block";
         this.captureButtonSquare.style.display = "none";
       }
+    });
+  }
+
+  preventDoubleClick() {
+    const buttons = document.querySelectorAll("button");
+    buttons.forEach((button) => {
+      button.addEventListener("dblclick", (e) => {
+        e.preventDefault();
+      });
     });
   }
 }

@@ -19,7 +19,7 @@ const options = {
 const httpsServer = https.createServer(options, app);
 const io = socketIo(httpsServer, {
   cors: {
-    origin: ["https://172.20.10.2:5173"],
+    origin: ["https://192.168.1.111:5173"],
     methods: ["GET", "POST"],
     credentials: true,
     allowedHeaders: ["Content-Type"],
@@ -28,7 +28,7 @@ const io = socketIo(httpsServer, {
 
 // Ajouter ces middlewares CORS pour Express
 app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "https://172.20.10.2:5173");
+  res.header("Access-Control-Allow-Origin", "https://192.168.1.111:5173");
   res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
   res.header("Access-Control-Allow-Headers", "Content-Type");
   res.header("Access-Control-Allow-Credentials", "true");

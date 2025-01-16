@@ -8,17 +8,17 @@ export default defineConfig({
     host: true,
     proxy: {
       "/api": {
-        target: "https://172.20.10.2:5001",
+        target: "https://192.168.1.111:5001",
         secure: false,
         changeOrigin: true,
       },
       "/images": {
-        target: "https://172.20.10.2:5001",
+        target: "https://192.168.1.111:5001",
         secure: false,
         changeOrigin: true,
       },
       "/socket.io": {
-        target: "https://172.20.10.2:5001",
+        target: "https://192.168.1.111:5001",
         secure: false,
         ws: true,
       },

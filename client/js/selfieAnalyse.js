@@ -43,7 +43,6 @@ export default class SelfieAnalyse {
     this.gyroscopeData = null;
     this.isTiltedDown = null;
     this.selfieComparator = null;
-
     this.referenceData = null;
     this.currentMode = 1;
     this.currentVisualMode = 1;

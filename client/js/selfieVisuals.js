@@ -18,30 +18,33 @@ export default class SelfieVisuals {
 
         if (this.buttonShowDatas.classList.contains("active_button_visual")) {
           console.log("Mode Visuals 1 FROM CANVAS SHAPE");
-          ctx.beginPath();
-          ctx.rect(canvasWidth / 2, 0, 10, canvasHeight);
-          ctx.fillStyle = "rgba(0, 255, 0, 1)";
-          ctx.fill();
-          ctx.closePath();
+          // ctx.beginPath();
+          // ctx.rect(canvasWidth / 2, 0, 10, canvasHeight);
+          // ctx.fillStyle = "rgba(0, 255, 0, 1)";
+          // ctx.fill();
+          // ctx.closePath();
 
-          // Dessiner les cercles concentriques des photos de référence
           if (referenceData.Up) {
-            ctx.strokeStyle = "rgba(255, 255, 255, 0.03)"; // Très faible opacité
             const centerX = canvasWidth / 2;
-            const centerY = canvasHeight / 2.08; // Même position Y que le cercle principal
+            const centerY = canvasHeight / 2.08;
 
-            const photos = referenceData.Up.slice(0, 1);
+            const photosUp = referenceData.Up.slice(0, 100);
+            const photosDown = referenceData.Down.slice(0, 100);
+
+            const photos = [...photosUp, ...photosDown];
 
             photos.forEach((photo) => {
-              const eyeDistance = photo.detectorData.faceData.eyeDistance / 2;
-
-              console.log("eyeDistance", eyeDistance);
+              const eyeDistance = photo.detectorData.faceData.eyeDistance;
+              const mappedEyeDistance =
+                this.map(eyeDistance * 2.75, 900, 4000, 0, 4500) / 2;
 
               ctx.beginPath();
-              ctx.arc(centerX, centerY, eyeDistance, 0, 2 * Math.PI);
-              ctx.strokeStyle = "rgba(255, 255, 255, 0.03)";
+              ctx.arc(centerX, centerY, mappedEyeDistance, 0, 2 * Math.PI);
+              ctx.strokeStyle = "rgba(255, 255, 255, 0.5)";
+              ctx.lineWidth = 4;
               ctx.stroke();
               ctx.closePath();
+              ctx.globalCompositeOperation = "difference";
             });
           }
         }
@@ -88,7 +91,7 @@ export default class SelfieVisuals {
 
       case 2:
         console.log("Mode Visuals 2 FROM CANVAS SHAPE");
-        // Premier rectangle (rouge)
+
         ctx.beginPath();
         ctx.rect(0, 0, canvasWidth, canvasHeight);
         ctx.fillStyle = "rgba(0, 0, 0, 1)";
@@ -97,12 +100,40 @@ export default class SelfieVisuals {
 
         if (this.buttonShowDatas.classList.contains("active_button_visual")) {
           console.log("Mode Visuals 1 FROM CANVAS SHAPE");
-          ctx.beginPath();
-          ctx.rect(canvasWidth / 2, 0, 10, canvasHeight);
-          ctx.fillStyle = "rgba(255, 0, 0, 1)";
-          ctx.fill();
-          ctx.closePath();
+          // ctx.beginPath();
+          // ctx.rect(canvasWidth / 2, 0, 10, canvasHeight);
+          // ctx.fillStyle = "rgba(255, 0, 0, 1)";
+          // ctx.fill();
+          // ctx.closePath();
+
+          if (referenceData) {
+            const photosUp = referenceData.Up.slice(0, 200);
+            const photosDown = referenceData.Down.slice(0, 200);
+
+            const photos = [...photosUp, ...photosDown];
+
+            photos.forEach((photo) => {
+              const photoPitchAngle = photo.detectorData.gyroscopeData.beta;
+              const mappedY = this.map(
+                photoPitchAngle,
+                160, // angle minimum
+                20, // angle maximum
+                0, // haut du canvas
+                canvasHeight // bas du canvas
+              );
+
+              ctx.beginPath();
+              ctx.rect(0, mappedY - 1, canvasWidth, 4); // Rectangle de 2px de hauteur
+              ctx.fillStyle = "rgba(255, 255, 255, 0.2)"; // Blanc semi-transparent
+              ctx.fill();
+              ctx.closePath();
+              ctx.globalCompositeOperation = "difference";
+            });
+          }
         }
+
+        ctx.fillStyle = "rgba(255, 255, 255, 1)"; // Blanc semi-transparent
+
         const pitchAngle = currentData.gyroscopeData.beta;
 
         // Mapper le pitchAngle (typiquement entre -90 et 90 degrés) vers la hauteur du rectangle
@@ -119,6 +150,7 @@ export default class SelfieVisuals {
         ctx.fillStyle = "rgba(255, 255, 255, 1)";
         ctx.fill();
         ctx.closePath();
+        ctx.globalCompositeOperation = "difference";
 
         break;
       case 3:
@@ -131,11 +163,42 @@ export default class SelfieVisuals {
 
         if (this.buttonShowDatas.classList.contains("active_button_visual")) {
           console.log("Mode Visuals 1 FROM CANVAS SHAPE");
-          ctx.beginPath();
-          ctx.rect(canvasWidth / 2, 0, 10, canvasHeight);
-          ctx.fillStyle = "rgba(0, 0, 255, 1)";
-          ctx.fill();
-          ctx.closePath();
+          // ctx.beginPath();
+          // ctx.rect(canvasWidth / 2, 0, 10, canvasHeight);
+          // ctx.fillStyle = "rgba(0, 0, 255, 1)";
+          // ctx.fill();
+          // ctx.closePath();
+
+          if (referenceData) {
+            const photosUp = referenceData.Up.slice(0, 200);
+            const photosDown = referenceData.Down.slice(0, 200);
+            const photos = [...photosUp, ...photosDown];
+
+            photos.forEach((photo) => {
+              // Extraire les coordonnées des yeux de la photo de référence
+              const [refRightEyeX, refRightEyeY] =
+                photo.detectorData.faceData.eyeRight.split(",").map(Number);
+              const [refLeftEyeX, refLeftEyeY] =
+                photo.detectorData.faceData.eyeLeft.split(",").map(Number);
+
+              // Calculer la rotation pour chaque photo de référence
+              const refRotation = Math.atan2(
+                refRightEyeY - refLeftEyeY,
+                refRightEyeX - refLeftEyeX
+              );
+
+              // Dessiner un rectangle rotatif pour chaque photo de référence
+              ctx.save();
+              ctx.translate(canvasWidth / 2, canvasHeight / 2);
+              ctx.rotate(refRotation);
+              ctx.beginPath();
+              ctx.rect(-5, -canvasHeight / 2 - 250, 4, canvasHeight + 500);
+              ctx.fillStyle = "rgba(255, 255, 255, 0.2)";
+              ctx.fill();
+              ctx.closePath();
+              ctx.restore();
+            });
+          }
         }
 
         // Parse les coordonnées des yeux
@@ -170,6 +233,8 @@ export default class SelfieVisuals {
             : startAngleFirst - Math.abs(smoothedRotation);
         const radius = canvasHeight / 1.7; // Rayon de l'arc
 
+        ctx.globalCompositeOperation = "difference";
+
         ctx.beginPath();
         ctx.moveTo(canvasWidth / 2, canvasHeight / 2);
         ctx.arc(
@@ -183,8 +248,8 @@ export default class SelfieVisuals {
         ctx.lineTo(canvasWidth / 2, canvasHeight / 2);
         ctx.fillStyle = "rgba(255, 255, 255, 1)";
         ctx.fill();
-        ctx.closePath();
 
+        ctx.closePath();
         const startAngleSecond = Math.PI / 2;
         const endAngleSecond =
           smoothedRotation > 0

@@ -92,6 +92,8 @@ export default class SelfieCanvas {
         selfieData,
         referenceData
       );
+    } else {
+      console.log("No landmarks found");
     }
 
     landmarksCanvasCtx.restore();

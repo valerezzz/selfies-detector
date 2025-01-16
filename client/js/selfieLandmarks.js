@@ -112,9 +112,8 @@ export default class SelfieLandmarks {
       if (this.scannerPosition < 1.2) {
         this.scannerPosition += 0.015;
       } else {
-        // Réinitialiser le scanner et revenir à l'animMode 1
+        // Au lieu de revenir à l'animMode 1, on réinitialise juste la position
         this.scannerPosition = 0;
-        this.animMode = 1;
       }
     }
 
