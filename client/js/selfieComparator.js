@@ -50,7 +50,7 @@ export default class SelfieComparator {
       roll: 1.5,
       eyeDistance: 3,
       beta: 1.5,
-      alpha: 1,
+      alpha: 0,
       gamma: 1.5,
     };
 

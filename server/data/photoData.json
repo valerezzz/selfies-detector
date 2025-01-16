@@ -10039,6 +10039,826 @@
         },
         "isTiltedDown": false
       }
+    },
+    {
+      "imagePath": "/images/selfie1736946079661.jpg",
+      "dateCapture": "2025-01-15T13:01:19.855Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 24,
+          "yaw": 45,
+          "roll": -22,
+          "eyeDistance": 649,
+          "eyeLeft": "1086,2206",
+          "eyeRight": "1686,1960"
+        },
+        "gyroscopeData": {
+          "alpha": 274,
+          "beta": 123,
+          "gamma": 61
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946079872.jpg",
+      "dateCapture": "2025-01-15T13:01:20.040Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 30,
+          "yaw": 60,
+          "roll": -42,
+          "eyeDistance": 520,
+          "eyeLeft": "1167,2217",
+          "eyeRight": "1552,1866"
+        },
+        "gyroscopeData": {
+          "alpha": 259,
+          "beta": 139,
+          "gamma": 71
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946080079.jpg",
+      "dateCapture": "2025-01-15T13:01:20.239Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 36,
+          "yaw": 61,
+          "roll": -65,
+          "eyeDistance": 514,
+          "eyeLeft": "1204,2302",
+          "eyeRight": "1417,1835"
+        },
+        "gyroscopeData": {
+          "alpha": 241,
+          "beta": 159,
+          "gamma": 82
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946080286.jpg",
+      "dateCapture": "2025-01-15T13:01:20.490Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 49,
+          "yaw": 55,
+          "roll": -83,
+          "eyeDistance": 498,
+          "eyeLeft": "1277,2311",
+          "eyeRight": "1336,1816"
+        },
+        "gyroscopeData": {
+          "alpha": 232,
+          "beta": 173,
+          "gamma": 87
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946080495.jpg",
+      "dateCapture": "2025-01-15T13:01:20.721Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 56,
+          "yaw": 52,
+          "roll": -89,
+          "eyeDistance": 483,
+          "eyeLeft": "1317,2344",
+          "eyeRight": "1324,1861"
+        },
+        "gyroscopeData": {
+          "alpha": 227,
+          "beta": 179,
+          "gamma": 88
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946080703.jpg",
+      "dateCapture": "2025-01-15T13:01:20.894Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 75,
+          "yaw": 48,
+          "roll": -96,
+          "eyeDistance": 460,
+          "eyeLeft": "1207,2354",
+          "eyeRight": "1157,1897"
+        },
+        "gyroscopeData": {
+          "alpha": 224,
+          "beta": -175,
+          "gamma": 89
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946081318.jpg",
+      "dateCapture": "2025-01-15T13:01:21.551Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 85,
+          "yaw": 36,
+          "roll": -93,
+          "eyeDistance": 475,
+          "eyeLeft": "1088,1874",
+          "eyeRight": "1063,1399"
+        },
+        "gyroscopeData": {
+          "alpha": 254,
+          "beta": 177,
+          "gamma": 89
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946081528.jpg",
+      "dateCapture": "2025-01-15T13:01:21.777Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 104,
+          "yaw": 36,
+          "roll": -92,
+          "eyeDistance": 469,
+          "eyeLeft": "1065,1786",
+          "eyeRight": "1048,1317"
+        },
+        "gyroscopeData": {
+          "alpha": 266,
+          "beta": 178,
+          "gamma": 89
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946081741.jpg",
+      "dateCapture": "2025-01-15T13:01:21.940Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 101,
+          "yaw": 37,
+          "roll": -95,
+          "eyeDistance": 458,
+          "eyeLeft": "1064,1786",
+          "eyeRight": "1026,1330"
+        },
+        "gyroscopeData": {
+          "alpha": 273,
+          "beta": 180,
+          "gamma": 89
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946081947.jpg",
+      "dateCapture": "2025-01-15T13:01:22.145Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 102,
+          "yaw": 40,
+          "roll": -94,
+          "eyeDistance": 473,
+          "eyeLeft": "1087,1773",
+          "eyeRight": "1057,1300"
+        },
+        "gyroscopeData": {
+          "alpha": 271,
+          "beta": -180,
+          "gamma": 88
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946083164.jpg",
+      "dateCapture": "2025-01-15T13:01:23.397Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 2,
+          "yaw": 62,
+          "roll": -40,
+          "eyeDistance": 496,
+          "eyeLeft": "1147,1897",
+          "eyeRight": "1526,1576"
+        },
+        "gyroscopeData": {
+          "alpha": 269,
+          "beta": 120,
+          "gamma": 60
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946083371.jpg",
+      "dateCapture": "2025-01-15T13:01:23.558Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 19,
+          "yaw": 54,
+          "roll": -12,
+          "eyeDistance": 601,
+          "eyeLeft": "1132,2070",
+          "eyeRight": "1719,1943"
+        },
+        "gyroscopeData": {
+          "alpha": 308,
+          "beta": 111,
+          "gamma": 22
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946083581.jpg",
+      "dateCapture": "2025-01-15T13:01:23.734Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 35,
+          "yaw": 1,
+          "roll": 0,
+          "eyeDistance": 798,
+          "eyeLeft": "756,1910",
+          "eyeRight": "1553,1907"
+        },
+        "gyroscopeData": {
+          "alpha": 326,
+          "beta": 122,
+          "gamma": 1
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946083788.jpg",
+      "dateCapture": "2025-01-15T13:01:23.945Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 34,
+          "yaw": -27,
+          "roll": 9,
+          "eyeDistance": 750,
+          "eyeLeft": "592,1827",
+          "eyeRight": "1333,1940"
+        },
+        "gyroscopeData": {
+          "alpha": 330,
+          "beta": 130,
+          "gamma": -3
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946083988.jpg",
+      "dateCapture": "2025-01-15T13:01:24.192Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 37,
+          "yaw": -34,
+          "roll": 7,
+          "eyeDistance": 820,
+          "eyeLeft": "571,1780",
+          "eyeRight": "1384,1884"
+        },
+        "gyroscopeData": {
+          "alpha": 328,
+          "beta": 131,
+          "gamma": 0
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946084206.jpg",
+      "dateCapture": "2025-01-15T13:01:24.445Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 34,
+          "yaw": 18,
+          "roll": 1,
+          "eyeDistance": 875,
+          "eyeLeft": "529,1730",
+          "eyeRight": "1403,1749"
+        },
+        "gyroscopeData": {
+          "alpha": 328,
+          "beta": 129,
+          "gamma": 2
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946084415.jpg",
+      "dateCapture": "2025-01-15T13:01:24.656Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 30,
+          "yaw": 0,
+          "roll": -1,
+          "eyeDistance": 896,
+          "eyeLeft": "615,1703",
+          "eyeRight": "1510,1684"
+        },
+        "gyroscopeData": {
+          "alpha": 329,
+          "beta": 125,
+          "gamma": 3
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946084615.jpg",
+      "dateCapture": "2025-01-15T13:01:24.822Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 20,
+          "yaw": -11,
+          "roll": -1,
+          "eyeDistance": 894,
+          "eyeLeft": "788,1705",
+          "eyeRight": "1681,1684"
+        },
+        "gyroscopeData": {
+          "alpha": 336,
+          "beta": 112,
+          "gamma": -2
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946084817.jpg",
+      "dateCapture": "2025-01-15T13:01:25.064Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 7,
+          "yaw": -9,
+          "roll": -2,
+          "eyeDistance": 815,
+          "eyeLeft": "823,1745",
+          "eyeRight": "1638,1718"
+        },
+        "gyroscopeData": {
+          "alpha": 348,
+          "beta": 95,
+          "gamma": -16
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946085034.jpg",
+      "dateCapture": "2025-01-15T13:01:25.222Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -6,
+          "yaw": -1,
+          "roll": -2,
+          "eyeDistance": 761,
+          "eyeLeft": "814,1854",
+          "eyeRight": "1575,1830"
+        },
+        "gyroscopeData": {
+          "alpha": 315,
+          "beta": 80,
+          "gamma": 19
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736954492854.jpg",
+      "dateCapture": "2025-01-15T15:21:32.908Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -15,
+          "yaw": 1,
+          "roll": -3,
+          "eyeDistance": 622,
+          "eyeLeft": "745,2030",
+          "eyeRight": "1366,1999"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 59,
+          "gamma": -5
+        },
+        "isTiltedDown": null
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955482900.jpg",
+      "dateCapture": "2025-01-15T15:38:03.148Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -10,
+          "yaw": 2,
+          "roll": 1,
+          "eyeDistance": 595,
+          "eyeLeft": "761,1881",
+          "eyeRight": "1355,1891"
+        },
+        "gyroscopeData": {
+          "alpha": 3,
+          "beta": 84,
+          "gamma": -1
+        },
+        "isTiltedDown": null
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955607642.jpg",
+      "dateCapture": "2025-01-15T15:40:07.770Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -6,
+          "yaw": 5,
+          "roll": -3,
+          "eyeDistance": 611,
+          "eyeLeft": "721,2059",
+          "eyeRight": "1331,2030"
+        },
+        "gyroscopeData": {
+          "alpha": 13,
+          "beta": 76,
+          "gamma": -3
+        },
+        "isTiltedDown": null
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955608262.jpg",
+      "dateCapture": "2025-01-15T15:40:08.391Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 16,
+          "yaw": 4,
+          "roll": -2,
+          "eyeDistance": 650,
+          "eyeLeft": "704,1968",
+          "eyeRight": "1353,1940"
+        },
+        "gyroscopeData": {
+          "alpha": 4,
+          "beta": 106,
+          "gamma": 2
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955608469.jpg",
+      "dateCapture": "2025-01-15T15:40:08.594Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 17,
+          "yaw": 8,
+          "roll": -5,
+          "eyeDistance": 634,
+          "eyeLeft": "662,1983",
+          "eyeRight": "1293,1932"
+        },
+        "gyroscopeData": {
+          "alpha": 358,
+          "beta": 112,
+          "gamma": 7
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955608670.jpg",
+      "dateCapture": "2025-01-15T15:40:08.790Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 20,
+          "yaw": 10,
+          "roll": -2,
+          "eyeDistance": 623,
+          "eyeLeft": "672,1997",
+          "eyeRight": "1295,1975"
+        },
+        "gyroscopeData": {
+          "alpha": 2,
+          "beta": 115,
+          "gamma": 3
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955608873.jpg",
+      "dateCapture": "2025-01-15T15:40:09.000Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 21,
+          "yaw": 8,
+          "roll": -3,
+          "eyeDistance": 646,
+          "eyeLeft": "678,1975",
+          "eyeRight": "1323,1945"
+        },
+        "gyroscopeData": {
+          "alpha": 1,
+          "beta": 116,
+          "gamma": 3
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955609091.jpg",
+      "dateCapture": "2025-01-15T15:40:09.205Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 24,
+          "yaw": 5,
+          "roll": -4,
+          "eyeDistance": 657,
+          "eyeLeft": "674,2028",
+          "eyeRight": "1329,1976"
+        },
+        "gyroscopeData": {
+          "alpha": 358,
+          "beta": 115,
+          "gamma": 5
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955609305.jpg",
+      "dateCapture": "2025-01-15T15:40:09.423Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 19,
+          "yaw": 13,
+          "roll": -2,
+          "eyeDistance": 579,
+          "eyeLeft": "810,2087",
+          "eyeRight": "1389,2068"
+        },
+        "gyroscopeData": {
+          "alpha": 355,
+          "beta": 106,
+          "gamma": 8
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955609503.jpg",
+      "dateCapture": "2025-01-15T15:40:09.648Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 4,
+          "yaw": 11,
+          "roll": -3,
+          "eyeDistance": 521,
+          "eyeLeft": "783,2000",
+          "eyeRight": "1303,1970"
+        },
+        "gyroscopeData": {
+          "alpha": 341,
+          "beta": 100,
+          "gamma": 19
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955609722.jpg",
+      "dateCapture": "2025-01-15T15:40:09.840Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -6,
+          "yaw": 5,
+          "roll": -6,
+          "eyeDistance": 475,
+          "eyeLeft": "696,1947",
+          "eyeRight": "1169,1900"
+        },
+        "gyroscopeData": {
+          "alpha": 65,
+          "beta": 85,
+          "gamma": -67
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955759145.jpg",
+      "dateCapture": "2025-01-15T15:42:39.272Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 13,
+          "yaw": 3,
+          "roll": -3,
+          "eyeDistance": 602,
+          "eyeLeft": "717,2110",
+          "eyeRight": "1318,2081"
+        },
+        "gyroscopeData": {
+          "alpha": 360,
+          "beta": 94,
+          "gamma": 4
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955759346.jpg",
+      "dateCapture": "2025-01-15T15:42:39.484Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 12,
+          "yaw": 1,
+          "roll": -2,
+          "eyeDistance": 618,
+          "eyeLeft": "738,2133",
+          "eyeRight": "1355,2106"
+        },
+        "gyroscopeData": {
+          "alpha": 5,
+          "beta": 92,
+          "gamma": -1
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955759559.jpg",
+      "dateCapture": "2025-01-15T15:42:39.696Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 9,
+          "yaw": -3,
+          "roll": -2,
+          "eyeDistance": 611,
+          "eyeLeft": "792,2129",
+          "eyeRight": "1403,2105"
+        },
+        "gyroscopeData": {
+          "alpha": 323,
+          "beta": 89,
+          "gamma": 43
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955762271.jpg",
+      "dateCapture": "2025-01-15T15:42:42.418Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -16,
+          "yaw": -33,
+          "roll": -31,
+          "eyeDistance": 451,
+          "eyeLeft": "687,2058",
+          "eyeRight": "1075,1829"
+        },
+        "gyroscopeData": {
+          "alpha": 286,
+          "beta": 104,
+          "gamma": 87
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955762481.jpg",
+      "dateCapture": "2025-01-15T15:42:42.621Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -17,
+          "yaw": -30,
+          "roll": -31,
+          "eyeDistance": 460,
+          "eyeLeft": "661,2044",
+          "eyeRight": "1055,1807"
+        },
+        "gyroscopeData": {
+          "alpha": 284,
+          "beta": 104,
+          "gamma": 88
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955762684.jpg",
+      "dateCapture": "2025-01-15T15:42:42.813Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -19,
+          "yaw": -32,
+          "roll": -34,
+          "eyeDistance": 471,
+          "eyeLeft": "616,2171",
+          "eyeRight": "1005,1906"
+        },
+        "gyroscopeData": {
+          "alpha": 79,
+          "beta": 78,
+          "gamma": -68
+        },
+        "isTiltedDown": false
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736963201545.jpg",
+      "dateCapture": "2025-01-15T17:46:41.956Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -25,
+          "yaw": 1,
+          "roll": 0,
+          "eyeDistance": 684,
+          "eyeLeft": "661,2416",
+          "eyeRight": "1346,2419"
+        },
+        "gyroscopeData": {
+          "alpha": 24,
+          "beta": 42,
+          "gamma": -3
+        },
+        "isTiltedDown": null
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736977743330.jpg",
+      "dateCapture": "2025-01-15T21:49:03.422Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -16,
+          "yaw": 9,
+          "roll": -4,
+          "eyeDistance": 578,
+          "eyeLeft": "721,2317",
+          "eyeRight": "1298,2275"
+        },
+        "gyroscopeData": {
+          "alpha": 355,
+          "beta": 59,
+          "gamma": -1
+        },
+        "isTiltedDown": null
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736977819970.jpg",
+      "dateCapture": "2025-01-15T21:50:20.540Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -19,
+          "yaw": 1,
+          "roll": -1,
+          "eyeDistance": 576,
+          "eyeLeft": "737,2287",
+          "eyeRight": "1313,2274"
+        },
+        "gyroscopeData": {
+          "alpha": 358,
+          "beta": 58,
+          "gamma": -4
+        },
+        "isTiltedDown": null
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980023468.jpg",
+      "dateCapture": "2025-01-15T22:27:03.774Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -23,
+          "yaw": 4,
+          "roll": -1,
+          "eyeDistance": 673,
+          "eyeLeft": "688,2379",
+          "eyeRight": "1361,2369"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 43,
+          "gamma": 6
+        },
+        "isTiltedDown": null
+      }
     }
   ],
   "Down": [
@@ -31738,6 +32558,3186 @@
           "alpha": 105,
           "beta": 63,
           "gamma": -38
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946077061.jpg",
+      "dateCapture": "2025-01-15T13:01:17.262Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 1,
+          "yaw": 4,
+          "roll": -3,
+          "eyeDistance": 522,
+          "eyeLeft": "793,2290",
+          "eyeRight": "1314,2260"
+        },
+        "gyroscopeData": {
+          "alpha": 78,
+          "beta": 88,
+          "gamma": -71
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946077207.jpg",
+      "dateCapture": "2025-01-15T13:01:17.343Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 2,
+          "yaw": 5,
+          "roll": -3,
+          "eyeDistance": 519,
+          "eyeLeft": "822,2254",
+          "eyeRight": "1340,2223"
+        },
+        "gyroscopeData": {
+          "alpha": 45,
+          "beta": 87,
+          "gamma": -46
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946077419.jpg",
+      "dateCapture": "2025-01-15T13:01:17.557Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 0,
+          "yaw": 6,
+          "roll": -4,
+          "eyeDistance": 522,
+          "eyeLeft": "843,2233",
+          "eyeRight": "1364,2198"
+        },
+        "gyroscopeData": {
+          "alpha": 19,
+          "beta": 86,
+          "gamma": -30
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946077621.jpg",
+      "dateCapture": "2025-01-15T13:01:17.752Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -1,
+          "yaw": 4,
+          "roll": -4,
+          "eyeDistance": 501,
+          "eyeLeft": "832,2214",
+          "eyeRight": "1333,2183"
+        },
+        "gyroscopeData": {
+          "alpha": 359,
+          "beta": 84,
+          "gamma": -19
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946077819.jpg",
+      "dateCapture": "2025-01-15T13:01:17.953Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -2,
+          "yaw": 0,
+          "roll": -4,
+          "eyeDistance": 519,
+          "eyeLeft": "797,2226",
+          "eyeRight": "1314,2190"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 80,
+          "gamma": -18
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946078024.jpg",
+      "dateCapture": "2025-01-15T13:01:18.152Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -8,
+          "yaw": 3,
+          "roll": -3,
+          "eyeDistance": 544,
+          "eyeLeft": "800,2300",
+          "eyeRight": "1343,2267"
+        },
+        "gyroscopeData": {
+          "alpha": 344,
+          "beta": 74,
+          "gamma": -9
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946078231.jpg",
+      "dateCapture": "2025-01-15T13:01:18.362Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 4,
+          "roll": -3,
+          "eyeDistance": 575,
+          "eyeLeft": "834,2326",
+          "eyeRight": "1409,2295"
+        },
+        "gyroscopeData": {
+          "alpha": 339,
+          "beta": 65,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946078437.jpg",
+      "dateCapture": "2025-01-15T13:01:18.578Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 3,
+          "roll": -1,
+          "eyeDistance": 604,
+          "eyeLeft": "755,2328",
+          "eyeRight": "1359,2318"
+        },
+        "gyroscopeData": {
+          "alpha": 341,
+          "beta": 57,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946078638.jpg",
+      "dateCapture": "2025-01-15T13:01:18.785Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -25,
+          "yaw": 3,
+          "roll": -1,
+          "eyeDistance": 632,
+          "eyeLeft": "705,2229",
+          "eyeRight": "1336,2223"
+        },
+        "gyroscopeData": {
+          "alpha": 342,
+          "beta": 54,
+          "gamma": -6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946078837.jpg",
+      "dateCapture": "2025-01-15T13:01:18.989Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -25,
+          "yaw": 3,
+          "roll": 1,
+          "eyeDistance": 726,
+          "eyeLeft": "546,2132",
+          "eyeRight": "1273,2143"
+        },
+        "gyroscopeData": {
+          "alpha": 341,
+          "beta": 54,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946079045.jpg",
+      "dateCapture": "2025-01-15T13:01:19.191Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 3,
+          "roll": 1,
+          "eyeDistance": 777,
+          "eyeLeft": "597,1972",
+          "eyeRight": "1373,1992"
+        },
+        "gyroscopeData": {
+          "alpha": 343,
+          "beta": 61,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946079261.jpg",
+      "dateCapture": "2025-01-15T13:01:19.394Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -4,
+          "yaw": 5,
+          "roll": -3,
+          "eyeDistance": 809,
+          "eyeLeft": "586,1931",
+          "eyeRight": "1394,1886"
+        },
+        "gyroscopeData": {
+          "alpha": 1,
+          "beta": 79,
+          "gamma": -25
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946079457.jpg",
+      "dateCapture": "2025-01-15T13:01:19.603Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 17,
+          "yaw": 29,
+          "roll": -12,
+          "eyeDistance": 787,
+          "eyeLeft": "809,2181",
+          "eyeRight": "1579,2019"
+        },
+        "gyroscopeData": {
+          "alpha": 275,
+          "beta": 107,
+          "gamma": 62
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946080914.jpg",
+      "dateCapture": "2025-01-15T13:01:21.115Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 82,
+          "yaw": 42,
+          "roll": -97,
+          "eyeDistance": 455,
+          "eyeLeft": "1074,2272",
+          "eyeRight": "1015,1821"
+        },
+        "gyroscopeData": {
+          "alpha": 227,
+          "beta": -176,
+          "gamma": 87
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946081118.jpg",
+      "dateCapture": "2025-01-15T13:01:21.399Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 87,
+          "yaw": 41,
+          "roll": -95,
+          "eyeDistance": 446,
+          "eyeLeft": "1019,2033",
+          "eyeRight": "977,1588"
+        },
+        "gyroscopeData": {
+          "alpha": 239,
+          "beta": 180,
+          "gamma": 89
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946082147.jpg",
+      "dateCapture": "2025-01-15T13:01:22.354Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 94,
+          "yaw": 43,
+          "roll": -95,
+          "eyeDistance": 478,
+          "eyeLeft": "1040,2072",
+          "eyeRight": "999,1596"
+        },
+        "gyroscopeData": {
+          "alpha": 255,
+          "beta": -178,
+          "gamma": 87
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946082353.jpg",
+      "dateCapture": "2025-01-15T13:01:22.561Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 58,
+          "yaw": 46,
+          "roll": -95,
+          "eyeDistance": 470,
+          "eyeLeft": "1074,2199",
+          "eyeRight": "1031,1731"
+        },
+        "gyroscopeData": {
+          "alpha": 244,
+          "beta": -178,
+          "gamma": 87
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946082553.jpg",
+      "dateCapture": "2025-01-15T13:01:22.776Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 21,
+          "yaw": 43,
+          "roll": -95,
+          "eyeDistance": 310,
+          "eyeLeft": "1043,2068",
+          "eyeRight": "1014,1760"
+        },
+        "gyroscopeData": {
+          "alpha": 238,
+          "beta": -178,
+          "gamma": 86
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946082765.jpg",
+      "dateCapture": "2025-01-15T13:01:22.995Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 28,
+          "yaw": 51,
+          "roll": -92,
+          "eyeDistance": 358,
+          "eyeLeft": "1043,1945",
+          "eyeRight": "1033,1587"
+        },
+        "gyroscopeData": {
+          "alpha": 237,
+          "beta": -180,
+          "gamma": 85
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946082962.jpg",
+      "dateCapture": "2025-01-15T13:01:23.201Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 27,
+          "yaw": 61,
+          "roll": -89,
+          "eyeDistance": 456,
+          "eyeLeft": "1138,1880",
+          "eyeRight": "1148,1424"
+        },
+        "gyroscopeData": {
+          "alpha": 248,
+          "beta": 154,
+          "gamma": 76
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946085247.jpg",
+      "dateCapture": "2025-01-15T13:01:25.454Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -20,
+          "yaw": 1,
+          "roll": -3,
+          "eyeDistance": 777,
+          "eyeLeft": "830,1876",
+          "eyeRight": "1606,1833"
+        },
+        "gyroscopeData": {
+          "alpha": 337,
+          "beta": 71,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946085448.jpg",
+      "dateCapture": "2025-01-15T13:01:25.660Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 3,
+          "roll": -5,
+          "eyeDistance": 780,
+          "eyeLeft": "736,1839",
+          "eyeRight": "1514,1773"
+        },
+        "gyroscopeData": {
+          "alpha": 338,
+          "beta": 67,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946085652.jpg",
+      "dateCapture": "2025-01-15T13:01:25.852Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -24,
+          "yaw": 7,
+          "roll": -5,
+          "eyeDistance": 758,
+          "eyeLeft": "769,1900",
+          "eyeRight": "1524,1838"
+        },
+        "gyroscopeData": {
+          "alpha": 339,
+          "beta": 62,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946085855.jpg",
+      "dateCapture": "2025-01-15T13:01:26.040Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -25,
+          "yaw": 2,
+          "roll": -6,
+          "eyeDistance": 648,
+          "eyeLeft": "739,1896",
+          "eyeRight": "1384,1831"
+        },
+        "gyroscopeData": {
+          "alpha": 344,
+          "beta": 57,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946086069.jpg",
+      "dateCapture": "2025-01-15T13:01:26.257Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -25,
+          "yaw": 5,
+          "roll": -5,
+          "eyeDistance": 558,
+          "eyeLeft": "756,1864",
+          "eyeRight": "1312,1815"
+        },
+        "gyroscopeData": {
+          "alpha": 344,
+          "beta": 55,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946086282.jpg",
+      "dateCapture": "2025-01-15T13:01:26.485Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -27,
+          "yaw": 4,
+          "roll": -3,
+          "eyeDistance": 496,
+          "eyeLeft": "888,1958",
+          "eyeRight": "1383,1931"
+        },
+        "gyroscopeData": {
+          "alpha": 342,
+          "beta": 51,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946086474.jpg",
+      "dateCapture": "2025-01-15T13:01:26.671Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -29,
+          "yaw": 4,
+          "roll": -3,
+          "eyeDistance": 465,
+          "eyeLeft": "839,1965",
+          "eyeRight": "1303,1941"
+        },
+        "gyroscopeData": {
+          "alpha": 342,
+          "beta": 50,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946086681.jpg",
+      "dateCapture": "2025-01-15T13:01:26.881Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -29,
+          "yaw": 5,
+          "roll": -3,
+          "eyeDistance": 462,
+          "eyeLeft": "822,2002",
+          "eyeRight": "1283,1974"
+        },
+        "gyroscopeData": {
+          "alpha": 342,
+          "beta": 50,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736946086880.jpg",
+      "dateCapture": "2025-01-15T13:01:27.117Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -29,
+          "yaw": 4,
+          "roll": -4,
+          "eyeDistance": 466,
+          "eyeLeft": "833,1962",
+          "eyeRight": "1297,1927"
+        },
+        "gyroscopeData": {
+          "alpha": 344,
+          "beta": 51,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947914050.jpg",
+      "dateCapture": "2025-01-15T13:31:54.365Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 3,
+          "yaw": -27,
+          "roll": 74,
+          "eyeDistance": 474,
+          "eyeLeft": "1058,2027",
+          "eyeRight": "1190,2483"
+        },
+        "gyroscopeData": {
+          "alpha": 314,
+          "beta": 0,
+          "gamma": 55
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947914244.jpg",
+      "dateCapture": "2025-01-15T13:31:54.505Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 9,
+          "yaw": -28,
+          "roll": 74,
+          "eyeDistance": 469,
+          "eyeLeft": "1133,2040",
+          "eyeRight": "1263,2490"
+        },
+        "gyroscopeData": {
+          "alpha": 314,
+          "beta": 0,
+          "gamma": 58
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947914455.jpg",
+      "dateCapture": "2025-01-15T13:31:54.709Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -1,
+          "yaw": -25,
+          "roll": 74,
+          "eyeDistance": 468,
+          "eyeLeft": "1099,2054",
+          "eyeRight": "1227,2504"
+        },
+        "gyroscopeData": {
+          "alpha": 313,
+          "beta": 1,
+          "gamma": 58
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947914660.jpg",
+      "dateCapture": "2025-01-15T13:31:54.914Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 6,
+          "yaw": -30,
+          "roll": 73,
+          "eyeDistance": 472,
+          "eyeLeft": "1251,1978",
+          "eyeRight": "1386,2431"
+        },
+        "gyroscopeData": {
+          "alpha": 312,
+          "beta": 2,
+          "gamma": 66
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947914867.jpg",
+      "dateCapture": "2025-01-15T13:31:55.122Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 25,
+          "yaw": -34,
+          "roll": 78,
+          "eyeDistance": 488,
+          "eyeLeft": "1335,2049",
+          "eyeRight": "1434,2527"
+        },
+        "gyroscopeData": {
+          "alpha": 313,
+          "beta": -2,
+          "gamma": 72
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947915076.jpg",
+      "dateCapture": "2025-01-15T13:31:55.360Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 39,
+          "yaw": -42,
+          "roll": 80,
+          "eyeDistance": 508,
+          "eyeLeft": "1319,2125",
+          "eyeRight": "1407,2625"
+        },
+        "gyroscopeData": {
+          "alpha": 313,
+          "beta": -3,
+          "gamma": 78
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947915290.jpg",
+      "dateCapture": "2025-01-15T13:31:55.599Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 46,
+          "yaw": -51,
+          "roll": 81,
+          "eyeDistance": 514,
+          "eyeLeft": "1157,2029",
+          "eyeRight": "1237,2536"
+        },
+        "gyroscopeData": {
+          "alpha": 311,
+          "beta": -2,
+          "gamma": 80
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947915504.jpg",
+      "dateCapture": "2025-01-15T13:31:55.804Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 49,
+          "yaw": -52,
+          "roll": 83,
+          "eyeDistance": 524,
+          "eyeLeft": "1113,2066",
+          "eyeRight": "1179,2585"
+        },
+        "gyroscopeData": {
+          "alpha": 313,
+          "beta": -2,
+          "gamma": 85
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947915708.jpg",
+      "dateCapture": "2025-01-15T13:31:56.000Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 46,
+          "yaw": -58,
+          "roll": 80,
+          "eyeDistance": 533,
+          "eyeLeft": "1046,2079",
+          "eyeRight": "1142,2604"
+        },
+        "gyroscopeData": {
+          "alpha": 313,
+          "beta": 0,
+          "gamma": 85
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947915906.jpg",
+      "dateCapture": "2025-01-15T13:31:56.195Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 47,
+          "yaw": -58,
+          "roll": 79,
+          "eyeDistance": 521,
+          "eyeLeft": "984,2036",
+          "eyeRight": "1084,2547"
+        },
+        "gyroscopeData": {
+          "alpha": 312,
+          "beta": 0,
+          "gamma": 84
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947916106.jpg",
+      "dateCapture": "2025-01-15T13:31:56.446Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 45,
+          "yaw": -51,
+          "roll": 82,
+          "eyeDistance": 508,
+          "eyeLeft": "1039,2023",
+          "eyeRight": "1109,2526"
+        },
+        "gyroscopeData": {
+          "alpha": 312,
+          "beta": -2,
+          "gamma": 81
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947916310.jpg",
+      "dateCapture": "2025-01-15T13:31:56.616Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 34,
+          "yaw": -40,
+          "roll": 81,
+          "eyeDistance": 492,
+          "eyeLeft": "1016,2040",
+          "eyeRight": "1094,2526"
+        },
+        "gyroscopeData": {
+          "alpha": 311,
+          "beta": -2,
+          "gamma": 74
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947916524.jpg",
+      "dateCapture": "2025-01-15T13:31:56.834Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 11,
+          "yaw": -31,
+          "roll": 78,
+          "eyeDistance": 463,
+          "eyeLeft": "909,1995",
+          "eyeRight": "1004,2448"
+        },
+        "gyroscopeData": {
+          "alpha": 309,
+          "beta": 1,
+          "gamma": 64
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947916723.jpg",
+      "dateCapture": "2025-01-15T13:31:57.009Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -13,
+          "yaw": -23,
+          "roll": 78,
+          "eyeDistance": 442,
+          "eyeLeft": "886,1936",
+          "eyeRight": "979,2368"
+        },
+        "gyroscopeData": {
+          "alpha": 308,
+          "beta": 0,
+          "gamma": 58
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947916932.jpg",
+      "dateCapture": "2025-01-15T13:31:57.261Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -36,
+          "yaw": -17,
+          "roll": 80,
+          "eyeDistance": 438,
+          "eyeLeft": "1036,1959",
+          "eyeRight": "1109,2391"
+        },
+        "gyroscopeData": {
+          "alpha": 308,
+          "beta": -1,
+          "gamma": 55
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947917142.jpg",
+      "dateCapture": "2025-01-15T13:31:57.471Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -23,
+          "yaw": -16,
+          "roll": 80,
+          "eyeDistance": 425,
+          "eyeLeft": "1045,1958",
+          "eyeRight": "1116,2377"
+        },
+        "gyroscopeData": {
+          "alpha": 308,
+          "beta": 0,
+          "gamma": 54
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947917356.jpg",
+      "dateCapture": "2025-01-15T13:31:57.743Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -21,
+          "yaw": -20,
+          "roll": 79,
+          "eyeDistance": 433,
+          "eyeLeft": "1069,1943",
+          "eyeRight": "1150,2368"
+        },
+        "gyroscopeData": {
+          "alpha": 309,
+          "beta": 0,
+          "gamma": 54
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736947917573.jpg",
+      "dateCapture": "2025-01-15T13:31:57.915Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": -20,
+          "roll": 79,
+          "eyeDistance": 434,
+          "eyeLeft": "993,1984",
+          "eyeRight": "1078,2410"
+        },
+        "gyroscopeData": {
+          "alpha": 310,
+          "beta": 0,
+          "gamma": 53
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736954493016.jpg",
+      "dateCapture": "2025-01-15T15:21:33.104Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -15,
+          "yaw": 2,
+          "roll": -3,
+          "eyeDistance": 627,
+          "eyeLeft": "727,2029",
+          "eyeRight": "1353,1998"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 59,
+          "gamma": -5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736954493206.jpg",
+      "dateCapture": "2025-01-15T15:21:33.277Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 3,
+          "roll": -3,
+          "eyeDistance": 642,
+          "eyeLeft": "721,2029",
+          "eyeRight": "1362,1997"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 59,
+          "gamma": -5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736954493425.jpg",
+      "dateCapture": "2025-01-15T15:21:33.497Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 2,
+          "roll": -3,
+          "eyeDistance": 635,
+          "eyeLeft": "730,2024",
+          "eyeRight": "1364,1992"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 59,
+          "gamma": -5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736954493628.jpg",
+      "dateCapture": "2025-01-15T15:21:33.694Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 2,
+          "roll": -3,
+          "eyeDistance": 627,
+          "eyeLeft": "746,2023",
+          "eyeRight": "1372,1993"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 59,
+          "gamma": -5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736954493831.jpg",
+      "dateCapture": "2025-01-15T15:21:33.915Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 1,
+          "roll": -3,
+          "eyeDistance": 631,
+          "eyeLeft": "740,2021",
+          "eyeRight": "1369,1989"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 59,
+          "gamma": -5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736954494048.jpg",
+      "dateCapture": "2025-01-15T15:21:34.113Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -15,
+          "yaw": 2,
+          "roll": -3,
+          "eyeDistance": 633,
+          "eyeLeft": "733,2021",
+          "eyeRight": "1365,1987"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 60,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736954494244.jpg",
+      "dateCapture": "2025-01-15T15:21:34.319Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 2,
+          "roll": -3,
+          "eyeDistance": 635,
+          "eyeLeft": "740,2010",
+          "eyeRight": "1374,1973"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 60,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736954494458.jpg",
+      "dateCapture": "2025-01-15T15:21:34.533Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 2,
+          "roll": -3,
+          "eyeDistance": 634,
+          "eyeLeft": "733,2003",
+          "eyeRight": "1366,1968"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 60,
+          "gamma": -5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736954494677.jpg",
+      "dateCapture": "2025-01-15T15:21:34.751Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 1,
+          "roll": -3,
+          "eyeDistance": 632,
+          "eyeLeft": "738,2001",
+          "eyeRight": "1368,1965"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 60,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955483075.jpg",
+      "dateCapture": "2025-01-15T15:38:03.214Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -10,
+          "yaw": 2,
+          "roll": 0,
+          "eyeDistance": 560,
+          "eyeLeft": "798,1853",
+          "eyeRight": "1359,1853"
+        },
+        "gyroscopeData": {
+          "alpha": 2,
+          "beta": 83,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955483287.jpg",
+      "dateCapture": "2025-01-15T15:38:03.429Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -10,
+          "yaw": 3,
+          "roll": 0,
+          "eyeDistance": 542,
+          "eyeLeft": "808,1900",
+          "eyeRight": "1350,1900"
+        },
+        "gyroscopeData": {
+          "alpha": 2,
+          "beta": 80,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955483503.jpg",
+      "dateCapture": "2025-01-15T15:38:03.645Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -12,
+          "yaw": 3,
+          "roll": 0,
+          "eyeDistance": 535,
+          "eyeLeft": "802,1941",
+          "eyeRight": "1337,1943"
+        },
+        "gyroscopeData": {
+          "alpha": 1,
+          "beta": 78,
+          "gamma": 1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955483688.jpg",
+      "dateCapture": "2025-01-15T15:38:04.019Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -15,
+          "yaw": 5,
+          "roll": 0,
+          "eyeDistance": 542,
+          "eyeLeft": "737,2049",
+          "eyeRight": "1279,2045"
+        },
+        "gyroscopeData": {
+          "alpha": 3,
+          "beta": 70,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955483895.jpg",
+      "dateCapture": "2025-01-15T15:38:04.155Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -17,
+          "yaw": 4,
+          "roll": 0,
+          "eyeDistance": 570,
+          "eyeLeft": "787,2215",
+          "eyeRight": "1357,2218"
+        },
+        "gyroscopeData": {
+          "alpha": 0,
+          "beta": 61,
+          "gamma": 1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955484094.jpg",
+      "dateCapture": "2025-01-15T15:38:04.265Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 4,
+          "roll": 1,
+          "eyeDistance": 613,
+          "eyeLeft": "786,2285",
+          "eyeRight": "1398,2293"
+        },
+        "gyroscopeData": {
+          "alpha": 3,
+          "beta": 54,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955484298.jpg",
+      "dateCapture": "2025-01-15T15:38:04.452Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -25,
+          "yaw": 4,
+          "roll": 1,
+          "eyeDistance": 645,
+          "eyeLeft": "749,2102",
+          "eyeRight": "1394,2112"
+        },
+        "gyroscopeData": {
+          "alpha": 2,
+          "beta": 55,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955484511.jpg",
+      "dateCapture": "2025-01-15T15:38:04.683Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -25,
+          "yaw": 2,
+          "roll": 0,
+          "eyeDistance": 655,
+          "eyeLeft": "738,2058",
+          "eyeRight": "1394,2061"
+        },
+        "gyroscopeData": {
+          "alpha": 4,
+          "beta": 53,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955607845.jpg",
+      "dateCapture": "2025-01-15T15:40:07.984Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 0,
+          "yaw": 3,
+          "roll": -3,
+          "eyeDistance": 626,
+          "eyeLeft": "752,1990",
+          "eyeRight": "1377,1960"
+        },
+        "gyroscopeData": {
+          "alpha": 32,
+          "beta": 87,
+          "gamma": -24
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955608053.jpg",
+      "dateCapture": "2025-01-15T15:40:08.179Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 8,
+          "yaw": 0,
+          "roll": -1,
+          "eyeDistance": 644,
+          "eyeLeft": "732,1973",
+          "eyeRight": "1376,1957"
+        },
+        "gyroscopeData": {
+          "alpha": 9,
+          "beta": 97,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955609931.jpg",
+      "dateCapture": "2025-01-15T15:40:10.073Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -10,
+          "yaw": 3,
+          "roll": -5,
+          "eyeDistance": 422,
+          "eyeLeft": "753,1999",
+          "eyeRight": "1173,1965"
+        },
+        "gyroscopeData": {
+          "alpha": 17,
+          "beta": 81,
+          "gamma": -18
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955610131.jpg",
+      "dateCapture": "2025-01-15T15:40:10.270Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -15,
+          "yaw": 4,
+          "roll": -1,
+          "eyeDistance": 405,
+          "eyeLeft": "884,2082",
+          "eyeRight": "1289,2076"
+        },
+        "gyroscopeData": {
+          "alpha": 359,
+          "beta": 77,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955610333.jpg",
+      "dateCapture": "2025-01-15T15:40:10.449Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -16,
+          "yaw": 2,
+          "roll": 0,
+          "eyeDistance": 393,
+          "eyeLeft": "953,2198",
+          "eyeRight": "1345,2200"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 74,
+          "gamma": 5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955610541.jpg",
+      "dateCapture": "2025-01-15T15:40:10.670Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -13,
+          "yaw": -1,
+          "roll": -3,
+          "eyeDistance": 425,
+          "eyeLeft": "851,2266",
+          "eyeRight": "1275,2246"
+        },
+        "gyroscopeData": {
+          "alpha": 359,
+          "beta": 72,
+          "gamma": 1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955610738.jpg",
+      "dateCapture": "2025-01-15T15:40:10.883Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 3,
+          "roll": -1,
+          "eyeDistance": 483,
+          "eyeLeft": "833,2404",
+          "eyeRight": "1316,2394"
+        },
+        "gyroscopeData": {
+          "alpha": 0,
+          "beta": 67,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955610944.jpg",
+      "dateCapture": "2025-01-15T15:40:11.120Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 4,
+          "roll": -2,
+          "eyeDistance": 541,
+          "eyeLeft": "739,2149",
+          "eyeRight": "1280,2127"
+        },
+        "gyroscopeData": {
+          "alpha": 3,
+          "beta": 69,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955611153.jpg",
+      "dateCapture": "2025-01-15T15:40:11.279Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -19,
+          "yaw": 2,
+          "roll": -3,
+          "eyeDistance": 595,
+          "eyeLeft": "769,2002",
+          "eyeRight": "1363,1975"
+        },
+        "gyroscopeData": {
+          "alpha": 5,
+          "beta": 66,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955611357.jpg",
+      "dateCapture": "2025-01-15T15:40:11.478Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -19,
+          "yaw": 3,
+          "roll": -2,
+          "eyeDistance": 615,
+          "eyeLeft": "756,1995",
+          "eyeRight": "1371,1969"
+        },
+        "gyroscopeData": {
+          "alpha": 7,
+          "beta": 64,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955734002.jpg",
+      "dateCapture": "2025-01-15T15:42:14.146Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -6,
+          "yaw": 1,
+          "roll": 1,
+          "eyeDistance": 558,
+          "eyeLeft": "736,2118",
+          "eyeRight": "1294,2125"
+        },
+        "gyroscopeData": {
+          "alpha": 8,
+          "beta": 72,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955734209.jpg",
+      "dateCapture": "2025-01-15T15:42:14.360Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -7,
+          "yaw": 4,
+          "roll": 1,
+          "eyeDistance": 547,
+          "eyeLeft": "742,2107",
+          "eyeRight": "1289,2113"
+        },
+        "gyroscopeData": {
+          "alpha": 7,
+          "beta": 69,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955734406.jpg",
+      "dateCapture": "2025-01-15T15:42:14.566Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -14,
+          "yaw": 3,
+          "roll": 1,
+          "eyeDistance": 541,
+          "eyeLeft": "740,2107",
+          "eyeRight": "1280,2116"
+        },
+        "gyroscopeData": {
+          "alpha": 7,
+          "beta": 63,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955734607.jpg",
+      "dateCapture": "2025-01-15T15:42:14.738Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 3,
+          "roll": -1,
+          "eyeDistance": 560,
+          "eyeLeft": "654,2218",
+          "eyeRight": "1214,2212"
+        },
+        "gyroscopeData": {
+          "alpha": 9,
+          "beta": 53,
+          "gamma": -5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955734812.jpg",
+      "dateCapture": "2025-01-15T15:42:14.941Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -27,
+          "yaw": 1,
+          "roll": -1,
+          "eyeDistance": 607,
+          "eyeLeft": "588,2100",
+          "eyeRight": "1195,2093"
+        },
+        "gyroscopeData": {
+          "alpha": 9,
+          "beta": 48,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955735011.jpg",
+      "dateCapture": "2025-01-15T15:42:15.152Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -35,
+          "yaw": 2,
+          "roll": 0,
+          "eyeDistance": 658,
+          "eyeLeft": "611,1947",
+          "eyeRight": "1269,1950"
+        },
+        "gyroscopeData": {
+          "alpha": 7,
+          "beta": 43,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955735241.jpg",
+      "dateCapture": "2025-01-15T15:42:15.370Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -35,
+          "yaw": 3,
+          "roll": 1,
+          "eyeDistance": 709,
+          "eyeLeft": "593,1897",
+          "eyeRight": "1302,1915"
+        },
+        "gyroscopeData": {
+          "alpha": 7,
+          "beta": 41,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955735435.jpg",
+      "dateCapture": "2025-01-15T15:42:15.572Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -33,
+          "yaw": 2,
+          "roll": 2,
+          "eyeDistance": 768,
+          "eyeLeft": "529,1780",
+          "eyeRight": "1297,1801"
+        },
+        "gyroscopeData": {
+          "alpha": 7,
+          "beta": 42,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955735650.jpg",
+      "dateCapture": "2025-01-15T15:42:15.782Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -31,
+          "yaw": 1,
+          "roll": 1,
+          "eyeDistance": 766,
+          "eyeLeft": "535,1822",
+          "eyeRight": "1301,1841"
+        },
+        "gyroscopeData": {
+          "alpha": 7,
+          "beta": 42,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955735867.jpg",
+      "dateCapture": "2025-01-15T15:42:16.006Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -32,
+          "yaw": 2,
+          "roll": 2,
+          "eyeDistance": 757,
+          "eyeLeft": "582,1836",
+          "eyeRight": "1339,1856"
+        },
+        "gyroscopeData": {
+          "alpha": 7,
+          "beta": 42,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955758316.jpg",
+      "dateCapture": "2025-01-15T15:42:38.427Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -12,
+          "yaw": 0,
+          "roll": 0,
+          "eyeDistance": 529,
+          "eyeLeft": "840,1998",
+          "eyeRight": "1369,1995"
+        },
+        "gyroscopeData": {
+          "alpha": 4,
+          "beta": 68,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955758524.jpg",
+      "dateCapture": "2025-01-15T15:42:38.689Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -2,
+          "yaw": 3,
+          "roll": -1,
+          "eyeDistance": 557,
+          "eyeLeft": "831,2061",
+          "eyeRight": "1388,2052"
+        },
+        "gyroscopeData": {
+          "alpha": 2,
+          "beta": 78,
+          "gamma": 4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955758740.jpg",
+      "dateCapture": "2025-01-15T15:42:38.894Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 9,
+          "yaw": 3,
+          "roll": -2,
+          "eyeDistance": 597,
+          "eyeLeft": "775,2098",
+          "eyeRight": "1372,2079"
+        },
+        "gyroscopeData": {
+          "alpha": 26,
+          "beta": 88,
+          "gamma": -22
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955758945.jpg",
+      "dateCapture": "2025-01-15T15:42:39.066Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 9,
+          "yaw": 2,
+          "roll": -3,
+          "eyeDistance": 618,
+          "eyeLeft": "697,2082",
+          "eyeRight": "1314,2051"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 93,
+          "gamma": 10
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955759767.jpg",
+      "dateCapture": "2025-01-15T15:42:39.908Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 7,
+          "yaw": -27,
+          "roll": 14,
+          "eyeDistance": 582,
+          "eyeLeft": "889,2103",
+          "eyeRight": "1455,2240"
+        },
+        "gyroscopeData": {
+          "alpha": 297,
+          "beta": 78,
+          "gamma": 68
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955759976.jpg",
+      "dateCapture": "2025-01-15T15:42:40.118Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 5,
+          "yaw": -13,
+          "roll": 25,
+          "eyeDistance": 558,
+          "eyeLeft": "1058,2090",
+          "eyeRight": "1563,2330"
+        },
+        "gyroscopeData": {
+          "alpha": 284,
+          "beta": 71,
+          "gamma": 76
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955760188.jpg",
+      "dateCapture": "2025-01-15T15:42:40.326Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 6,
+          "yaw": -15,
+          "roll": 37,
+          "eyeDistance": 523,
+          "eyeLeft": "983,2089",
+          "eyeRight": "1402,2402"
+        },
+        "gyroscopeData": {
+          "alpha": 281,
+          "beta": 66,
+          "gamma": 75
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955760398.jpg",
+      "dateCapture": "2025-01-15T15:42:40.526Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 6,
+          "yaw": -17,
+          "roll": 41,
+          "eyeDistance": 521,
+          "eyeLeft": "908,2063",
+          "eyeRight": "1304,2403"
+        },
+        "gyroscopeData": {
+          "alpha": 280,
+          "beta": 65,
+          "gamma": 75
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955760603.jpg",
+      "dateCapture": "2025-01-15T15:42:40.751Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 7,
+          "yaw": -18,
+          "roll": 42,
+          "eyeDistance": 527,
+          "eyeLeft": "889,2043",
+          "eyeRight": "1280,2397"
+        },
+        "gyroscopeData": {
+          "alpha": 279,
+          "beta": 64,
+          "gamma": 75
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955760810.jpg",
+      "dateCapture": "2025-01-15T15:42:40.931Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 4,
+          "yaw": -16,
+          "roll": 39,
+          "eyeDistance": 527,
+          "eyeLeft": "843,2074",
+          "eyeRight": "1251,2408"
+        },
+        "gyroscopeData": {
+          "alpha": 284,
+          "beta": 68,
+          "gamma": 71
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955761017.jpg",
+      "dateCapture": "2025-01-15T15:42:41.176Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 8,
+          "yaw": -21,
+          "roll": 27,
+          "eyeDistance": 547,
+          "eyeLeft": "742,2070",
+          "eyeRight": "1230,2316"
+        },
+        "gyroscopeData": {
+          "alpha": 290,
+          "beta": 75,
+          "gamma": 68
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955761230.jpg",
+      "dateCapture": "2025-01-15T15:42:41.360Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": 6,
+          "yaw": -32,
+          "roll": 15,
+          "eyeDistance": 575,
+          "eyeLeft": "765,2117",
+          "eyeRight": "1320,2266"
+        },
+        "gyroscopeData": {
+          "alpha": 301,
+          "beta": 80,
+          "gamma": 62
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955761438.jpg",
+      "dateCapture": "2025-01-15T15:42:41.576Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -3,
+          "yaw": -40,
+          "roll": 7,
+          "eyeDistance": 545,
+          "eyeLeft": "736,2070",
+          "eyeRight": "1278,2133"
+        },
+        "gyroscopeData": {
+          "alpha": 314,
+          "beta": 86,
+          "gamma": 52
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955761649.jpg",
+      "dateCapture": "2025-01-15T15:42:41.777Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -9,
+          "yaw": -43,
+          "roll": -3,
+          "eyeDistance": 480,
+          "eyeLeft": "746,2047",
+          "eyeRight": "1225,2019"
+        },
+        "gyroscopeData": {
+          "alpha": 82,
+          "beta": 86,
+          "gamma": -72
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955761865.jpg",
+      "dateCapture": "2025-01-15T15:42:42.002Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -11,
+          "yaw": -39,
+          "roll": -16,
+          "eyeDistance": 479,
+          "eyeLeft": "696,2047",
+          "eyeRight": "1157,1918"
+        },
+        "gyroscopeData": {
+          "alpha": 98,
+          "beta": 81,
+          "gamma": -86
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955762069.jpg",
+      "dateCapture": "2025-01-15T15:42:42.193Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -13,
+          "yaw": -35,
+          "roll": -24,
+          "eyeDistance": 449,
+          "eyeLeft": "658,2044",
+          "eyeRight": "1068,1861"
+        },
+        "gyroscopeData": {
+          "alpha": 285,
+          "beta": 102,
+          "gamma": 88
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955762894.jpg",
+      "dateCapture": "2025-01-15T15:42:43.037Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -29,
+          "yaw": -42,
+          "roll": -29,
+          "eyeDistance": 430,
+          "eyeLeft": "807,2291",
+          "eyeRight": "1183,2083"
+        },
+        "gyroscopeData": {
+          "alpha": 36,
+          "beta": 73,
+          "gamma": -23
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955763098.jpg",
+      "dateCapture": "2025-01-15T15:42:43.242Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -29,
+          "yaw": -33,
+          "roll": -30,
+          "eyeDistance": 531,
+          "eyeLeft": "725,2516",
+          "eyeRight": "1186,2252"
+        },
+        "gyroscopeData": {
+          "alpha": 20,
+          "beta": 68,
+          "gamma": -8
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955763308.jpg",
+      "dateCapture": "2025-01-15T15:42:43.443Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -30,
+          "yaw": -35,
+          "roll": -30,
+          "eyeDistance": 589,
+          "eyeLeft": "694,2511",
+          "eyeRight": "1207,2221"
+        },
+        "gyroscopeData": {
+          "alpha": 16,
+          "beta": 66,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955763523.jpg",
+      "dateCapture": "2025-01-15T15:42:43.663Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -26,
+          "yaw": -40,
+          "roll": -21,
+          "eyeDistance": 724,
+          "eyeLeft": "556,2424",
+          "eyeRight": "1233,2167"
+        },
+        "gyroscopeData": {
+          "alpha": 18,
+          "beta": 67,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955763725.jpg",
+      "dateCapture": "2025-01-15T15:42:43.860Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -27,
+          "yaw": -30,
+          "roll": -23,
+          "eyeDistance": 827,
+          "eyeLeft": "472,2322",
+          "eyeRight": "1235,2000"
+        },
+        "gyroscopeData": {
+          "alpha": 20,
+          "beta": 69,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955763933.jpg",
+      "dateCapture": "2025-01-15T15:42:44.063Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -25,
+          "yaw": -31,
+          "roll": -20,
+          "eyeDistance": 901,
+          "eyeLeft": "377,2279",
+          "eyeRight": "1223,1966"
+        },
+        "gyroscopeData": {
+          "alpha": 19,
+          "beta": 70,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955764134.jpg",
+      "dateCapture": "2025-01-15T15:42:44.342Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -26,
+          "yaw": -32,
+          "roll": -21,
+          "eyeDistance": 880,
+          "eyeLeft": "394,2277",
+          "eyeRight": "1214,1958"
+        },
+        "gyroscopeData": {
+          "alpha": 19,
+          "beta": 70,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955764338.jpg",
+      "dateCapture": "2025-01-15T15:42:44.512Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -23,
+          "yaw": -35,
+          "roll": -27,
+          "eyeDistance": 847,
+          "eyeLeft": "451,2254",
+          "eyeRight": "1208,1873"
+        },
+        "gyroscopeData": {
+          "alpha": 15,
+          "beta": 72,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955764546.jpg",
+      "dateCapture": "2025-01-15T15:42:44.668Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -21,
+          "yaw": -20,
+          "roll": -14,
+          "eyeDistance": 806,
+          "eyeLeft": "453,1896",
+          "eyeRight": "1234,1697"
+        },
+        "gyroscopeData": {
+          "alpha": 3,
+          "beta": 72,
+          "gamma": 1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955764747.jpg",
+      "dateCapture": "2025-01-15T15:42:44.889Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -20,
+          "yaw": 9,
+          "roll": -2,
+          "eyeDistance": 816,
+          "eyeLeft": "551,1823",
+          "eyeRight": "1366,1788"
+        },
+        "gyroscopeData": {
+          "alpha": 360,
+          "beta": 70,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955764950.jpg",
+      "dateCapture": "2025-01-15T15:42:45.088Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -29,
+          "yaw": 33,
+          "roll": 8,
+          "eyeDistance": 733,
+          "eyeLeft": "751,1806",
+          "eyeRight": "1477,1907"
+        },
+        "gyroscopeData": {
+          "alpha": 2,
+          "beta": 69,
+          "gamma": -7
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955765164.jpg",
+      "dateCapture": "2025-01-15T15:42:45.292Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -32,
+          "yaw": 41,
+          "roll": 9,
+          "eyeDistance": 713,
+          "eyeLeft": "887,1919",
+          "eyeRight": "1593,2025"
+        },
+        "gyroscopeData": {
+          "alpha": 10,
+          "beta": 68,
+          "gamma": -15
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955765373.jpg",
+      "dateCapture": "2025-01-15T15:42:45.518Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -28,
+          "yaw": 44,
+          "roll": 7,
+          "eyeDistance": 707,
+          "eyeLeft": "942,1911",
+          "eyeRight": "1643,2002"
+        },
+        "gyroscopeData": {
+          "alpha": 9,
+          "beta": 68,
+          "gamma": -14
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955765584.jpg",
+      "dateCapture": "2025-01-15T15:42:45.727Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -26,
+          "yaw": 35,
+          "roll": 7,
+          "eyeDistance": 770,
+          "eyeLeft": "1039,1955",
+          "eyeRight": "1803,2049"
+        },
+        "gyroscopeData": {
+          "alpha": 4,
+          "beta": 65,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955765800.jpg",
+      "dateCapture": "2025-01-15T15:42:45.924Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -30,
+          "yaw": 10,
+          "roll": 1,
+          "eyeDistance": 905,
+          "eyeLeft": "940,1810",
+          "eyeRight": "1845,1824"
+        },
+        "gyroscopeData": {
+          "alpha": 1,
+          "beta": 59,
+          "gamma": 2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955766005.jpg",
+      "dateCapture": "2025-01-15T15:42:46.148Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -34,
+          "yaw": -1,
+          "roll": 0,
+          "eyeDistance": 925,
+          "eyeLeft": "750,1889",
+          "eyeRight": "1675,1895"
+        },
+        "gyroscopeData": {
+          "alpha": 358,
+          "beta": 52,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955766206.jpg",
+      "dateCapture": "2025-01-15T15:42:46.344Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -33,
+          "yaw": -7,
+          "roll": -2,
+          "eyeDistance": 984,
+          "eyeLeft": "423,1909",
+          "eyeRight": "1406,1881"
+        },
+        "gyroscopeData": {
+          "alpha": 0,
+          "beta": 49,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955766408.jpg",
+      "dateCapture": "2025-01-15T15:42:46.535Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -28,
+          "yaw": -3,
+          "roll": -1,
+          "eyeDistance": 1108,
+          "eyeLeft": "375,1870",
+          "eyeRight": "1482,1843"
+        },
+        "gyroscopeData": {
+          "alpha": 0,
+          "beta": 50,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955766626.jpg",
+      "dateCapture": "2025-01-15T15:42:46.770Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -28,
+          "yaw": -2,
+          "roll": -1,
+          "eyeDistance": 1103,
+          "eyeLeft": "425,1854",
+          "eyeRight": "1528,1832"
+        },
+        "gyroscopeData": {
+          "alpha": 1,
+          "beta": 50,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955766826.jpg",
+      "dateCapture": "2025-01-15T15:42:46.973Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -28,
+          "yaw": -1,
+          "roll": -1,
+          "eyeDistance": 1100,
+          "eyeLeft": "469,1836",
+          "eyeRight": "1569,1810"
+        },
+        "gyroscopeData": {
+          "alpha": 1,
+          "beta": 51,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955767038.jpg",
+      "dateCapture": "2025-01-15T15:42:47.179Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -27,
+          "yaw": -1,
+          "roll": -1,
+          "eyeDistance": 1148,
+          "eyeLeft": "457,1822",
+          "eyeRight": "1604,1798"
+        },
+        "gyroscopeData": {
+          "alpha": 1,
+          "beta": 51,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736955767246.jpg",
+      "dateCapture": "2025-01-15T15:42:47.378Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -27,
+          "yaw": 0,
+          "roll": -1,
+          "eyeDistance": 1123,
+          "eyeLeft": "441,1821",
+          "eyeRight": "1565,1802"
+        },
+        "gyroscopeData": {
+          "alpha": 1,
+          "beta": 51,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736963201738.jpg",
+      "dateCapture": "2025-01-15T17:46:42.123Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -24,
+          "yaw": 1,
+          "roll": 0,
+          "eyeDistance": 686,
+          "eyeLeft": "673,2370",
+          "eyeRight": "1359,2375"
+        },
+        "gyroscopeData": {
+          "alpha": 24,
+          "beta": 43,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736963201933.jpg",
+      "dateCapture": "2025-01-15T17:46:42.322Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -23,
+          "yaw": 1,
+          "roll": 0,
+          "eyeDistance": 702,
+          "eyeLeft": "658,2326",
+          "eyeRight": "1359,2330"
+        },
+        "gyroscopeData": {
+          "alpha": 24,
+          "beta": 44,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736963202115.jpg",
+      "dateCapture": "2025-01-15T17:46:42.495Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -24,
+          "yaw": 1,
+          "roll": 1,
+          "eyeDistance": 694,
+          "eyeLeft": "747,2247",
+          "eyeRight": "1441,2263"
+        },
+        "gyroscopeData": {
+          "alpha": 23,
+          "beta": 47,
+          "gamma": 0
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736977743531.jpg",
+      "dateCapture": "2025-01-15T21:49:03.582Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -15,
+          "yaw": 10,
+          "roll": -5,
+          "eyeDistance": 580,
+          "eyeLeft": "693,2296",
+          "eyeRight": "1271,2248"
+        },
+        "gyroscopeData": {
+          "alpha": 355,
+          "beta": 59,
+          "gamma": -2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736977743739.jpg",
+      "dateCapture": "2025-01-15T21:49:03.791Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -17,
+          "yaw": 8,
+          "roll": -5,
+          "eyeDistance": 567,
+          "eyeLeft": "736,2307",
+          "eyeRight": "1302,2260"
+        },
+        "gyroscopeData": {
+          "alpha": 355,
+          "beta": 59,
+          "gamma": -1
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736977820370.jpg",
+      "dateCapture": "2025-01-15T21:50:20.698Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -19,
+          "yaw": 4,
+          "roll": -2,
+          "eyeDistance": 569,
+          "eyeLeft": "760,2288",
+          "eyeRight": "1329,2270"
+        },
+        "gyroscopeData": {
+          "alpha": 358,
+          "beta": 57,
+          "gamma": -3
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736977820166.jpg",
+      "dateCapture": "2025-01-15T21:50:20.709Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -18,
+          "yaw": 3,
+          "roll": -1,
+          "eyeDistance": 576,
+          "eyeLeft": "723,2243",
+          "eyeRight": "1298,2232"
+        },
+        "gyroscopeData": {
+          "alpha": 358,
+          "beta": 58,
+          "gamma": -4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980023659.jpg",
+      "dateCapture": "2025-01-15T22:27:03.891Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 4,
+          "roll": -1,
+          "eyeDistance": 677,
+          "eyeLeft": "715,2334",
+          "eyeRight": "1392,2325"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 42,
+          "gamma": 6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980023874.jpg",
+      "dateCapture": "2025-01-15T22:27:04.143Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 3,
+          "roll": -2,
+          "eyeDistance": 688,
+          "eyeLeft": "643,2349",
+          "eyeRight": "1331,2328"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 43,
+          "gamma": 6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980024073.jpg",
+      "dateCapture": "2025-01-15T22:27:04.439Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 2,
+          "roll": -3,
+          "eyeDistance": 680,
+          "eyeLeft": "647,2393",
+          "eyeRight": "1326,2363"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 43,
+          "gamma": 6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980024286.jpg",
+      "dateCapture": "2025-01-15T22:27:04.614Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -23,
+          "yaw": 1,
+          "roll": -2,
+          "eyeDistance": 683,
+          "eyeLeft": "643,2385",
+          "eyeRight": "1326,2357"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 43,
+          "gamma": 6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980024488.jpg",
+      "dateCapture": "2025-01-15T22:27:04.800Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -21,
+          "yaw": 0,
+          "roll": -2,
+          "eyeDistance": 682,
+          "eyeLeft": "647,2376",
+          "eyeRight": "1328,2348"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 42,
+          "gamma": 6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980024695.jpg",
+      "dateCapture": "2025-01-15T22:27:05.001Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 2,
+          "roll": -2,
+          "eyeDistance": 682,
+          "eyeLeft": "651,2374",
+          "eyeRight": "1332,2352"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 42,
+          "gamma": 6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980024898.jpg",
+      "dateCapture": "2025-01-15T22:27:05.134Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -23,
+          "yaw": 3,
+          "roll": -2,
+          "eyeDistance": 673,
+          "eyeLeft": "669,2377",
+          "eyeRight": "1341,2355"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 42,
+          "gamma": 6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980025091.jpg",
+      "dateCapture": "2025-01-15T22:27:05.313Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -23,
+          "yaw": 2,
+          "roll": -4,
+          "eyeDistance": 676,
+          "eyeLeft": "635,2389",
+          "eyeRight": "1309,2344"
+        },
+        "gyroscopeData": {
+          "alpha": 356,
+          "beta": 42,
+          "gamma": 5
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980025301.jpg",
+      "dateCapture": "2025-01-15T22:27:05.546Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -21,
+          "yaw": 0,
+          "roll": -5,
+          "eyeDistance": 688,
+          "eyeLeft": "571,2448",
+          "eyeRight": "1256,2383"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 42,
+          "gamma": 4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980025511.jpg",
+      "dateCapture": "2025-01-15T22:27:05.786Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -21,
+          "yaw": -3,
+          "roll": -6,
+          "eyeDistance": 680,
+          "eyeLeft": "514,2475",
+          "eyeRight": "1190,2405"
+        },
+        "gyroscopeData": {
+          "alpha": 358,
+          "beta": 43,
+          "gamma": 4
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980025721.jpg",
+      "dateCapture": "2025-01-15T22:27:05.960Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -20,
+          "yaw": -5,
+          "roll": -6,
+          "eyeDistance": 685,
+          "eyeLeft": "587,2255",
+          "eyeRight": "1268,2189"
+        },
+        "gyroscopeData": {
+          "alpha": 358,
+          "beta": 48,
+          "gamma": 7
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980025920.jpg",
+      "dateCapture": "2025-01-15T22:27:06.144Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -19,
+          "yaw": -1,
+          "roll": -4,
+          "eyeDistance": 693,
+          "eyeLeft": "669,2171",
+          "eyeRight": "1360,2119"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 49,
+          "gamma": 8
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980026120.jpg",
+      "dateCapture": "2025-01-15T22:27:06.352Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -19,
+          "yaw": 2,
+          "roll": -3,
+          "eyeDistance": 704,
+          "eyeLeft": "671,2158",
+          "eyeRight": "1373,2119"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 49,
+          "gamma": 6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980026322.jpg",
+      "dateCapture": "2025-01-15T22:27:06.543Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -20,
+          "yaw": 2,
+          "roll": -3,
+          "eyeDistance": 703,
+          "eyeLeft": "639,2166",
+          "eyeRight": "1341,2127"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 49,
+          "gamma": 6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980026517.jpg",
+      "dateCapture": "2025-01-15T22:27:06.738Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -20,
+          "yaw": 1,
+          "roll": -3,
+          "eyeDistance": 704,
+          "eyeLeft": "629,2137",
+          "eyeRight": "1332,2099"
+        },
+        "gyroscopeData": {
+          "alpha": 357,
+          "beta": 50,
+          "gamma": 6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980026716.jpg",
+      "dateCapture": "2025-01-15T22:27:06.973Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -21,
+          "yaw": 0,
+          "roll": -3,
+          "eyeDistance": 701,
+          "eyeLeft": "631,2194",
+          "eyeRight": "1331,2157"
+        },
+        "gyroscopeData": {
+          "alpha": 356,
+          "beta": 47,
+          "gamma": 6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980026922.jpg",
+      "dateCapture": "2025-01-15T22:27:07.147Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -23,
+          "yaw": 5,
+          "roll": -2,
+          "eyeDistance": 673,
+          "eyeLeft": "636,2365",
+          "eyeRight": "1309,2344"
+        },
+        "gyroscopeData": {
+          "alpha": 354,
+          "beta": 43,
+          "gamma": 6
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980027128.jpg",
+      "dateCapture": "2025-01-15T22:27:07.347Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 5,
+          "roll": -1,
+          "eyeDistance": 691,
+          "eyeLeft": "700,2298",
+          "eyeRight": "1391,2292"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 44,
+          "gamma": 8
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980027320.jpg",
+      "dateCapture": "2025-01-15T22:27:07.541Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -23,
+          "yaw": 4,
+          "roll": -1,
+          "eyeDistance": 674,
+          "eyeLeft": "696,2314",
+          "eyeRight": "1370,2297"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 43,
+          "gamma": 8
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980027529.jpg",
+      "dateCapture": "2025-01-15T22:27:07.751Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 4,
+          "roll": -1,
+          "eyeDistance": 675,
+          "eyeLeft": "712,2287",
+          "eyeRight": "1388,2272"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 43,
+          "gamma": 8
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980027729.jpg",
+      "dateCapture": "2025-01-15T22:27:07.926Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 3,
+          "roll": -2,
+          "eyeDistance": 675,
+          "eyeLeft": "708,2308",
+          "eyeRight": "1383,2289"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 44,
+          "gamma": 8
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980027935.jpg",
+      "dateCapture": "2025-01-15T22:27:08.156Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 5,
+          "roll": -1,
+          "eyeDistance": 684,
+          "eyeLeft": "738,2310",
+          "eyeRight": "1422,2302"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 44,
+          "gamma": 8
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980028157.jpg",
+      "dateCapture": "2025-01-15T22:27:08.357Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 5,
+          "roll": 0,
+          "eyeDistance": 696,
+          "eyeLeft": "739,2300",
+          "eyeRight": "1435,2299"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 44,
+          "gamma": 8
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980028334.jpg",
+      "dateCapture": "2025-01-15T22:27:08.565Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -22,
+          "yaw": 6,
+          "roll": -1,
+          "eyeDistance": 690,
+          "eyeLeft": "726,2306",
+          "eyeRight": "1416,2297"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 44,
+          "gamma": 7
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736980028558.jpg",
+      "dateCapture": "2025-01-15T22:27:08.779Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -21,
+          "yaw": 6,
+          "roll": 0,
+          "eyeDistance": 693,
+          "eyeLeft": "720,2292",
+          "eyeRight": "1413,2288"
+        },
+        "gyroscopeData": {
+          "alpha": 353,
+          "beta": 44,
+          "gamma": 7
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736987709265.jpg",
+      "dateCapture": "2025-01-16T00:35:09.394Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -17,
+          "yaw": -4,
+          "roll": 1,
+          "eyeDistance": 698,
+          "eyeLeft": "745,1934",
+          "eyeRight": "1443,1951"
+        },
+        "gyroscopeData": {
+          "alpha": 4,
+          "beta": 56,
+          "gamma": 2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736987709451.jpg",
+      "dateCapture": "2025-01-16T00:35:09.568Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -17,
+          "yaw": -4,
+          "roll": 1,
+          "eyeDistance": 704,
+          "eyeLeft": "742,1942",
+          "eyeRight": "1446,1957"
+        },
+        "gyroscopeData": {
+          "alpha": 4,
+          "beta": 56,
+          "gamma": 2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736987709654.jpg",
+      "dateCapture": "2025-01-16T00:35:09.764Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -17,
+          "yaw": -3,
+          "roll": 1,
+          "eyeDistance": 706,
+          "eyeLeft": "736,1951",
+          "eyeRight": "1442,1963"
+        },
+        "gyroscopeData": {
+          "alpha": 4,
+          "beta": 56,
+          "gamma": 2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736987709864.jpg",
+      "dateCapture": "2025-01-16T00:35:09.967Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -17,
+          "yaw": -4,
+          "roll": 1,
+          "eyeDistance": 708,
+          "eyeLeft": "729,1952",
+          "eyeRight": "1437,1963"
+        },
+        "gyroscopeData": {
+          "alpha": 4,
+          "beta": 56,
+          "gamma": 2
+        },
+        "isTiltedDown": true
+      }
+    },
+    {
+      "imagePath": "/images/selfie1736987710049.jpg",
+      "dateCapture": "2025-01-16T00:35:10.155Z",
+      "detectorData": {
+        "faceData": {
+          "pitch": -17,
+          "yaw": -4,
+          "roll": 1,
+          "eyeDistance": 703,
+          "eyeLeft": "736,1958",
+          "eyeRight": "1439,1968"
+        },
+        "gyroscopeData": {
+          "alpha": 5,
+          "beta": 56,
+          "gamma": 2
         },
         "isTiltedDown": true
       }

@@ -102,10 +102,10 @@ export default class SelfieAnalyse {
     );
 
     if (this.gyroscopeData.beta < 90) {
-      console.log("telephone en bas");
+      // console.log("telephone en bas");
       this.isTiltedDown = true;
     } else {
-      console.log("telephone en haut");
+      // console.log("telephone en haut");
       this.isTiltedDown = false;
     }
 

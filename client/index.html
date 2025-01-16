@@ -13,14 +13,15 @@
     <div class="container">
       <div class="intro" id="intro">
         <div class="intro_content">
-          <button id="startButton">Start</button>
+          <button id="startButton">Skip Intro</button>
         </div>
       </div>
 
       <div class="header">
         <div class="header__content">
           <div class="content__logo">
-            <h1 id="headerTitle">Selfie Analyzer</h1>
+            <h1 id="headerTitle">Selfy</h1>
+            <h1 id="headerTitle">s</h1>
           </div>
         </div>
       </div>
@@ -28,22 +29,30 @@
       <div class="video_content" id="videoContent">
         <video class="input_video"></video>
         <div class="canvas_container">
+          <div class="middle_line"></div>
           <canvas class="video_canvas"></canvas>
           <canvas class="landmarks_canvas"></canvas>
           <canvas class="shape_canvas"></canvas>
+          <button class="button_visual button_show_datas" id="buttonShowDatas">
+            Show Datas
+          </button>
         </div>
         <img class="matched_selfie" id="matched-selfie" />
         <div class="capture_content" id="captureContent">
-          <button id="captureButton"></button>
+          <div class="capture_button" id="captureButton">
+            <div class="capture_button_circle" id="captureButtonCircle"></div>
+            <div class="capture_button_square" id="captureButtonSquare"></div>
+          </div>
         </div>
       </div>
       <div class="buttons_visuals" id="buttons_visuals">
         <button class="button_visual active_button_visual" id="buttonVisuals1">
-          Visuals 1
+          Distance
         </button>
-        <button class="button_visual" id="buttonVisuals2">Visuals 2</button>
-        <button class="button_visual" id="buttonVisuals3">Visuals 3</button>
+        <button class="button_visual" id="buttonVisuals2">Tilt</button>
+        <button class="button_visual" id="buttonVisuals3">Orientation</button>
       </div>
+
       <div class="footer">
         <div class="footer__gradient__left"></div>
         <div class="footer__gradient__right"></div>
@@ -53,7 +62,7 @@
               class="footer__content__list__item__button active__button"
               id="buttonMode1Footer"
             >
-              Mode 1
+              Capture
             </button>
           </div>
           <div class="footer__content__list__item">
@@ -61,7 +70,7 @@
               class="footer__content__list__item__button"
               id="buttonMode2Footer"
             >
-              Mode 2
+              Mirror
             </button>
           </div>
           <div class="footer__content__list__item">
@@ -69,7 +78,7 @@
               class="footer__content__list__item__button"
               id="buttonMode3Footer"
             >
-              Mode 3
+              Visualizer
             </button>
           </div>
         </div>

@@ -13,6 +13,8 @@ export default class SelfieInteraction {
 
     this.videoContent = document.getElementById("videoContent");
     this.captureButton = document.getElementById("captureButton");
+    this.captureButtonCircle = document.getElementById("captureButtonCircle");
+    this.captureButtonSquare = document.getElementById("captureButtonSquare");
 
     this.headerTitle = document.getElementById("headerTitle");
 
@@ -25,6 +27,7 @@ export default class SelfieInteraction {
     this.buttonVisuals1 = document.getElementById("buttonVisuals1");
     this.buttonVisuals2 = document.getElementById("buttonVisuals2");
     this.buttonVisuals3 = document.getElementById("buttonVisuals3");
+    this.buttonShowDatas = document.getElementById("buttonShowDatas");
 
     this.isCapturing = false;
 
@@ -48,6 +51,15 @@ export default class SelfieInteraction {
 
     this.selfieComparator = new SelfieComparator(photoData);
     this.selfieAnalyse.setReferenceData(photoData);
+
+    this.buttonShowDatas.addEventListener("click", () => {
+      console.log("Button show datas clicked");
+      if (this.buttonShowDatas.classList.contains("active_button_visual")) {
+        this.buttonShowDatas.classList.remove("active_button_visual");
+      } else {
+        this.buttonShowDatas.classList.add("active_button_visual");
+      }
+    });
   }
 
   menuModeSwitch() {
@@ -59,11 +71,13 @@ export default class SelfieInteraction {
         this.buttonMode1Footer.classList.add("active__button");
         this.buttonMode2Footer.classList.remove("active__button");
         this.buttonMode3Footer.classList.remove("active__button");
-        this.footerContent.style.left = "75%";
+        this.footerContent.style.left = "77.5%";
         this.selfieAnalyse.selfieLandmarks.animMode = 1;
         this.selfieAnalyse.currentMode = 1;
         this.captureButton.style.display = "flex";
         this.buttonsVisuals.style.display = "none";
+        this.buttonShowDatas.style.display = "none";
+        this.buttonShowDatas.classList.remove("active_button_visual");
         break;
       case 2:
         this.stopSelfieComparison();
@@ -73,11 +87,13 @@ export default class SelfieInteraction {
         this.buttonMode1Footer.classList.remove("active__button");
         this.buttonMode2Footer.classList.add("active__button");
         this.buttonMode3Footer.classList.remove("active__button");
-        this.footerContent.style.left = "50%";
+        this.footerContent.style.left = "55%";
         this.buttonsVisuals.style.display = "none";
         this.selfieAnalyse.selfieLandmarks.animMode = 3;
         this.selfieAnalyse.currentMode = 2;
         this.captureButton.style.display = "none";
+        this.buttonShowDatas.style.display = "none";
+        this.buttonShowDatas.classList.remove("active_button_visual");
         break;
       case 3:
         this.stopSelfieComparison();
@@ -86,12 +102,13 @@ export default class SelfieInteraction {
         this.buttonMode1Footer.classList.remove("active__button");
         this.buttonMode2Footer.classList.remove("active__button");
         this.buttonMode3Footer.classList.add("active__button");
-        this.footerContent.style.left = "30%";
+        this.footerContent.style.left = "26%";
 
         this.selfieAnalyse.selfieLandmarks.animMode = 3;
         this.selfieAnalyse.currentMode = 3;
         this.captureButton.style.display = "none";
         this.buttonsVisuals.style.display = "flex";
+        this.buttonShowDatas.style.display = "block";
         break;
     }
   }
@@ -103,8 +120,9 @@ export default class SelfieInteraction {
         this.buttonVisuals1.classList.add("active_button_visual");
         this.buttonVisuals2.classList.remove("active_button_visual");
         this.buttonVisuals3.classList.remove("active_button_visual");
+        this.buttonShowDatas.classList.remove("active_button_visual");
         this.selfieVisuals.modeVisuals = 1;
-        this.selfieAnalyse.currentVisualMode = 1; // Ajouter cette ligne
+        this.selfieAnalyse.currentVisualMode = 1;
 
         break;
       case 2:
@@ -112,8 +130,9 @@ export default class SelfieInteraction {
         this.buttonVisuals1.classList.remove("active_button_visual");
         this.buttonVisuals2.classList.add("active_button_visual");
         this.buttonVisuals3.classList.remove("active_button_visual");
+        this.buttonShowDatas.classList.remove("active_button_visual");
         this.selfieVisuals.modeVisuals = 2;
-        this.selfieAnalyse.currentVisualMode = 2; // Ajouter cette ligne
+        this.selfieAnalyse.currentVisualMode = 2;
 
         break;
       case 3:
@@ -121,6 +140,7 @@ export default class SelfieInteraction {
         this.buttonVisuals1.classList.remove("active_button_visual");
         this.buttonVisuals2.classList.remove("active_button_visual");
         this.buttonVisuals3.classList.add("active_button_visual");
+        this.buttonShowDatas.classList.remove("active_button_visual");
         this.selfieVisuals.modeVisuals = 3;
 
         this.selfieAnalyse.currentVisualMode = 3; // Ajouter cette ligne
@@ -199,6 +219,8 @@ export default class SelfieInteraction {
       if (this.isCapturing) {
         console.log("Bouton capture cliqué");
         console.log("Début de la capture");
+        this.captureButtonCircle.style.display = "none";
+        this.captureButtonSquare.style.display = "block";
         this.selfieAnalyse.selfieLandmarks.animMode = 2;
 
         const captureInterval = setInterval(async () => {
@@ -219,6 +241,9 @@ export default class SelfieInteraction {
             console.error("Erreur lors de la capture:", error);
           }
         }, 200);
+      } else {
+        this.captureButtonCircle.style.display = "block";
+        this.captureButtonSquare.style.display = "none";
       }
     });
   }
