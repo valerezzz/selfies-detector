@@ -5,6 +5,9 @@ export default class SelfieCanvas {
     const widthCanvas = 720;
     const heightCanvas = 1280;
 
+    this.error = document.getElementById("error");
+    this.showError = false;
+
     // Canvas pour la vidéo
     this.videoCanvasElement =
       document.getElementsByClassName("video_canvas")[0];
@@ -92,11 +95,17 @@ export default class SelfieCanvas {
         selfieData,
         referenceData
       );
-    } else {
-      console.log("No landmarks found");
     }
 
     landmarksCanvasCtx.restore();
+  }
+
+  errorFunction() {
+    if (this.showError) {
+      this.error.style.display = "block";
+    } else {
+      this.error.style.display = "none";
+    }
   }
 
   drawModeSpecificFeatures(

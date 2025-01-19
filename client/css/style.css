@@ -103,6 +103,7 @@ button {
   height: 100%;
   background-color: black;
   gap: 15px;
+  position: relative;
 }
 
 .intro_part_title {
@@ -111,7 +112,13 @@ button {
   width: 100%;
   text-align: center;
   text-transform: uppercase;
-  transition: transform 0.1s ease-out;
+  transform-origin: center center;
+  will-change: transform;
+
+  height: fit-content;
+  position: absolute;
+  top: 30%;
+  left: 0;
 }
 
 .intro_part_number {

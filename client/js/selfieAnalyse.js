@@ -46,6 +46,9 @@ export default class SelfieAnalyse {
     this.referenceData = null;
     this.currentMode = 1;
     this.currentVisualMode = 1;
+    this.rotationCallback = null;
+    this.currentRotation = 0;
+    this.smoothingFactor = 0.1;
   }
 
   async init() {
@@ -143,6 +146,16 @@ export default class SelfieAnalyse {
     if (results.multiFaceLandmarks && results.multiFaceLandmarks.length > 0) {
       const landmarks = results.multiFaceLandmarks[0];
 
+      const rotation = this.calculateFaceRotation();
+      if (rotation) {
+        const targetRotation = -rotation.degrees;
+        this.currentRotation =
+          this.currentRotation +
+          (targetRotation - this.currentRotation) * this.smoothingFactor;
+
+        this.updateRotation(this.currentRotation);
+      }
+
       if (this.currentMode === 1) {
         this.selfieLandmarks.drawLandmarks(
           landmarksCtx,
@@ -154,7 +167,7 @@ export default class SelfieAnalyse {
 
       if (this.currentMode === 3) {
         const currentData = this.getSelfieData();
-        this.selfieVisuals.modeVisuals = this.currentVisualMode; // Ajouter cette ligne
+        this.selfieVisuals.modeVisuals = this.currentVisualMode;
 
         this.selfieVisuals.drawCanvasShape(
           landmarksCtx,
@@ -166,5 +179,42 @@ export default class SelfieAnalyse {
       }
     }
     landmarksCtx.restore();
+  }
+
+  calculateFaceRotation() {
+    if (!this.faceData) return null;
+
+    // Extraire les coordonnées des yeux
+    const [rightEyeX, rightEyeY] = this.faceData.eyeRight
+      .split(",")
+      .map(Number);
+    const [leftEyeX, leftEyeY] = this.faceData.eyeLeft.split(",").map(Number);
+
+    // Calculer l'angle de rotation en radians
+    const rotation = Math.atan2(rightEyeY - leftEyeY, rightEyeX - leftEyeX);
+
+    // Convertir en degrés
+    const rotationDegrees = rotation * (180 / Math.PI);
+
+    return {
+      radians: rotation,
+      degrees: rotationDegrees,
+    };
+  }
+
+  onFaceRotationUpdate(callback) {
+    this.rotationCallback = callback;
+  }
+
+  removeFaceRotationUpdate(callback) {
+    if (this.rotationCallback === callback) {
+      this.rotationCallback = null;
+    }
+  }
+
+  updateRotation(rotation) {
+    if (this.rotationCallback) {
+      this.rotationCallback(rotation);
+    }
   }
 }

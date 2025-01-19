@@ -16,11 +16,12 @@ export default class SelfieInteraction {
     this.previousButton = document.getElementById("previousButton");
     this.nextButton = document.getElementById("nextButton");
 
+    this.introPart0 = document.getElementById("intro_part_0");
     this.introPart1 = document.getElementById("intro_part_1");
     this.introPart2 = document.getElementById("intro_part_2");
     this.introPart3 = document.getElementById("intro_part_3");
     this.introPart4 = document.getElementById("intro_part_4");
-    this.modeIntro = 1;
+    this.modeIntro = 0;
 
     this.videoContent = document.getElementById("videoContent");
     this.captureButton = document.getElementById("captureButton");
@@ -28,6 +29,7 @@ export default class SelfieInteraction {
     this.captureButtonSquare = document.getElementById("captureButtonSquare");
 
     this.headerTitle = document.getElementById("headerTitle");
+    this.introPartTitle = document.getElementById("intro-part-title");
 
     this.buttonMode1Footer = document.getElementById("buttonMode1Footer");
     this.buttonMode2Footer = document.getElementById("buttonMode2Footer");
@@ -41,6 +43,7 @@ export default class SelfieInteraction {
     this.buttonShowDatas = document.getElementById("buttonShowDatas");
 
     this.isCapturing = false;
+    this.isAnalyseInitialized = false;
 
     this.mode = 1;
     this.canvasElement = document.getElementsByClassName("video_canvas")[0];
@@ -78,14 +81,42 @@ export default class SelfieInteraction {
 
   introModeSwitch() {
     switch (this.modeIntro) {
-      case 1:
-        this.introPart1.style.display = "flex";
+      case 0:
+        this.introPart0.style.display = "flex";
+        this.introPart1.style.display = "none";
         this.introPart2.style.display = "none";
         this.introPart3.style.display = "none";
         this.introPart4.style.display = "none";
         this.title.style.display = "none";
         break;
+      case 1:
+        this.introPart0.style.display = "none";
+        this.introPart1.style.display = "flex";
+        this.introPart2.style.display = "none";
+        this.introPart3.style.display = "none";
+        this.introPart4.style.display = "none";
+        this.title.style.display = "none";
+        this.videoContent.style.display = "flex";
+
+        if (!this.isAnalyseInitialized) {
+          this.selfieAnalyse.init();
+          this.isAnalyseInitialized = true;
+        }
+
+        this.rotationCallback = (rotation) => {
+          console.log("Rotation:", rotation);
+          this.introPartTitle.style.display = "block";
+          this.introPartTitle.style.transform = `rotate(${rotation}deg)`;
+        };
+        this.selfieAnalyse.onFaceRotationUpdate(this.rotationCallback);
+
+        break;
       case 2:
+        if (this.rotationCallback) {
+          this.selfieAnalyse.removeFaceRotationUpdate(this.rotationCallback);
+          this.rotationCallback = null;
+        }
+        this.introPart0.style.display = "none";
         this.introPart1.style.display = "none";
         this.introPart2.style.display = "flex";
         this.introPart3.style.display = "none";
@@ -93,6 +124,7 @@ export default class SelfieInteraction {
         this.title.style.display = "flex";
         break;
       case 3:
+        this.introPart0.style.display = "none";
         this.introPart1.style.display = "none";
         this.introPart2.style.display = "none";
         this.introPart3.style.display = "flex";
@@ -100,6 +132,7 @@ export default class SelfieInteraction {
         this.title.style.display = "flex";
         break;
       case 4:
+        this.introPart0.style.display = "none";
         this.introPart1.style.display = "none";
         this.introPart2.style.display = "none";
         this.introPart3.style.display = "none";
@@ -108,9 +141,8 @@ export default class SelfieInteraction {
         break;
       case 5:
         this.intro.style.display = "none";
-        this.videoContent.style.display = "flex";
         this.title.style.display = "flex";
-        this.selfieAnalyse.init();
+
         break;
     }
   }
@@ -132,11 +164,6 @@ export default class SelfieInteraction {
         this.buttonShowDatas.style.display = "none";
         this.buttonShowDatas.classList.remove("active_button_visual");
 
-        this.utils.getCurrentData(
-          this.faceData,
-          this.gyroscopeData,
-          this.isTiltedDown
-        );
         break;
       case 2:
         this.stopSelfieComparison();
