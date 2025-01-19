@@ -4,7 +4,7 @@ import SelfieLandmarks from "./selfieLandmarks.js";
 export default class SelfieCapture {
   constructor() {
     this.utils = new Utils();
-    this.serverUrl = `https://172.20.10.2:5001`;
+    this.serverUrl = `https://192.168.1.111:5001`;
 
     this.init();
   }
