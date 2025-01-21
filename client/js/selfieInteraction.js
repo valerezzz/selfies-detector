@@ -10,6 +10,7 @@ export default class SelfieInteraction {
 
     this.intro = document.getElementById("intro");
     this.matchedSelfieElement = document.getElementById("matched-selfie");
+    this.contentLogo = document.getElementById("contentLogo");
 
     this.startButton = document.getElementById("startButton");
 
@@ -20,8 +21,12 @@ export default class SelfieInteraction {
     this.introPart1 = document.getElementById("intro_part_1");
     this.introPart2 = document.getElementById("intro_part_2");
     this.introPart3 = document.getElementById("intro_part_3");
-    this.introPart4 = document.getElementById("intro_part_4");
+
+    this.imgPart1 = document.getElementById("introImg1");
+    this.imgPart2 = document.getElementById("introImg2");
+
     this.modeIntro = 0;
+    this.type = null;
 
     this.videoContent = document.getElementById("videoContent");
     this.captureButton = document.getElementById("captureButton");
@@ -85,16 +90,14 @@ export default class SelfieInteraction {
         this.introPart0.style.display = "flex";
         this.introPart1.style.display = "none";
         this.introPart2.style.display = "none";
-        this.introPart3.style.display = "none";
-        this.introPart4.style.display = "none";
+
         this.title.style.display = "none";
+
         break;
       case 1:
         this.introPart0.style.display = "none";
         this.introPart1.style.display = "flex";
         this.introPart2.style.display = "none";
-        this.introPart3.style.display = "none";
-        this.introPart4.style.display = "none";
         this.title.style.display = "none";
         this.videoContent.style.display = "flex";
 
@@ -116,33 +119,20 @@ export default class SelfieInteraction {
           this.selfieAnalyse.removeFaceRotationUpdate(this.rotationCallback);
           this.rotationCallback = null;
         }
+
         this.introPart0.style.display = "none";
         this.introPart1.style.display = "none";
         this.introPart2.style.display = "flex";
-        this.introPart3.style.display = "none";
-        this.introPart4.style.display = "none";
         this.title.style.display = "flex";
+        this.contentLogo.style.justifyContent = "left";
+
+        this.type = "selfie";
+        this.changeImgSelfie(this.imgPart1);
         break;
       case 3:
-        this.introPart0.style.display = "none";
-        this.introPart1.style.display = "none";
-        this.introPart2.style.display = "none";
-        this.introPart3.style.display = "flex";
-        this.introPart4.style.display = "none";
-        this.title.style.display = "flex";
-        break;
-      case 4:
-        this.introPart0.style.display = "none";
-        this.introPart1.style.display = "none";
-        this.introPart2.style.display = "none";
-        this.introPart3.style.display = "none";
-        this.introPart4.style.display = "flex";
-        this.title.style.display = "flex";
-        break;
-      case 5:
         this.intro.style.display = "none";
         this.title.style.display = "flex";
-
+        this.contentLogo.style.justifyContent = "center";
         break;
     }
   }
@@ -353,5 +343,14 @@ export default class SelfieInteraction {
         e.preventDefault();
       });
     });
+  }
+
+  changeImgSelfie(imgPart) {
+    let currentImg = 1;
+
+    setInterval(() => {
+      currentImg = currentImg >= 11 ? 1 : currentImg + 1;
+      imgPart.src = `public/images/intro/selfie_${currentImg}.jpg`;
+    }, 1000);
   }
 }

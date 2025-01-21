@@ -86,9 +86,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  justify-content: center;
-  align-items: center;
-  background-color: blue;
+
   height: calc(100% - 80px);
   width: calc(100% - 40px);
   position: absolute;
@@ -100,10 +98,20 @@ button {
 
 .intro_part {
   width: 100%;
-  height: 100%;
-  background-color: black;
-  gap: 15px;
+  height: 90%;
+
   position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 40px;
+}
+
+.intro_part_decription {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .intro_part_title {
@@ -121,16 +129,25 @@ button {
   left: 0;
 }
 
-.intro_part_number {
-  font-size: 1rem;
-  color: white;
-  width: 10%;
-}
-
 .intro_part_text {
   font-size: 1rem;
   color: white;
-  width: 90%;
+  width: 85%;
+  margin-left: 15%;
+  font-family: Helvetica;
+}
+
+.intro_part_gallery {
+  width: 100%;
+  height: 100%;
+}
+
+.intro_part_gallery img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+  border: none;
 }
 
 .intro_buttons {
@@ -140,7 +157,7 @@ button {
   align-items: center;
   width: 100%;
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   left: 0;
 }
 
